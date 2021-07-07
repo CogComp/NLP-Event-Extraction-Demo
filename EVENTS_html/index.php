@@ -44,7 +44,7 @@
 			<div class="w3-right">
 				<label> <b>Examples:</b> </label>
 				<br>
-				<select class="w3-select w3-pale-yellow w3-border" id="example" name="example" value="" onChange="javascript:newExampleSelect();" style="width:512px;">
+				<select class="w3-select w3-border" id="example" name="example" value="" onChange="javascript:newExampleSelect();" style="width:512px;">
 					<!--<option value="">Select a language... -->
 				</select>
 			</div>
