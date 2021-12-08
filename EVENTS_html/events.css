@@ -111,7 +111,7 @@
 .temporal-border { border-color:#3f51b5!important }
 .coref-border { border-color:#b53f51!important }
 
-.Event-0{ color:#000; background-color:#d0c0c0; }
+/* .Event-0{ color:#000; background-color:#d0c0c0; }
 .Event-1{ color:#000; background-color:#d0e0d0; }
 .Event-2{ color:#000; background-color:#c0d030; }
 .Event-3{ color:#000; background-color:#c0f0d0; }
@@ -120,4 +120,15 @@
 .Event-6{ color:#000; background-color:#b0c0d0; }
 .Event-7{ color:#000; background-color:#efccee; }
 .Event-8{ color:#000; background-color:#fedbfd; }
-.Event-9{ color:#000; background-color:#cdefbc; }
+.Event-9{ color:#000; background-color:#cdefbc; } */
+
+.Event-0{ color:#000; background-color:#d0c0c0; }
+.Event-1{ color:#000; background-color:#56a6f4; }
+.Event-2{ color:#000; background-color:#c774e7; }
+.Event-3{ color:#000; background-color:#30cfbc; }
+.Event-4{ color:#000; background-color:#f4c1c1; }
+.Event-5{ color:#000; background-color:##B0E0E6; }
+.Event-6{ color:#000; background-color:#20B2AA; }
+.Event-7{ color:#000; background-color:#008B8B; }
+.Event-8{ color:#000; background-color:#DB7093; }
+.Event-9{ color:#000; background-color:#7B68EE; }
