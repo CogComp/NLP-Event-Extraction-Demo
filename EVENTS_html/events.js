@@ -1,8 +1,5 @@
 var xel_examples = {
     "eng": [
-		"There were at least 40 tornadoes reported across nine states between Friday night and early Saturday morning in the United States. Kentucky was the worst-hit state, with at least 64 confirmed fatalities.",
-		"There were at least 40 tornadoes reported across nine states between Friday night and early Saturday morning in the United States.",
-		"The tornadoes destroyed many houses.",
 		// "In the January attack, two Palestinian suicide bombers blew themselves up in central Tel Aviv. The bombing destroyed the whole building, killing 23 other people. Police fatally shot a suspect of the bombing who ended up killing himself this morning.",
 		// "In the January attack, two Palestinian suicide bombers blew themselves up in central Tel Aviv. The bombing destroyed the whole building, killing 23 other people.",
 		// "In the January attack, two Palestinian suicide bombers blew themselves up in central Tel Aviv, killing 23 other people.",
