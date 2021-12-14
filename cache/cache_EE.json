@@ -1,65 +1,56 @@
 {
     "eng": {
-        "b283ddaab38c92dcf58238385b00fc7d19f44e97": {
-            "text": "In the January attack, two Palestinian suicide bombers blew themselves up in central Tel Aviv. The bombing destroyed the whole building, killing 23 other people. Police fatally shot a suspect of the bombing who ended up killing himself this morning.",
+        "f08b9579d5d390dab50efaed95c2bc4398f95e25": {
+            "text": "There were at least 40 tornadoes reported across nine states between Friday night and early Saturday morning in the United States. Kentucky was the worst-hit state, with at least 64 confirmed fatalities.",
             "res_json": {
                 "corpusId": "",
                 "id": "",
-                "text": "In the January attack, two Palestinian suicide bombers blew themselves up in central Tel Aviv. The bombing destroyed the whole building, killing 23 other people. Police fatally shot a suspect of the bombing who ended up killing himself this morning.",
+                "text": "There were at least 40 tornadoes reported across nine states between Friday night and early Saturday morning in the United States. Kentucky was the worst-hit state, with at least 64 confirmed fatalities.",
                 "tokens": [
-                    "In",
-                    "the",
-                    "January",
-                    "attack",
-                    ",",
-                    "two",
-                    "Palestinian",
-                    "suicide",
-                    "bombers",
-                    "blew",
-                    "themselves",
-                    "up",
-                    "in",
-                    "central",
-                    "Tel",
-                    "Aviv",
-                    ".",
-                    "The",
-                    "bombing",
-                    "destroyed",
-                    "the",
-                    "whole",
-                    "building",
-                    ",",
-                    "killing",
-                    "23",
-                    "other",
-                    "people",
-                    ".",
-                    "Police",
-                    "fatally",
-                    "shot",
-                    "a",
-                    "suspect",
-                    "of",
-                    "the",
-                    "bombing",
-                    "who",
-                    "ended",
-                    "up",
-                    "killing",
-                    "himself",
-                    "this",
+                    "There",
+                    "were",
+                    "at",
+                    "least",
+                    "40",
+                    "tornadoes",
+                    "reported",
+                    "across",
+                    "nine",
+                    "states",
+                    "between",
+                    "Friday",
+                    "night",
+                    "and",
+                    "early",
+                    "Saturday",
                     "morning",
+                    "in",
+                    "the",
+                    "United",
+                    "States",
+                    ".",
+                    "Kentucky",
+                    "was",
+                    "the",
+                    "worst",
+                    "-",
+                    "hit",
+                    "state",
+                    ",",
+                    "with",
+                    "at",
+                    "least",
+                    "64",
+                    "confirmed",
+                    "fatalities",
                     "."
                 ],
                 "sentences": {
                     "generator": "srl_pipeline",
                     "score": 1.0,
                     "sentenceEndPositions": [
-                        17,
-                        29,
-                        45
+                        22,
+                        37
                     ]
                 },
                 "views": [
@@ -72,274 +63,226 @@
                             "score": 1.0,
                             "constituents": [
                                 {
-                                    "label": "In",
+                                    "label": "There",
                                     "score": 1.0,
                                     "start": 0,
                                     "end": 1
                                 },
                                 {
-                                    "label": "the",
+                                    "label": "were",
                                     "score": 1.0,
                                     "start": 1,
                                     "end": 2
                                 },
                                 {
-                                    "label": "January",
+                                    "label": "at",
                                     "score": 1.0,
                                     "start": 2,
                                     "end": 3
                                 },
                                 {
-                                    "label": "attack",
+                                    "label": "least",
                                     "score": 1.0,
                                     "start": 3,
                                     "end": 4
                                 },
                                 {
-                                    "label": ",",
+                                    "label": "40",
                                     "score": 1.0,
                                     "start": 4,
                                     "end": 5
                                 },
                                 {
-                                    "label": "two",
+                                    "label": "tornadoes",
                                     "score": 1.0,
                                     "start": 5,
                                     "end": 6
                                 },
                                 {
-                                    "label": "Palestinian",
+                                    "label": "reported",
                                     "score": 1.0,
                                     "start": 6,
                                     "end": 7
                                 },
                                 {
-                                    "label": "suicide",
+                                    "label": "across",
                                     "score": 1.0,
                                     "start": 7,
                                     "end": 8
                                 },
                                 {
-                                    "label": "bombers",
+                                    "label": "nine",
                                     "score": 1.0,
                                     "start": 8,
                                     "end": 9
                                 },
                                 {
-                                    "label": "blew",
+                                    "label": "states",
                                     "score": 1.0,
                                     "start": 9,
                                     "end": 10
                                 },
                                 {
-                                    "label": "themselves",
+                                    "label": "between",
                                     "score": 1.0,
                                     "start": 10,
                                     "end": 11
                                 },
                                 {
-                                    "label": "up",
+                                    "label": "Friday",
                                     "score": 1.0,
                                     "start": 11,
                                     "end": 12
                                 },
                                 {
-                                    "label": "in",
+                                    "label": "night",
                                     "score": 1.0,
                                     "start": 12,
                                     "end": 13
                                 },
                                 {
-                                    "label": "central",
+                                    "label": "and",
                                     "score": 1.0,
                                     "start": 13,
                                     "end": 14
                                 },
                                 {
-                                    "label": "Tel",
+                                    "label": "early",
                                     "score": 1.0,
                                     "start": 14,
                                     "end": 15
                                 },
                                 {
-                                    "label": "Aviv",
+                                    "label": "Saturday",
                                     "score": 1.0,
                                     "start": 15,
                                     "end": 16
                                 },
                                 {
-                                    "label": ".",
+                                    "label": "morning",
                                     "score": 1.0,
                                     "start": 16,
                                     "end": 17
                                 },
                                 {
-                                    "label": "The",
+                                    "label": "in",
                                     "score": 1.0,
                                     "start": 17,
                                     "end": 18
                                 },
                                 {
-                                    "label": "bombing",
+                                    "label": "the",
                                     "score": 1.0,
                                     "start": 18,
                                     "end": 19
                                 },
                                 {
-                                    "label": "destroyed",
+                                    "label": "United",
                                     "score": 1.0,
                                     "start": 19,
                                     "end": 20
                                 },
                                 {
-                                    "label": "the",
+                                    "label": "States",
                                     "score": 1.0,
                                     "start": 20,
                                     "end": 21
                                 },
                                 {
-                                    "label": "whole",
+                                    "label": ".",
                                     "score": 1.0,
                                     "start": 21,
                                     "end": 22
                                 },
                                 {
-                                    "label": "building",
+                                    "label": "Kentucky",
                                     "score": 1.0,
                                     "start": 22,
                                     "end": 23
                                 },
                                 {
-                                    "label": ",",
+                                    "label": "was",
                                     "score": 1.0,
                                     "start": 23,
                                     "end": 24
                                 },
                                 {
-                                    "label": "killing",
+                                    "label": "the",
                                     "score": 1.0,
                                     "start": 24,
                                     "end": 25
                                 },
                                 {
-                                    "label": "23",
+                                    "label": "worst",
                                     "score": 1.0,
                                     "start": 25,
                                     "end": 26
                                 },
                                 {
-                                    "label": "other",
+                                    "label": "-",
                                     "score": 1.0,
                                     "start": 26,
                                     "end": 27
                                 },
                                 {
-                                    "label": "people",
+                                    "label": "hit",
                                     "score": 1.0,
                                     "start": 27,
                                     "end": 28
                                 },
                                 {
-                                    "label": ".",
+                                    "label": "state",
                                     "score": 1.0,
                                     "start": 28,
                                     "end": 29
                                 },
                                 {
-                                    "label": "Police",
+                                    "label": ",",
                                     "score": 1.0,
                                     "start": 29,
                                     "end": 30
                                 },
                                 {
-                                    "label": "fatally",
+                                    "label": "with",
                                     "score": 1.0,
                                     "start": 30,
                                     "end": 31
                                 },
                                 {
-                                    "label": "shot",
+                                    "label": "at",
                                     "score": 1.0,
                                     "start": 31,
                                     "end": 32
                                 },
                                 {
-                                    "label": "a",
+                                    "label": "least",
                                     "score": 1.0,
                                     "start": 32,
                                     "end": 33
                                 },
                                 {
-                                    "label": "suspect",
+                                    "label": "64",
                                     "score": 1.0,
                                     "start": 33,
                                     "end": 34
                                 },
                                 {
-                                    "label": "of",
+                                    "label": "confirmed",
                                     "score": 1.0,
                                     "start": 34,
                                     "end": 35
                                 },
                                 {
-                                    "label": "the",
+                                    "label": "fatalities",
                                     "score": 1.0,
                                     "start": 35,
                                     "end": 36
                                 },
                                 {
-                                    "label": "bombing",
+                                    "label": ".",
                                     "score": 1.0,
                                     "start": 36,
                                     "end": 37
-                                },
-                                {
-                                    "label": "who",
-                                    "score": 1.0,
-                                    "start": 37,
-                                    "end": 38
-                                },
-                                {
-                                    "label": "ended",
-                                    "score": 1.0,
-                                    "start": 38,
-                                    "end": 39
-                                },
-                                {
-                                    "label": "up",
-                                    "score": 1.0,
-                                    "start": 39,
-                                    "end": 40
-                                },
-                                {
-                                    "label": "killing",
-                                    "score": 1.0,
-                                    "start": 40,
-                                    "end": 41
-                                },
-                                {
-                                    "label": "himself",
-                                    "score": 1.0,
-                                    "start": 41,
-                                    "end": 42
-                                },
-                                {
-                                    "label": "this",
-                                    "score": 1.0,
-                                    "start": 42,
-                                    "end": 43
-                                },
-                                {
-                                    "label": "morning",
-                                    "score": 1.0,
-                                    "start": 43,
-                                    "end": 44
-                                },
-                                {
-                                    "label": ".",
-                                    "score": 1.0,
-                                    "start": 44,
-                                    "end": 45
                                 }
                             ]
                         }
@@ -354,172 +297,78 @@
                                 "score": 1.0,
                                 "constituents": [
                                     {
-                                        "label": "Conflict:Attack:Unspecified",
+                                        "label": "Disaster:DiseaseOutbreak:Unspecified",
                                         "score": 1.0,
-                                        "start": 3,
-                                        "end": 4,
+                                        "start": 5,
+                                        "end": 6,
                                         "properties": {
                                             "SenseNumber": "01",
                                             "sentence_id": 0,
                                             "predicate": [
-                                                "attack"
+                                                "tornadoes"
                                             ]
                                         }
                                     },
                                     {
-                                        "label": "Attacker",
+                                        "label": "Life:Injure:Unspecified",
                                         "score": 1.0,
-                                        "start": 6,
-                                        "end": 7,
-                                        "entity_type": "gpe"
-                                    },
-                                    {
-                                        "label": "Conflict:Attack:Unspecified",
-                                        "score": 1.0,
-                                        "start": 8,
-                                        "end": 9,
-                                        "properties": {
-                                            "SenseNumber": "01",
-                                            "sentence_id": 0,
-                                            "predicate": [
-                                                "bombers"
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "label": "Attacker",
-                                        "score": 1.0,
-                                        "start": 8,
-                                        "end": 9,
-                                        "entity_type": "per"
-                                    },
-                                    {
-                                        "label": "Target",
-                                        "score": 1.0,
-                                        "start": 6,
-                                        "end": 7,
-                                        "entity_type": "gpe"
-                                    },
-                                    {
-                                        "label": "Disaster:FireExplosion:Unspecified",
-                                        "score": 1.0,
-                                        "start": 18,
-                                        "end": 19,
+                                        "start": 35,
+                                        "end": 36,
                                         "properties": {
                                             "SenseNumber": "01",
                                             "sentence_id": 1,
                                             "predicate": []
                                         }
-                                    },
-                                    {
-                                        "label": "Place",
-                                        "score": 1.0,
-                                        "start": 22,
-                                        "end": 23,
-                                        "entity_type": "fac"
-                                    },
-                                    {
-                                        "label": "Disaster:FireExplosion:Unspecified",
-                                        "score": 1.0,
-                                        "start": 36,
-                                        "end": 37,
-                                        "properties": {
-                                            "SenseNumber": "01",
-                                            "sentence_id": 2,
-                                            "predicate": []
-                                        }
-                                    },
-                                    {
-                                        "label": "FireExplosionObject",
-                                        "score": 1.0,
-                                        "start": 33,
-                                        "end": 34,
-                                        "entity_type": "per"
                                     }
                                 ],
-                                "relations": [
-                                    {
-                                        "relationName": "Attacker",
-                                        "srcConstituent": 0,
-                                        "targetConstituent": 1
-                                    },
-                                    {
-                                        "relationName": "Attacker",
-                                        "srcConstituent": 2,
-                                        "targetConstituent": 3
-                                    },
-                                    {
-                                        "relationName": "Target",
-                                        "srcConstituent": 2,
-                                        "targetConstituent": 4
-                                    },
-                                    {
-                                        "relationName": "Place",
-                                        "srcConstituent": 5,
-                                        "targetConstituent": 6
-                                    },
-                                    {
-                                        "relationName": "FireExplosionObject",
-                                        "srcConstituent": 7,
-                                        "targetConstituent": 8
-                                    }
-                                ]
+                                "relations": []
                             }
                         ]
                     }
                 ]
             },
             "token": [
-                "In",
-                "the",
-                "January",
-                "attack",
-                ",",
-                "two",
-                "Palestinian",
-                "suicide",
-                "bombers",
-                "blew",
-                "themselves",
-                "up",
-                "in",
-                "central",
-                "Tel",
-                "Aviv",
-                ".",
-                "The",
-                "bombing",
-                "destroyed",
-                "the",
-                "whole",
-                "building",
-                ",",
-                "killing",
-                "23",
-                "other",
-                "people",
-                ".",
-                "Police",
-                "fatally",
-                "shot",
-                "a",
-                "suspect",
-                "of",
-                "the",
-                "bombing",
-                "who",
-                "ended",
-                "up",
-                "killing",
-                "himself",
-                "this",
+                "There",
+                "were",
+                "at",
+                "least",
+                "40",
+                "tornadoes",
+                "reported",
+                "across",
+                "nine",
+                "states",
+                "between",
+                "Friday",
+                "night",
+                "and",
+                "early",
+                "Saturday",
                 "morning",
+                "in",
+                "the",
+                "United",
+                "States",
+                ".",
+                "Kentucky",
+                "was",
+                "the",
+                "worst",
+                "-",
+                "hit",
+                "state",
+                ",",
+                "with",
+                "at",
+                "least",
+                "64",
+                "confirmed",
+                "fatalities",
                 "."
             ],
             "end_pos": [
-                17,
-                29,
-                45
+                22,
+                37
             ],
             "temporal": {
                 "corpusId": "",
@@ -528,57 +377,48 @@
                     "generator": "srl_pipeline",
                     "score": 1.0,
                     "sentenceEndPositions": [
-                        17,
-                        29,
-                        45
+                        22,
+                        37
                     ]
                 },
-                "text": "In the January attack, two Palestinian suicide bombers blew themselves up in central Tel Aviv. The bombing destroyed the whole building, killing 23 other people. Police fatally shot a suspect of the bombing who ended up killing himself this morning.",
+                "text": "There were at least 40 tornadoes reported across nine states between Friday night and early Saturday morning in the United States. Kentucky was the worst-hit state, with at least 64 confirmed fatalities.",
                 "tokens": [
-                    "In",
-                    "the",
-                    "January",
-                    "attack",
-                    ",",
-                    "two",
-                    "Palestinian",
-                    "suicide",
-                    "bombers",
-                    "blew",
-                    "themselves",
-                    "up",
-                    "in",
-                    "central",
-                    "Tel",
-                    "Aviv",
-                    ".",
-                    "The",
-                    "bombing",
-                    "destroyed",
-                    "the",
-                    "whole",
-                    "building",
-                    ",",
-                    "killing",
-                    "23",
-                    "other",
-                    "people",
-                    ".",
-                    "Police",
-                    "fatally",
-                    "shot",
-                    "a",
-                    "suspect",
-                    "of",
-                    "the",
-                    "bombing",
-                    "who",
-                    "ended",
-                    "up",
-                    "killing",
-                    "himself",
-                    "this",
+                    "There",
+                    "were",
+                    "at",
+                    "least",
+                    "40",
+                    "tornadoes",
+                    "reported",
+                    "across",
+                    "nine",
+                    "states",
+                    "between",
+                    "Friday",
+                    "night",
+                    "and",
+                    "early",
+                    "Saturday",
                     "morning",
+                    "in",
+                    "the",
+                    "United",
+                    "States",
+                    ".",
+                    "Kentucky",
+                    "was",
+                    "the",
+                    "worst",
+                    "-",
+                    "hit",
+                    "state",
+                    ",",
+                    "with",
+                    "at",
+                    "least",
+                    "64",
+                    "confirmed",
+                    "fatalities",
                     "."
                 ],
                 "views": [
@@ -587,273 +427,225 @@
                             "constituents": [
                                 {
                                     "end": 1,
-                                    "label": "In",
+                                    "label": "There",
                                     "score": 1.0,
                                     "start": 0
                                 },
                                 {
                                     "end": 2,
-                                    "label": "the",
+                                    "label": "were",
                                     "score": 1.0,
                                     "start": 1
                                 },
                                 {
                                     "end": 3,
-                                    "label": "January",
+                                    "label": "at",
                                     "score": 1.0,
                                     "start": 2
                                 },
                                 {
                                     "end": 4,
-                                    "label": "attack",
+                                    "label": "least",
                                     "score": 1.0,
                                     "start": 3
                                 },
                                 {
                                     "end": 5,
-                                    "label": ",",
+                                    "label": "40",
                                     "score": 1.0,
                                     "start": 4
                                 },
                                 {
                                     "end": 6,
-                                    "label": "two",
+                                    "label": "tornadoes",
                                     "score": 1.0,
                                     "start": 5
                                 },
                                 {
                                     "end": 7,
-                                    "label": "Palestinian",
+                                    "label": "reported",
                                     "score": 1.0,
                                     "start": 6
                                 },
                                 {
                                     "end": 8,
-                                    "label": "suicide",
+                                    "label": "across",
                                     "score": 1.0,
                                     "start": 7
                                 },
                                 {
                                     "end": 9,
-                                    "label": "bombers",
+                                    "label": "nine",
                                     "score": 1.0,
                                     "start": 8
                                 },
                                 {
                                     "end": 10,
-                                    "label": "blew",
+                                    "label": "states",
                                     "score": 1.0,
                                     "start": 9
                                 },
                                 {
                                     "end": 11,
-                                    "label": "themselves",
+                                    "label": "between",
                                     "score": 1.0,
                                     "start": 10
                                 },
                                 {
                                     "end": 12,
-                                    "label": "up",
+                                    "label": "Friday",
                                     "score": 1.0,
                                     "start": 11
                                 },
                                 {
                                     "end": 13,
-                                    "label": "in",
+                                    "label": "night",
                                     "score": 1.0,
                                     "start": 12
                                 },
                                 {
                                     "end": 14,
-                                    "label": "central",
+                                    "label": "and",
                                     "score": 1.0,
                                     "start": 13
                                 },
                                 {
                                     "end": 15,
-                                    "label": "Tel",
+                                    "label": "early",
                                     "score": 1.0,
                                     "start": 14
                                 },
                                 {
                                     "end": 16,
-                                    "label": "Aviv",
+                                    "label": "Saturday",
                                     "score": 1.0,
                                     "start": 15
                                 },
                                 {
                                     "end": 17,
-                                    "label": ".",
+                                    "label": "morning",
                                     "score": 1.0,
                                     "start": 16
                                 },
                                 {
                                     "end": 18,
-                                    "label": "The",
+                                    "label": "in",
                                     "score": 1.0,
                                     "start": 17
                                 },
                                 {
                                     "end": 19,
-                                    "label": "bombing",
+                                    "label": "the",
                                     "score": 1.0,
                                     "start": 18
                                 },
                                 {
                                     "end": 20,
-                                    "label": "destroyed",
+                                    "label": "United",
                                     "score": 1.0,
                                     "start": 19
                                 },
                                 {
                                     "end": 21,
-                                    "label": "the",
+                                    "label": "States",
                                     "score": 1.0,
                                     "start": 20
                                 },
                                 {
                                     "end": 22,
-                                    "label": "whole",
+                                    "label": ".",
                                     "score": 1.0,
                                     "start": 21
                                 },
                                 {
                                     "end": 23,
-                                    "label": "building",
+                                    "label": "Kentucky",
                                     "score": 1.0,
                                     "start": 22
                                 },
                                 {
                                     "end": 24,
-                                    "label": ",",
+                                    "label": "was",
                                     "score": 1.0,
                                     "start": 23
                                 },
                                 {
                                     "end": 25,
-                                    "label": "killing",
+                                    "label": "the",
                                     "score": 1.0,
                                     "start": 24
                                 },
                                 {
                                     "end": 26,
-                                    "label": "23",
+                                    "label": "worst",
                                     "score": 1.0,
                                     "start": 25
                                 },
                                 {
                                     "end": 27,
-                                    "label": "other",
+                                    "label": "-",
                                     "score": 1.0,
                                     "start": 26
                                 },
                                 {
                                     "end": 28,
-                                    "label": "people",
+                                    "label": "hit",
                                     "score": 1.0,
                                     "start": 27
                                 },
                                 {
                                     "end": 29,
-                                    "label": ".",
+                                    "label": "state",
                                     "score": 1.0,
                                     "start": 28
                                 },
                                 {
                                     "end": 30,
-                                    "label": "Police",
+                                    "label": ",",
                                     "score": 1.0,
                                     "start": 29
                                 },
                                 {
                                     "end": 31,
-                                    "label": "fatally",
+                                    "label": "with",
                                     "score": 1.0,
                                     "start": 30
                                 },
                                 {
                                     "end": 32,
-                                    "label": "shot",
+                                    "label": "at",
                                     "score": 1.0,
                                     "start": 31
                                 },
                                 {
                                     "end": 33,
-                                    "label": "a",
+                                    "label": "least",
                                     "score": 1.0,
                                     "start": 32
                                 },
                                 {
                                     "end": 34,
-                                    "label": "suspect",
+                                    "label": "64",
                                     "score": 1.0,
                                     "start": 33
                                 },
                                 {
                                     "end": 35,
-                                    "label": "of",
+                                    "label": "confirmed",
                                     "score": 1.0,
                                     "start": 34
                                 },
                                 {
                                     "end": 36,
-                                    "label": "the",
+                                    "label": "fatalities",
                                     "score": 1.0,
                                     "start": 35
                                 },
                                 {
                                     "end": 37,
-                                    "label": "bombing",
-                                    "score": 1.0,
-                                    "start": 36
-                                },
-                                {
-                                    "end": 38,
-                                    "label": "who",
-                                    "score": 1.0,
-                                    "start": 37
-                                },
-                                {
-                                    "end": 39,
-                                    "label": "ended",
-                                    "score": 1.0,
-                                    "start": 38
-                                },
-                                {
-                                    "end": 40,
-                                    "label": "up",
-                                    "score": 1.0,
-                                    "start": 39
-                                },
-                                {
-                                    "end": 41,
-                                    "label": "killing",
-                                    "score": 1.0,
-                                    "start": 40
-                                },
-                                {
-                                    "end": 42,
-                                    "label": "himself",
-                                    "score": 1.0,
-                                    "start": 41
-                                },
-                                {
-                                    "end": 43,
-                                    "label": "this",
-                                    "score": 1.0,
-                                    "start": 42
-                                },
-                                {
-                                    "end": 44,
-                                    "label": "morning",
-                                    "score": 1.0,
-                                    "start": 43
-                                },
-                                {
-                                    "end": 45,
                                     "label": ".",
                                     "score": 1.0,
-                                    "start": 44
+                                    "start": 36
                                 }
                             ],
                             "generator": "Cogcomp-SRL",
@@ -868,215 +660,49 @@
                             {
                                 "constituents": [
                                     {
-                                        "end": 4,
-                                        "label": "Conflict:Attack:Unspecified",
+                                        "end": 6,
+                                        "label": "Disaster:DiseaseOutbreak:Unspecified",
                                         "properties": {
                                             "SenseNumber": "01",
-                                            "duration": 11753,
+                                            "duration": 527,
                                             "predicate": [
-                                                "attack"
+                                                "tornadoes"
                                             ],
                                             "sentence_id": 0
                                         },
                                         "score": 1.0,
-                                        "start": 3
+                                        "start": 5
                                     },
                                     {
-                                        "end": 7,
-                                        "entity_type": "gpe",
-                                        "label": "Attacker",
-                                        "score": 1.0,
-                                        "start": 6
-                                    },
-                                    {
-                                        "end": 9,
-                                        "label": "Conflict:Attack:Unspecified",
+                                        "end": 36,
+                                        "label": "Life:Injure:Unspecified",
                                         "properties": {
                                             "SenseNumber": "01",
-                                            "duration": 3227,
-                                            "predicate": [
-                                                "bombers"
-                                            ],
-                                            "sentence_id": 0
-                                        },
-                                        "score": 1.0,
-                                        "start": 8
-                                    },
-                                    {
-                                        "end": 9,
-                                        "entity_type": "per",
-                                        "label": "Attacker",
-                                        "score": 1.0,
-                                        "start": 8
-                                    },
-                                    {
-                                        "end": 7,
-                                        "entity_type": "gpe",
-                                        "label": "Target",
-                                        "score": 1.0,
-                                        "start": 6
-                                    },
-                                    {
-                                        "end": 19,
-                                        "label": "Disaster:FireExplosion:Unspecified",
-                                        "properties": {
-                                            "SenseNumber": "01",
-                                            "duration": 13848,
+                                            "duration": 2146,
                                             "predicate": [],
                                             "sentence_id": 1
                                         },
                                         "score": 1.0,
-                                        "start": 18
-                                    },
-                                    {
-                                        "end": 23,
-                                        "entity_type": "fac",
-                                        "label": "Place",
-                                        "score": 1.0,
-                                        "start": 22
-                                    },
-                                    {
-                                        "end": 37,
-                                        "label": "Disaster:FireExplosion:Unspecified",
-                                        "properties": {
-                                            "SenseNumber": "01",
-                                            "duration": 13848,
-                                            "predicate": [],
-                                            "sentence_id": 2
-                                        },
-                                        "score": 1.0,
-                                        "start": 36
-                                    },
-                                    {
-                                        "end": 34,
-                                        "entity_type": "per",
-                                        "label": "FireExplosionObject",
-                                        "score": 1.0,
-                                        "start": 33
+                                        "start": 35
                                     }
                                 ],
                                 "generator": "cogcomp_kairos_event_ie_v1.0",
                                 "relations": [
                                     {
-                                        "relationName": "Attacker",
+                                        "properties": {
+                                            "distance": 5656
+                                        },
+                                        "relationName": "before",
                                         "srcConstituent": 0,
                                         "targetConstituent": 1
                                     },
                                     {
-                                        "relationName": "Attacker",
-                                        "srcConstituent": 2,
-                                        "targetConstituent": 3
-                                    },
-                                    {
-                                        "relationName": "Target",
-                                        "srcConstituent": 2,
-                                        "targetConstituent": 4
-                                    },
-                                    {
-                                        "relationName": "Place",
-                                        "srcConstituent": 5,
-                                        "targetConstituent": 6
-                                    },
-                                    {
-                                        "relationName": "FireExplosionObject",
-                                        "srcConstituent": 7,
-                                        "targetConstituent": 8
-                                    },
-                                    {
                                         "properties": {
-                                            "distance": 3778
-                                        },
-                                        "relationName": "before",
-                                        "srcConstituent": 2,
-                                        "targetConstituent": 5
-                                    },
-                                    {
-                                        "properties": {
-                                            "distance": 3778
+                                            "distance": 5656
                                         },
                                         "relationName": "after",
-                                        "srcConstituent": 5,
-                                        "targetConstituent": 2
-                                    },
-                                    {
-                                        "properties": {
-                                            "distance": 3778
-                                        },
-                                        "relationName": "before",
-                                        "srcConstituent": 2,
-                                        "targetConstituent": 7
-                                    },
-                                    {
-                                        "properties": {
-                                            "distance": 3778
-                                        },
-                                        "relationName": "after",
-                                        "srcConstituent": 7,
-                                        "targetConstituent": 2
-                                    },
-                                    {
-                                        "properties": {
-                                            "distance": 3899
-                                        },
-                                        "relationName": "before",
-                                        "srcConstituent": 2,
+                                        "srcConstituent": 1,
                                         "targetConstituent": 0
-                                    },
-                                    {
-                                        "properties": {
-                                            "distance": 3899
-                                        },
-                                        "relationName": "after",
-                                        "srcConstituent": 0,
-                                        "targetConstituent": 2
-                                    },
-                                    {
-                                        "properties": {
-                                            "distance": 3866
-                                        },
-                                        "relationName": "before",
-                                        "srcConstituent": 5,
-                                        "targetConstituent": 7
-                                    },
-                                    {
-                                        "properties": {
-                                            "distance": 3866
-                                        },
-                                        "relationName": "after",
-                                        "srcConstituent": 7,
-                                        "targetConstituent": 5
-                                    },
-                                    {
-                                        "properties": {
-                                            "distance": 4369
-                                        },
-                                        "relationName": "before",
-                                        "srcConstituent": 5,
-                                        "targetConstituent": 0
-                                    },
-                                    {
-                                        "properties": {
-                                            "distance": 4369
-                                        },
-                                        "relationName": "after",
-                                        "srcConstituent": 0,
-                                        "targetConstituent": 5
-                                    },
-                                    {
-                                        "properties": {
-                                            "distance": 4369
-                                        },
-                                        "relationName": "before",
-                                        "srcConstituent": 7,
-                                        "targetConstituent": 0
-                                    },
-                                    {
-                                        "properties": {
-                                            "distance": 4369
-                                        },
-                                        "relationName": "after",
-                                        "srcConstituent": 0,
-                                        "targetConstituent": 7
                                     }
                                 ],
                                 "score": 1.0,
@@ -1091,61 +717,52 @@
             "coref": {
                 "corpusId": "",
                 "id": "",
-                "text": "In the January attack, two Palestinian suicide bombers blew themselves up in central Tel Aviv. The bombing destroyed the whole building, killing 23 other people. Police fatally shot a suspect of the bombing who ended up killing himself this morning.",
+                "text": "There were at least 40 tornadoes reported across nine states between Friday night and early Saturday morning in the United States. Kentucky was the worst-hit state, with at least 64 confirmed fatalities.",
                 "tokens": [
-                    "In",
-                    "the",
-                    "January",
-                    "attack",
-                    ",",
-                    "two",
-                    "Palestinian",
-                    "suicide",
-                    "bombers",
-                    "blew",
-                    "themselves",
-                    "up",
-                    "in",
-                    "central",
-                    "Tel",
-                    "Aviv",
-                    ".",
-                    "The",
-                    "bombing",
-                    "destroyed",
-                    "the",
-                    "whole",
-                    "building",
-                    ",",
-                    "killing",
-                    "23",
-                    "other",
-                    "people",
-                    ".",
-                    "Police",
-                    "fatally",
-                    "shot",
-                    "a",
-                    "suspect",
-                    "of",
-                    "the",
-                    "bombing",
-                    "who",
-                    "ended",
-                    "up",
-                    "killing",
-                    "himself",
-                    "this",
+                    "There",
+                    "were",
+                    "at",
+                    "least",
+                    "40",
+                    "tornadoes",
+                    "reported",
+                    "across",
+                    "nine",
+                    "states",
+                    "between",
+                    "Friday",
+                    "night",
+                    "and",
+                    "early",
+                    "Saturday",
                     "morning",
+                    "in",
+                    "the",
+                    "United",
+                    "States",
+                    ".",
+                    "Kentucky",
+                    "was",
+                    "the",
+                    "worst",
+                    "-",
+                    "hit",
+                    "state",
+                    ",",
+                    "with",
+                    "at",
+                    "least",
+                    "64",
+                    "confirmed",
+                    "fatalities",
                     "."
                 ],
                 "sentences": {
                     "generator": "srl_pipeline",
                     "score": 1.0,
                     "sentenceEndPositions": [
-                        17,
-                        29,
-                        45
+                        22,
+                        37
                     ]
                 },
                 "views": [
@@ -1158,274 +775,226 @@
                             "score": 1.0,
                             "constituents": [
                                 {
-                                    "label": "In",
+                                    "label": "There",
                                     "score": 1.0,
                                     "start": 0,
                                     "end": 1
                                 },
                                 {
-                                    "label": "the",
+                                    "label": "were",
                                     "score": 1.0,
                                     "start": 1,
                                     "end": 2
                                 },
                                 {
-                                    "label": "January",
+                                    "label": "at",
                                     "score": 1.0,
                                     "start": 2,
                                     "end": 3
                                 },
                                 {
-                                    "label": "attack",
+                                    "label": "least",
                                     "score": 1.0,
                                     "start": 3,
                                     "end": 4
                                 },
                                 {
-                                    "label": ",",
+                                    "label": "40",
                                     "score": 1.0,
                                     "start": 4,
                                     "end": 5
                                 },
                                 {
-                                    "label": "two",
+                                    "label": "tornadoes",
                                     "score": 1.0,
                                     "start": 5,
                                     "end": 6
                                 },
                                 {
-                                    "label": "Palestinian",
+                                    "label": "reported",
                                     "score": 1.0,
                                     "start": 6,
                                     "end": 7
                                 },
                                 {
-                                    "label": "suicide",
+                                    "label": "across",
                                     "score": 1.0,
                                     "start": 7,
                                     "end": 8
                                 },
                                 {
-                                    "label": "bombers",
+                                    "label": "nine",
                                     "score": 1.0,
                                     "start": 8,
                                     "end": 9
                                 },
                                 {
-                                    "label": "blew",
+                                    "label": "states",
                                     "score": 1.0,
                                     "start": 9,
                                     "end": 10
                                 },
                                 {
-                                    "label": "themselves",
+                                    "label": "between",
                                     "score": 1.0,
                                     "start": 10,
                                     "end": 11
                                 },
                                 {
-                                    "label": "up",
+                                    "label": "Friday",
                                     "score": 1.0,
                                     "start": 11,
                                     "end": 12
                                 },
                                 {
-                                    "label": "in",
+                                    "label": "night",
                                     "score": 1.0,
                                     "start": 12,
                                     "end": 13
                                 },
                                 {
-                                    "label": "central",
+                                    "label": "and",
                                     "score": 1.0,
                                     "start": 13,
                                     "end": 14
                                 },
                                 {
-                                    "label": "Tel",
+                                    "label": "early",
                                     "score": 1.0,
                                     "start": 14,
                                     "end": 15
                                 },
                                 {
-                                    "label": "Aviv",
+                                    "label": "Saturday",
                                     "score": 1.0,
                                     "start": 15,
                                     "end": 16
                                 },
                                 {
-                                    "label": ".",
+                                    "label": "morning",
                                     "score": 1.0,
                                     "start": 16,
                                     "end": 17
                                 },
                                 {
-                                    "label": "The",
+                                    "label": "in",
                                     "score": 1.0,
                                     "start": 17,
                                     "end": 18
                                 },
                                 {
-                                    "label": "bombing",
+                                    "label": "the",
                                     "score": 1.0,
                                     "start": 18,
                                     "end": 19
                                 },
                                 {
-                                    "label": "destroyed",
+                                    "label": "United",
                                     "score": 1.0,
                                     "start": 19,
                                     "end": 20
                                 },
                                 {
-                                    "label": "the",
+                                    "label": "States",
                                     "score": 1.0,
                                     "start": 20,
                                     "end": 21
                                 },
                                 {
-                                    "label": "whole",
+                                    "label": ".",
                                     "score": 1.0,
                                     "start": 21,
                                     "end": 22
                                 },
                                 {
-                                    "label": "building",
+                                    "label": "Kentucky",
                                     "score": 1.0,
                                     "start": 22,
                                     "end": 23
                                 },
                                 {
-                                    "label": ",",
+                                    "label": "was",
                                     "score": 1.0,
                                     "start": 23,
                                     "end": 24
                                 },
                                 {
-                                    "label": "killing",
+                                    "label": "the",
                                     "score": 1.0,
                                     "start": 24,
                                     "end": 25
                                 },
                                 {
-                                    "label": "23",
+                                    "label": "worst",
                                     "score": 1.0,
                                     "start": 25,
                                     "end": 26
                                 },
                                 {
-                                    "label": "other",
+                                    "label": "-",
                                     "score": 1.0,
                                     "start": 26,
                                     "end": 27
                                 },
                                 {
-                                    "label": "people",
+                                    "label": "hit",
                                     "score": 1.0,
                                     "start": 27,
                                     "end": 28
                                 },
                                 {
-                                    "label": ".",
+                                    "label": "state",
                                     "score": 1.0,
                                     "start": 28,
                                     "end": 29
                                 },
                                 {
-                                    "label": "Police",
+                                    "label": ",",
                                     "score": 1.0,
                                     "start": 29,
                                     "end": 30
                                 },
                                 {
-                                    "label": "fatally",
+                                    "label": "with",
                                     "score": 1.0,
                                     "start": 30,
                                     "end": 31
                                 },
                                 {
-                                    "label": "shot",
+                                    "label": "at",
                                     "score": 1.0,
                                     "start": 31,
                                     "end": 32
                                 },
                                 {
-                                    "label": "a",
+                                    "label": "least",
                                     "score": 1.0,
                                     "start": 32,
                                     "end": 33
                                 },
                                 {
-                                    "label": "suspect",
+                                    "label": "64",
                                     "score": 1.0,
                                     "start": 33,
                                     "end": 34
                                 },
                                 {
-                                    "label": "of",
+                                    "label": "confirmed",
                                     "score": 1.0,
                                     "start": 34,
                                     "end": 35
                                 },
                                 {
-                                    "label": "the",
+                                    "label": "fatalities",
                                     "score": 1.0,
                                     "start": 35,
                                     "end": 36
                                 },
                                 {
-                                    "label": "bombing",
+                                    "label": ".",
                                     "score": 1.0,
                                     "start": 36,
                                     "end": 37
-                                },
-                                {
-                                    "label": "who",
-                                    "score": 1.0,
-                                    "start": 37,
-                                    "end": 38
-                                },
-                                {
-                                    "label": "ended",
-                                    "score": 1.0,
-                                    "start": 38,
-                                    "end": 39
-                                },
-                                {
-                                    "label": "up",
-                                    "score": 1.0,
-                                    "start": 39,
-                                    "end": 40
-                                },
-                                {
-                                    "label": "killing",
-                                    "score": 1.0,
-                                    "start": 40,
-                                    "end": 41
-                                },
-                                {
-                                    "label": "himself",
-                                    "score": 1.0,
-                                    "start": 41,
-                                    "end": 42
-                                },
-                                {
-                                    "label": "this",
-                                    "score": 1.0,
-                                    "start": 42,
-                                    "end": 43
-                                },
-                                {
-                                    "label": "morning",
-                                    "score": 1.0,
-                                    "start": 43,
-                                    "end": 44
-                                },
-                                {
-                                    "label": ".",
-                                    "score": 1.0,
-                                    "start": 44,
-                                    "end": 45
                                 }
                             ]
                         }
@@ -1440,1207 +1009,65 @@
                                 "score": 1.0,
                                 "constituents": [
                                     {
-                                        "label": "Conflict:Attack:Unspecified",
+                                        "label": "Disaster:DiseaseOutbreak:Unspecified",
                                         "score": 1.0,
-                                        "start": 3,
-                                        "end": 4,
+                                        "start": 5,
+                                        "end": 6,
                                         "properties": {
                                             "SenseNumber": "01",
                                             "sentence_id": 0,
                                             "predicate": [
-                                                "attack"
+                                                "tornadoes"
                                             ]
                                         }
                                     },
                                     {
-                                        "label": "Attacker",
+                                        "label": "Life:Injure:Unspecified",
                                         "score": 1.0,
-                                        "start": 6,
-                                        "end": 7,
-                                        "entity_type": "gpe"
-                                    },
-                                    {
-                                        "label": "Conflict:Attack:Unspecified",
-                                        "score": 1.0,
-                                        "start": 8,
-                                        "end": 9,
-                                        "properties": {
-                                            "SenseNumber": "01",
-                                            "sentence_id": 0,
-                                            "predicate": [
-                                                "bombers"
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "label": "Attacker",
-                                        "score": 1.0,
-                                        "start": 8,
-                                        "end": 9,
-                                        "entity_type": "per"
-                                    },
-                                    {
-                                        "label": "Target",
-                                        "score": 1.0,
-                                        "start": 6,
-                                        "end": 7,
-                                        "entity_type": "gpe"
-                                    },
-                                    {
-                                        "label": "Disaster:FireExplosion:Unspecified",
-                                        "score": 1.0,
-                                        "start": 18,
-                                        "end": 19,
+                                        "start": 35,
+                                        "end": 36,
                                         "properties": {
                                             "SenseNumber": "01",
                                             "sentence_id": 1,
                                             "predicate": []
                                         }
-                                    },
-                                    {
-                                        "label": "Place",
-                                        "score": 1.0,
-                                        "start": 22,
-                                        "end": 23,
-                                        "entity_type": "fac"
-                                    },
-                                    {
-                                        "label": "Disaster:FireExplosion:Unspecified",
-                                        "score": 1.0,
-                                        "start": 36,
-                                        "end": 37,
-                                        "properties": {
-                                            "SenseNumber": "01",
-                                            "sentence_id": 2,
-                                            "predicate": []
-                                        }
-                                    },
-                                    {
-                                        "label": "FireExplosionObject",
-                                        "score": 1.0,
-                                        "start": 33,
-                                        "end": 34,
-                                        "entity_type": "per"
                                     }
                                 ],
-                                "relations": [
-                                    {
-                                        "relationName": "coref",
-                                        "srcConstituent": "7",
-                                        "targetConstituent": "5"
-                                    },
-                                    {
-                                        "relationName": "coref",
-                                        "srcConstituent": "7",
-                                        "targetConstituent": "2"
-                                    },
-                                    {
-                                        "relationName": "coref",
-                                        "srcConstituent": "5",
-                                        "targetConstituent": "2"
-                                    }
-                                ]
+                                "relations": []
                             }
                         ]
                     }
                 ]
             }
         },
-        "c64eba83bafc29f1044052bb3cee582d2bc6d2a6": {
-            "text": "In the January attack, two Palestinian suicide bombers blew themselves up in central Tel Aviv. The bombing destroyed the whole building, killing 23 other people.",
+        "e72f6ea579de32848537b8398a06b06c96b87cde": {
+            "text": "There were at least 40 tornadoes reported across nine states between Friday night and early Saturday morning in the United States.",
             "res_json": {
                 "corpusId": "",
                 "id": "",
-                "text": "In the January attack, two Palestinian suicide bombers blew themselves up in central Tel Aviv. The bombing destroyed the whole building, killing 23 other people.",
+                "text": "There were at least 40 tornadoes reported across nine states between Friday night and early Saturday morning in the United States.",
                 "tokens": [
-                    "In",
-                    "the",
-                    "January",
-                    "attack",
-                    ",",
-                    "two",
-                    "Palestinian",
-                    "suicide",
-                    "bombers",
-                    "blew",
-                    "themselves",
-                    "up",
+                    "There",
+                    "were",
+                    "at",
+                    "least",
+                    "40",
+                    "tornadoes",
+                    "reported",
+                    "across",
+                    "nine",
+                    "states",
+                    "between",
+                    "Friday",
+                    "night",
+                    "and",
+                    "early",
+                    "Saturday",
+                    "morning",
                     "in",
-                    "central",
-                    "Tel",
-                    "Aviv",
-                    ".",
-                    "The",
-                    "bombing",
-                    "destroyed",
                     "the",
-                    "whole",
-                    "building",
-                    ",",
-                    "killing",
-                    "23",
-                    "other",
-                    "people",
-                    "."
-                ],
-                "sentences": {
-                    "generator": "srl_pipeline",
-                    "score": 1.0,
-                    "sentenceEndPositions": [
-                        17,
-                        29
-                    ]
-                },
-                "views": [
-                    {
-                        "viewName": "TOKENS",
-                        "viewData": {
-                            "viewType": "edu.illinois.cs.cogcomp.core.datastructures.textannotation.TokenLabelView",
-                            "viewName": "TOKENS",
-                            "generator": "Cogcomp-SRL",
-                            "score": 1.0,
-                            "constituents": [
-                                {
-                                    "label": "In",
-                                    "score": 1.0,
-                                    "start": 0,
-                                    "end": 1
-                                },
-                                {
-                                    "label": "the",
-                                    "score": 1.0,
-                                    "start": 1,
-                                    "end": 2
-                                },
-                                {
-                                    "label": "January",
-                                    "score": 1.0,
-                                    "start": 2,
-                                    "end": 3
-                                },
-                                {
-                                    "label": "attack",
-                                    "score": 1.0,
-                                    "start": 3,
-                                    "end": 4
-                                },
-                                {
-                                    "label": ",",
-                                    "score": 1.0,
-                                    "start": 4,
-                                    "end": 5
-                                },
-                                {
-                                    "label": "two",
-                                    "score": 1.0,
-                                    "start": 5,
-                                    "end": 6
-                                },
-                                {
-                                    "label": "Palestinian",
-                                    "score": 1.0,
-                                    "start": 6,
-                                    "end": 7
-                                },
-                                {
-                                    "label": "suicide",
-                                    "score": 1.0,
-                                    "start": 7,
-                                    "end": 8
-                                },
-                                {
-                                    "label": "bombers",
-                                    "score": 1.0,
-                                    "start": 8,
-                                    "end": 9
-                                },
-                                {
-                                    "label": "blew",
-                                    "score": 1.0,
-                                    "start": 9,
-                                    "end": 10
-                                },
-                                {
-                                    "label": "themselves",
-                                    "score": 1.0,
-                                    "start": 10,
-                                    "end": 11
-                                },
-                                {
-                                    "label": "up",
-                                    "score": 1.0,
-                                    "start": 11,
-                                    "end": 12
-                                },
-                                {
-                                    "label": "in",
-                                    "score": 1.0,
-                                    "start": 12,
-                                    "end": 13
-                                },
-                                {
-                                    "label": "central",
-                                    "score": 1.0,
-                                    "start": 13,
-                                    "end": 14
-                                },
-                                {
-                                    "label": "Tel",
-                                    "score": 1.0,
-                                    "start": 14,
-                                    "end": 15
-                                },
-                                {
-                                    "label": "Aviv",
-                                    "score": 1.0,
-                                    "start": 15,
-                                    "end": 16
-                                },
-                                {
-                                    "label": ".",
-                                    "score": 1.0,
-                                    "start": 16,
-                                    "end": 17
-                                },
-                                {
-                                    "label": "The",
-                                    "score": 1.0,
-                                    "start": 17,
-                                    "end": 18
-                                },
-                                {
-                                    "label": "bombing",
-                                    "score": 1.0,
-                                    "start": 18,
-                                    "end": 19
-                                },
-                                {
-                                    "label": "destroyed",
-                                    "score": 1.0,
-                                    "start": 19,
-                                    "end": 20
-                                },
-                                {
-                                    "label": "the",
-                                    "score": 1.0,
-                                    "start": 20,
-                                    "end": 21
-                                },
-                                {
-                                    "label": "whole",
-                                    "score": 1.0,
-                                    "start": 21,
-                                    "end": 22
-                                },
-                                {
-                                    "label": "building",
-                                    "score": 1.0,
-                                    "start": 22,
-                                    "end": 23
-                                },
-                                {
-                                    "label": ",",
-                                    "score": 1.0,
-                                    "start": 23,
-                                    "end": 24
-                                },
-                                {
-                                    "label": "killing",
-                                    "score": 1.0,
-                                    "start": 24,
-                                    "end": 25
-                                },
-                                {
-                                    "label": "23",
-                                    "score": 1.0,
-                                    "start": 25,
-                                    "end": 26
-                                },
-                                {
-                                    "label": "other",
-                                    "score": 1.0,
-                                    "start": 26,
-                                    "end": 27
-                                },
-                                {
-                                    "label": "people",
-                                    "score": 1.0,
-                                    "start": 27,
-                                    "end": 28
-                                },
-                                {
-                                    "label": ".",
-                                    "score": 1.0,
-                                    "start": 28,
-                                    "end": 29
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "viewName": "Event_extraction",
-                        "viewData": [
-                            {
-                                "viewType": "edu.illinois.cs.cogcomp.core.datastructures.textannotation.PredicateArgumentView",
-                                "viewName": "event_extraction",
-                                "generator": "cogcomp_kairos_event_ie_v1.0",
-                                "score": 1.0,
-                                "constituents": [
-                                    {
-                                        "label": "Conflict:Attack:Unspecified",
-                                        "score": 1.0,
-                                        "start": 3,
-                                        "end": 4,
-                                        "properties": {
-                                            "SenseNumber": "01",
-                                            "sentence_id": 0,
-                                            "predicate": [
-                                                "attack"
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "label": "Attacker",
-                                        "score": 1.0,
-                                        "start": 6,
-                                        "end": 7,
-                                        "entity_type": "gpe"
-                                    },
-                                    {
-                                        "label": "Conflict:Attack:Unspecified",
-                                        "score": 1.0,
-                                        "start": 8,
-                                        "end": 9,
-                                        "properties": {
-                                            "SenseNumber": "01",
-                                            "sentence_id": 0,
-                                            "predicate": [
-                                                "bombers"
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "label": "Attacker",
-                                        "score": 1.0,
-                                        "start": 8,
-                                        "end": 9,
-                                        "entity_type": "per"
-                                    },
-                                    {
-                                        "label": "Target",
-                                        "score": 1.0,
-                                        "start": 6,
-                                        "end": 7,
-                                        "entity_type": "gpe"
-                                    },
-                                    {
-                                        "label": "Disaster:FireExplosion:Unspecified",
-                                        "score": 1.0,
-                                        "start": 18,
-                                        "end": 19,
-                                        "properties": {
-                                            "SenseNumber": "01",
-                                            "sentence_id": 1,
-                                            "predicate": []
-                                        }
-                                    },
-                                    {
-                                        "label": "Place",
-                                        "score": 1.0,
-                                        "start": 22,
-                                        "end": 23,
-                                        "entity_type": "fac"
-                                    }
-                                ],
-                                "relations": [
-                                    {
-                                        "relationName": "Attacker",
-                                        "srcConstituent": 0,
-                                        "targetConstituent": 1
-                                    },
-                                    {
-                                        "relationName": "Attacker",
-                                        "srcConstituent": 2,
-                                        "targetConstituent": 3
-                                    },
-                                    {
-                                        "relationName": "Target",
-                                        "srcConstituent": 2,
-                                        "targetConstituent": 4
-                                    },
-                                    {
-                                        "relationName": "Place",
-                                        "srcConstituent": 5,
-                                        "targetConstituent": 6
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            },
-            "token": [
-                "In",
-                "the",
-                "January",
-                "attack",
-                ",",
-                "two",
-                "Palestinian",
-                "suicide",
-                "bombers",
-                "blew",
-                "themselves",
-                "up",
-                "in",
-                "central",
-                "Tel",
-                "Aviv",
-                ".",
-                "The",
-                "bombing",
-                "destroyed",
-                "the",
-                "whole",
-                "building",
-                ",",
-                "killing",
-                "23",
-                "other",
-                "people",
-                "."
-            ],
-            "end_pos": [
-                17,
-                29
-            ],
-            "temporal": {
-                "corpusId": "",
-                "id": "",
-                "sentences": {
-                    "generator": "srl_pipeline",
-                    "score": 1.0,
-                    "sentenceEndPositions": [
-                        17,
-                        29
-                    ]
-                },
-                "text": "In the January attack, two Palestinian suicide bombers blew themselves up in central Tel Aviv. The bombing destroyed the whole building, killing 23 other people.",
-                "tokens": [
-                    "In",
-                    "the",
-                    "January",
-                    "attack",
-                    ",",
-                    "two",
-                    "Palestinian",
-                    "suicide",
-                    "bombers",
-                    "blew",
-                    "themselves",
-                    "up",
-                    "in",
-                    "central",
-                    "Tel",
-                    "Aviv",
-                    ".",
-                    "The",
-                    "bombing",
-                    "destroyed",
-                    "the",
-                    "whole",
-                    "building",
-                    ",",
-                    "killing",
-                    "23",
-                    "other",
-                    "people",
-                    "."
-                ],
-                "views": [
-                    {
-                        "viewData": {
-                            "constituents": [
-                                {
-                                    "end": 1,
-                                    "label": "In",
-                                    "score": 1.0,
-                                    "start": 0
-                                },
-                                {
-                                    "end": 2,
-                                    "label": "the",
-                                    "score": 1.0,
-                                    "start": 1
-                                },
-                                {
-                                    "end": 3,
-                                    "label": "January",
-                                    "score": 1.0,
-                                    "start": 2
-                                },
-                                {
-                                    "end": 4,
-                                    "label": "attack",
-                                    "score": 1.0,
-                                    "start": 3
-                                },
-                                {
-                                    "end": 5,
-                                    "label": ",",
-                                    "score": 1.0,
-                                    "start": 4
-                                },
-                                {
-                                    "end": 6,
-                                    "label": "two",
-                                    "score": 1.0,
-                                    "start": 5
-                                },
-                                {
-                                    "end": 7,
-                                    "label": "Palestinian",
-                                    "score": 1.0,
-                                    "start": 6
-                                },
-                                {
-                                    "end": 8,
-                                    "label": "suicide",
-                                    "score": 1.0,
-                                    "start": 7
-                                },
-                                {
-                                    "end": 9,
-                                    "label": "bombers",
-                                    "score": 1.0,
-                                    "start": 8
-                                },
-                                {
-                                    "end": 10,
-                                    "label": "blew",
-                                    "score": 1.0,
-                                    "start": 9
-                                },
-                                {
-                                    "end": 11,
-                                    "label": "themselves",
-                                    "score": 1.0,
-                                    "start": 10
-                                },
-                                {
-                                    "end": 12,
-                                    "label": "up",
-                                    "score": 1.0,
-                                    "start": 11
-                                },
-                                {
-                                    "end": 13,
-                                    "label": "in",
-                                    "score": 1.0,
-                                    "start": 12
-                                },
-                                {
-                                    "end": 14,
-                                    "label": "central",
-                                    "score": 1.0,
-                                    "start": 13
-                                },
-                                {
-                                    "end": 15,
-                                    "label": "Tel",
-                                    "score": 1.0,
-                                    "start": 14
-                                },
-                                {
-                                    "end": 16,
-                                    "label": "Aviv",
-                                    "score": 1.0,
-                                    "start": 15
-                                },
-                                {
-                                    "end": 17,
-                                    "label": ".",
-                                    "score": 1.0,
-                                    "start": 16
-                                },
-                                {
-                                    "end": 18,
-                                    "label": "The",
-                                    "score": 1.0,
-                                    "start": 17
-                                },
-                                {
-                                    "end": 19,
-                                    "label": "bombing",
-                                    "score": 1.0,
-                                    "start": 18
-                                },
-                                {
-                                    "end": 20,
-                                    "label": "destroyed",
-                                    "score": 1.0,
-                                    "start": 19
-                                },
-                                {
-                                    "end": 21,
-                                    "label": "the",
-                                    "score": 1.0,
-                                    "start": 20
-                                },
-                                {
-                                    "end": 22,
-                                    "label": "whole",
-                                    "score": 1.0,
-                                    "start": 21
-                                },
-                                {
-                                    "end": 23,
-                                    "label": "building",
-                                    "score": 1.0,
-                                    "start": 22
-                                },
-                                {
-                                    "end": 24,
-                                    "label": ",",
-                                    "score": 1.0,
-                                    "start": 23
-                                },
-                                {
-                                    "end": 25,
-                                    "label": "killing",
-                                    "score": 1.0,
-                                    "start": 24
-                                },
-                                {
-                                    "end": 26,
-                                    "label": "23",
-                                    "score": 1.0,
-                                    "start": 25
-                                },
-                                {
-                                    "end": 27,
-                                    "label": "other",
-                                    "score": 1.0,
-                                    "start": 26
-                                },
-                                {
-                                    "end": 28,
-                                    "label": "people",
-                                    "score": 1.0,
-                                    "start": 27
-                                },
-                                {
-                                    "end": 29,
-                                    "label": ".",
-                                    "score": 1.0,
-                                    "start": 28
-                                }
-                            ],
-                            "generator": "Cogcomp-SRL",
-                            "score": 1.0,
-                            "viewName": "TOKENS",
-                            "viewType": "edu.illinois.cs.cogcomp.core.datastructures.textannotation.TokenLabelView"
-                        },
-                        "viewName": "TOKENS"
-                    },
-                    {
-                        "viewData": [
-                            {
-                                "constituents": [
-                                    {
-                                        "end": 4,
-                                        "label": "Conflict:Attack:Unspecified",
-                                        "properties": {
-                                            "SenseNumber": "01",
-                                            "duration": 12766,
-                                            "predicate": [
-                                                "attack"
-                                            ],
-                                            "sentence_id": 0
-                                        },
-                                        "score": 1.0,
-                                        "start": 3
-                                    },
-                                    {
-                                        "end": 7,
-                                        "entity_type": "gpe",
-                                        "label": "Attacker",
-                                        "score": 1.0,
-                                        "start": 6
-                                    },
-                                    {
-                                        "end": 9,
-                                        "label": "Conflict:Attack:Unspecified",
-                                        "properties": {
-                                            "SenseNumber": "01",
-                                            "duration": 2083,
-                                            "predicate": [
-                                                "bombers"
-                                            ],
-                                            "sentence_id": 0
-                                        },
-                                        "score": 1.0,
-                                        "start": 8
-                                    },
-                                    {
-                                        "end": 9,
-                                        "entity_type": "per",
-                                        "label": "Attacker",
-                                        "score": 1.0,
-                                        "start": 8
-                                    },
-                                    {
-                                        "end": 7,
-                                        "entity_type": "gpe",
-                                        "label": "Target",
-                                        "score": 1.0,
-                                        "start": 6
-                                    },
-                                    {
-                                        "end": 19,
-                                        "label": "Disaster:FireExplosion:Unspecified",
-                                        "properties": {
-                                            "SenseNumber": "01",
-                                            "duration": 16611,
-                                            "predicate": [],
-                                            "sentence_id": 1
-                                        },
-                                        "score": 1.0,
-                                        "start": 18
-                                    },
-                                    {
-                                        "end": 23,
-                                        "entity_type": "fac",
-                                        "label": "Place",
-                                        "score": 1.0,
-                                        "start": 22
-                                    }
-                                ],
-                                "generator": "cogcomp_kairos_event_ie_v1.0",
-                                "relations": [
-                                    {
-                                        "relationName": "Attacker",
-                                        "srcConstituent": 0,
-                                        "targetConstituent": 1
-                                    },
-                                    {
-                                        "relationName": "Attacker",
-                                        "srcConstituent": 2,
-                                        "targetConstituent": 3
-                                    },
-                                    {
-                                        "relationName": "Target",
-                                        "srcConstituent": 2,
-                                        "targetConstituent": 4
-                                    },
-                                    {
-                                        "relationName": "Place",
-                                        "srcConstituent": 5,
-                                        "targetConstituent": 6
-                                    },
-                                    {
-                                        "properties": {
-                                            "distance": 3724
-                                        },
-                                        "relationName": "before",
-                                        "srcConstituent": 2,
-                                        "targetConstituent": 5
-                                    },
-                                    {
-                                        "properties": {
-                                            "distance": 3724
-                                        },
-                                        "relationName": "after",
-                                        "srcConstituent": 5,
-                                        "targetConstituent": 2
-                                    },
-                                    {
-                                        "properties": {
-                                            "distance": 4058
-                                        },
-                                        "relationName": "before",
-                                        "srcConstituent": 2,
-                                        "targetConstituent": 0
-                                    },
-                                    {
-                                        "properties": {
-                                            "distance": 4058
-                                        },
-                                        "relationName": "after",
-                                        "srcConstituent": 0,
-                                        "targetConstituent": 2
-                                    },
-                                    {
-                                        "properties": {
-                                            "distance": 4563
-                                        },
-                                        "relationName": "before",
-                                        "srcConstituent": 5,
-                                        "targetConstituent": 0
-                                    },
-                                    {
-                                        "properties": {
-                                            "distance": 4563
-                                        },
-                                        "relationName": "after",
-                                        "srcConstituent": 0,
-                                        "targetConstituent": 5
-                                    }
-                                ],
-                                "score": 1.0,
-                                "viewName": "event_extraction",
-                                "viewType": "edu.illinois.cs.cogcomp.core.datastructures.textannotation.PredicateArgumentView"
-                            }
-                        ],
-                        "viewName": "Event_extraction"
-                    }
-                ]
-            },
-            "coref": {
-                "corpusId": "",
-                "id": "",
-                "text": "In the January attack, two Palestinian suicide bombers blew themselves up in central Tel Aviv. The bombing destroyed the whole building, killing 23 other people.",
-                "tokens": [
-                    "In",
-                    "the",
-                    "January",
-                    "attack",
-                    ",",
-                    "two",
-                    "Palestinian",
-                    "suicide",
-                    "bombers",
-                    "blew",
-                    "themselves",
-                    "up",
-                    "in",
-                    "central",
-                    "Tel",
-                    "Aviv",
-                    ".",
-                    "The",
-                    "bombing",
-                    "destroyed",
-                    "the",
-                    "whole",
-                    "building",
-                    ",",
-                    "killing",
-                    "23",
-                    "other",
-                    "people",
-                    "."
-                ],
-                "sentences": {
-                    "generator": "srl_pipeline",
-                    "score": 1.0,
-                    "sentenceEndPositions": [
-                        17,
-                        29
-                    ]
-                },
-                "views": [
-                    {
-                        "viewName": "TOKENS",
-                        "viewData": {
-                            "viewType": "edu.illinois.cs.cogcomp.core.datastructures.textannotation.TokenLabelView",
-                            "viewName": "TOKENS",
-                            "generator": "Cogcomp-SRL",
-                            "score": 1.0,
-                            "constituents": [
-                                {
-                                    "label": "In",
-                                    "score": 1.0,
-                                    "start": 0,
-                                    "end": 1
-                                },
-                                {
-                                    "label": "the",
-                                    "score": 1.0,
-                                    "start": 1,
-                                    "end": 2
-                                },
-                                {
-                                    "label": "January",
-                                    "score": 1.0,
-                                    "start": 2,
-                                    "end": 3
-                                },
-                                {
-                                    "label": "attack",
-                                    "score": 1.0,
-                                    "start": 3,
-                                    "end": 4
-                                },
-                                {
-                                    "label": ",",
-                                    "score": 1.0,
-                                    "start": 4,
-                                    "end": 5
-                                },
-                                {
-                                    "label": "two",
-                                    "score": 1.0,
-                                    "start": 5,
-                                    "end": 6
-                                },
-                                {
-                                    "label": "Palestinian",
-                                    "score": 1.0,
-                                    "start": 6,
-                                    "end": 7
-                                },
-                                {
-                                    "label": "suicide",
-                                    "score": 1.0,
-                                    "start": 7,
-                                    "end": 8
-                                },
-                                {
-                                    "label": "bombers",
-                                    "score": 1.0,
-                                    "start": 8,
-                                    "end": 9
-                                },
-                                {
-                                    "label": "blew",
-                                    "score": 1.0,
-                                    "start": 9,
-                                    "end": 10
-                                },
-                                {
-                                    "label": "themselves",
-                                    "score": 1.0,
-                                    "start": 10,
-                                    "end": 11
-                                },
-                                {
-                                    "label": "up",
-                                    "score": 1.0,
-                                    "start": 11,
-                                    "end": 12
-                                },
-                                {
-                                    "label": "in",
-                                    "score": 1.0,
-                                    "start": 12,
-                                    "end": 13
-                                },
-                                {
-                                    "label": "central",
-                                    "score": 1.0,
-                                    "start": 13,
-                                    "end": 14
-                                },
-                                {
-                                    "label": "Tel",
-                                    "score": 1.0,
-                                    "start": 14,
-                                    "end": 15
-                                },
-                                {
-                                    "label": "Aviv",
-                                    "score": 1.0,
-                                    "start": 15,
-                                    "end": 16
-                                },
-                                {
-                                    "label": ".",
-                                    "score": 1.0,
-                                    "start": 16,
-                                    "end": 17
-                                },
-                                {
-                                    "label": "The",
-                                    "score": 1.0,
-                                    "start": 17,
-                                    "end": 18
-                                },
-                                {
-                                    "label": "bombing",
-                                    "score": 1.0,
-                                    "start": 18,
-                                    "end": 19
-                                },
-                                {
-                                    "label": "destroyed",
-                                    "score": 1.0,
-                                    "start": 19,
-                                    "end": 20
-                                },
-                                {
-                                    "label": "the",
-                                    "score": 1.0,
-                                    "start": 20,
-                                    "end": 21
-                                },
-                                {
-                                    "label": "whole",
-                                    "score": 1.0,
-                                    "start": 21,
-                                    "end": 22
-                                },
-                                {
-                                    "label": "building",
-                                    "score": 1.0,
-                                    "start": 22,
-                                    "end": 23
-                                },
-                                {
-                                    "label": ",",
-                                    "score": 1.0,
-                                    "start": 23,
-                                    "end": 24
-                                },
-                                {
-                                    "label": "killing",
-                                    "score": 1.0,
-                                    "start": 24,
-                                    "end": 25
-                                },
-                                {
-                                    "label": "23",
-                                    "score": 1.0,
-                                    "start": 25,
-                                    "end": 26
-                                },
-                                {
-                                    "label": "other",
-                                    "score": 1.0,
-                                    "start": 26,
-                                    "end": 27
-                                },
-                                {
-                                    "label": "people",
-                                    "score": 1.0,
-                                    "start": 27,
-                                    "end": 28
-                                },
-                                {
-                                    "label": ".",
-                                    "score": 1.0,
-                                    "start": 28,
-                                    "end": 29
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "viewName": "Event_extraction",
-                        "viewData": [
-                            {
-                                "viewType": "edu.illinois.cs.cogcomp.core.datastructures.textannotation.PredicateArgumentView",
-                                "viewName": "event_extraction",
-                                "generator": "cogcomp_kairos_event_ie_v1.0",
-                                "score": 1.0,
-                                "constituents": [
-                                    {
-                                        "label": "Conflict:Attack:Unspecified",
-                                        "score": 1.0,
-                                        "start": 3,
-                                        "end": 4,
-                                        "properties": {
-                                            "SenseNumber": "01",
-                                            "sentence_id": 0,
-                                            "predicate": [
-                                                "attack"
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "label": "Attacker",
-                                        "score": 1.0,
-                                        "start": 6,
-                                        "end": 7,
-                                        "entity_type": "gpe"
-                                    },
-                                    {
-                                        "label": "Conflict:Attack:Unspecified",
-                                        "score": 1.0,
-                                        "start": 8,
-                                        "end": 9,
-                                        "properties": {
-                                            "SenseNumber": "01",
-                                            "sentence_id": 0,
-                                            "predicate": [
-                                                "bombers"
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "label": "Attacker",
-                                        "score": 1.0,
-                                        "start": 8,
-                                        "end": 9,
-                                        "entity_type": "per"
-                                    },
-                                    {
-                                        "label": "Target",
-                                        "score": 1.0,
-                                        "start": 6,
-                                        "end": 7,
-                                        "entity_type": "gpe"
-                                    },
-                                    {
-                                        "label": "Disaster:FireExplosion:Unspecified",
-                                        "score": 1.0,
-                                        "start": 18,
-                                        "end": 19,
-                                        "properties": {
-                                            "SenseNumber": "01",
-                                            "sentence_id": 1,
-                                            "predicate": []
-                                        }
-                                    },
-                                    {
-                                        "label": "Place",
-                                        "score": 1.0,
-                                        "start": 22,
-                                        "end": 23,
-                                        "entity_type": "fac"
-                                    }
-                                ],
-                                "relations": [
-                                    {
-                                        "relationName": "coref",
-                                        "srcConstituent": "5",
-                                        "targetConstituent": "2"
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            }
-        },
-        "7be929a50288a3b506169fc2a85e71f5ab8e228c": {
-            "text": "In the January attack, two Palestinian suicide bombers blew themselves up in central Tel Aviv, killing 23 other people.",
-            "res_json": {
-                "corpusId": "",
-                "id": "",
-                "text": "In the January attack, two Palestinian suicide bombers blew themselves up in central Tel Aviv, killing 23 other people.",
-                "tokens": [
-                    "In",
-                    "the",
-                    "January",
-                    "attack",
-                    ",",
-                    "two",
-                    "Palestinian",
-                    "suicide",
-                    "bombers",
-                    "blew",
-                    "themselves",
-                    "up",
-                    "in",
-                    "central",
-                    "Tel",
-                    "Aviv",
-                    ",",
-                    "killing",
-                    "23",
-                    "other",
-                    "people",
+                    "United",
+                    "States",
                     "."
                 ],
                 "sentences": {
@@ -2660,127 +1087,127 @@
                             "score": 1.0,
                             "constituents": [
                                 {
-                                    "label": "In",
+                                    "label": "There",
                                     "score": 1.0,
                                     "start": 0,
                                     "end": 1
                                 },
                                 {
-                                    "label": "the",
+                                    "label": "were",
                                     "score": 1.0,
                                     "start": 1,
                                     "end": 2
                                 },
                                 {
-                                    "label": "January",
+                                    "label": "at",
                                     "score": 1.0,
                                     "start": 2,
                                     "end": 3
                                 },
                                 {
-                                    "label": "attack",
+                                    "label": "least",
                                     "score": 1.0,
                                     "start": 3,
                                     "end": 4
                                 },
                                 {
-                                    "label": ",",
+                                    "label": "40",
                                     "score": 1.0,
                                     "start": 4,
                                     "end": 5
                                 },
                                 {
-                                    "label": "two",
+                                    "label": "tornadoes",
                                     "score": 1.0,
                                     "start": 5,
                                     "end": 6
                                 },
                                 {
-                                    "label": "Palestinian",
+                                    "label": "reported",
                                     "score": 1.0,
                                     "start": 6,
                                     "end": 7
                                 },
                                 {
-                                    "label": "suicide",
+                                    "label": "across",
                                     "score": 1.0,
                                     "start": 7,
                                     "end": 8
                                 },
                                 {
-                                    "label": "bombers",
+                                    "label": "nine",
                                     "score": 1.0,
                                     "start": 8,
                                     "end": 9
                                 },
                                 {
-                                    "label": "blew",
+                                    "label": "states",
                                     "score": 1.0,
                                     "start": 9,
                                     "end": 10
                                 },
                                 {
-                                    "label": "themselves",
+                                    "label": "between",
                                     "score": 1.0,
                                     "start": 10,
                                     "end": 11
                                 },
                                 {
-                                    "label": "up",
+                                    "label": "Friday",
                                     "score": 1.0,
                                     "start": 11,
                                     "end": 12
                                 },
                                 {
-                                    "label": "in",
+                                    "label": "night",
                                     "score": 1.0,
                                     "start": 12,
                                     "end": 13
                                 },
                                 {
-                                    "label": "central",
+                                    "label": "and",
                                     "score": 1.0,
                                     "start": 13,
                                     "end": 14
                                 },
                                 {
-                                    "label": "Tel",
+                                    "label": "early",
                                     "score": 1.0,
                                     "start": 14,
                                     "end": 15
                                 },
                                 {
-                                    "label": "Aviv",
+                                    "label": "Saturday",
                                     "score": 1.0,
                                     "start": 15,
                                     "end": 16
                                 },
                                 {
-                                    "label": ",",
+                                    "label": "morning",
                                     "score": 1.0,
                                     "start": 16,
                                     "end": 17
                                 },
                                 {
-                                    "label": "killing",
+                                    "label": "in",
                                     "score": 1.0,
                                     "start": 17,
                                     "end": 18
                                 },
                                 {
-                                    "label": "23",
+                                    "label": "the",
                                     "score": 1.0,
                                     "start": 18,
                                     "end": 19
                                 },
                                 {
-                                    "label": "other",
+                                    "label": "United",
                                     "score": 1.0,
                                     "start": 19,
                                     "end": 20
                                 },
                                 {
-                                    "label": "people",
+                                    "label": "States",
                                     "score": 1.0,
                                     "start": 20,
                                     "end": 21
@@ -2804,98 +1231,47 @@
                                 "score": 1.0,
                                 "constituents": [
                                     {
-                                        "label": "Conflict:Attack:Unspecified",
+                                        "label": "Disaster:DiseaseOutbreak:Unspecified",
                                         "score": 1.0,
-                                        "start": 3,
-                                        "end": 4,
+                                        "start": 5,
+                                        "end": 6,
                                         "properties": {
                                             "SenseNumber": "01",
                                             "sentence_id": 0,
                                             "predicate": [
-                                                "attack"
+                                                "tornadoes"
                                             ]
                                         }
-                                    },
-                                    {
-                                        "label": "Conflict:Attack:Unspecified",
-                                        "score": 1.0,
-                                        "start": 7,
-                                        "end": 8,
-                                        "properties": {
-                                            "SenseNumber": "01",
-                                            "sentence_id": 0,
-                                            "predicate": [
-                                                "suicide"
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "label": "Attacker",
-                                        "score": 1.0,
-                                        "start": 6,
-                                        "end": 7,
-                                        "entity_type": "gpe"
-                                    },
-                                    {
-                                        "label": "Conflict:Attack:Unspecified",
-                                        "score": 1.0,
-                                        "start": 8,
-                                        "end": 9,
-                                        "properties": {
-                                            "SenseNumber": "01",
-                                            "sentence_id": 0,
-                                            "predicate": [
-                                                "bombers"
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "label": "Attacker",
-                                        "score": 1.0,
-                                        "start": 8,
-                                        "end": 9,
-                                        "entity_type": "per"
                                     }
                                 ],
-                                "relations": [
-                                    {
-                                        "relationName": "Attacker",
-                                        "srcConstituent": 1,
-                                        "targetConstituent": 2
-                                    },
-                                    {
-                                        "relationName": "Attacker",
-                                        "srcConstituent": 3,
-                                        "targetConstituent": 4
-                                    }
-                                ]
+                                "relations": []
                             }
                         ]
                     }
                 ]
             },
             "token": [
-                "In",
-                "the",
-                "January",
-                "attack",
-                ",",
-                "two",
-                "Palestinian",
-                "suicide",
-                "bombers",
-                "blew",
-                "themselves",
-                "up",
+                "There",
+                "were",
+                "at",
+                "least",
+                "40",
+                "tornadoes",
+                "reported",
+                "across",
+                "nine",
+                "states",
+                "between",
+                "Friday",
+                "night",
+                "and",
+                "early",
+                "Saturday",
+                "morning",
                 "in",
-                "central",
-                "Tel",
-                "Aviv",
-                ",",
-                "killing",
-                "23",
-                "other",
-                "people",
+                "the",
+                "United",
+                "States",
                 "."
             ],
             "end_pos": [
@@ -2911,29 +1287,29 @@
                         22
                     ]
                 },
-                "text": "In the January attack, two Palestinian suicide bombers blew themselves up in central Tel Aviv, killing 23 other people.",
+                "text": "There were at least 40 tornadoes reported across nine states between Friday night and early Saturday morning in the United States.",
                 "tokens": [
-                    "In",
-                    "the",
-                    "January",
-                    "attack",
-                    ",",
-                    "two",
-                    "Palestinian",
-                    "suicide",
-                    "bombers",
-                    "blew",
-                    "themselves",
-                    "up",
+                    "There",
+                    "were",
+                    "at",
+                    "least",
+                    "40",
+                    "tornadoes",
+                    "reported",
+                    "across",
+                    "nine",
+                    "states",
+                    "between",
+                    "Friday",
+                    "night",
+                    "and",
+                    "early",
+                    "Saturday",
+                    "morning",
                     "in",
-                    "central",
-                    "Tel",
-                    "Aviv",
-                    ",",
-                    "killing",
-                    "23",
-                    "other",
-                    "people",
+                    "the",
+                    "United",
+                    "States",
                     "."
                 ],
                 "views": [
@@ -2942,127 +1318,127 @@
                             "constituents": [
                                 {
                                     "end": 1,
-                                    "label": "In",
+                                    "label": "There",
                                     "score": 1.0,
                                     "start": 0
                                 },
                                 {
                                     "end": 2,
-                                    "label": "the",
+                                    "label": "were",
                                     "score": 1.0,
                                     "start": 1
                                 },
                                 {
                                     "end": 3,
-                                    "label": "January",
+                                    "label": "at",
                                     "score": 1.0,
                                     "start": 2
                                 },
                                 {
                                     "end": 4,
-                                    "label": "attack",
+                                    "label": "least",
                                     "score": 1.0,
                                     "start": 3
                                 },
                                 {
                                     "end": 5,
-                                    "label": ",",
+                                    "label": "40",
                                     "score": 1.0,
                                     "start": 4
                                 },
                                 {
                                     "end": 6,
-                                    "label": "two",
+                                    "label": "tornadoes",
                                     "score": 1.0,
                                     "start": 5
                                 },
                                 {
                                     "end": 7,
-                                    "label": "Palestinian",
+                                    "label": "reported",
                                     "score": 1.0,
                                     "start": 6
                                 },
                                 {
                                     "end": 8,
-                                    "label": "suicide",
+                                    "label": "across",
                                     "score": 1.0,
                                     "start": 7
                                 },
                                 {
                                     "end": 9,
-                                    "label": "bombers",
+                                    "label": "nine",
                                     "score": 1.0,
                                     "start": 8
                                 },
                                 {
                                     "end": 10,
-                                    "label": "blew",
+                                    "label": "states",
                                     "score": 1.0,
                                     "start": 9
                                 },
                                 {
                                     "end": 11,
-                                    "label": "themselves",
+                                    "label": "between",
                                     "score": 1.0,
                                     "start": 10
                                 },
                                 {
                                     "end": 12,
-                                    "label": "up",
+                                    "label": "Friday",
                                     "score": 1.0,
                                     "start": 11
                                 },
                                 {
                                     "end": 13,
-                                    "label": "in",
+                                    "label": "night",
                                     "score": 1.0,
                                     "start": 12
                                 },
                                 {
                                     "end": 14,
-                                    "label": "central",
+                                    "label": "and",
                                     "score": 1.0,
                                     "start": 13
                                 },
                                 {
                                     "end": 15,
-                                    "label": "Tel",
+                                    "label": "early",
                                     "score": 1.0,
                                     "start": 14
                                 },
                                 {
                                     "end": 16,
-                                    "label": "Aviv",
+                                    "label": "Saturday",
                                     "score": 1.0,
                                     "start": 15
                                 },
                                 {
                                     "end": 17,
-                                    "label": ",",
+                                    "label": "morning",
                                     "score": 1.0,
                                     "start": 16
                                 },
                                 {
                                     "end": 18,
-                                    "label": "killing",
+                                    "label": "in",
                                     "score": 1.0,
                                     "start": 17
                                 },
                                 {
                                     "end": 19,
-                                    "label": "23",
+                                    "label": "the",
                                     "score": 1.0,
                                     "start": 18
                                 },
                                 {
                                     "end": 20,
-                                    "label": "other",
+                                    "label": "United",
                                     "score": 1.0,
                                     "start": 19
                                 },
                                 {
                                     "end": 21,
-                                    "label": "people",
+                                    "label": "States",
                                     "score": 1.0,
                                     "start": 20
                                 },
@@ -3085,123 +1461,21 @@
                             {
                                 "constituents": [
                                     {
-                                        "end": 4,
-                                        "label": "Conflict:Attack:Unspecified",
+                                        "end": 6,
+                                        "label": "Disaster:DiseaseOutbreak:Unspecified",
                                         "properties": {
                                             "SenseNumber": "01",
-                                            "duration": 28595,
                                             "predicate": [
-                                                "attack"
+                                                "tornadoes"
                                             ],
                                             "sentence_id": 0
                                         },
                                         "score": 1.0,
-                                        "start": 3
-                                    },
-                                    {
-                                        "end": 8,
-                                        "label": "Conflict:Attack:Unspecified",
-                                        "properties": {
-                                            "SenseNumber": "01",
-                                            "duration": 57996,
-                                            "predicate": [
-                                                "suicide"
-                                            ],
-                                            "sentence_id": 0
-                                        },
-                                        "score": 1.0,
-                                        "start": 7
-                                    },
-                                    {
-                                        "end": 7,
-                                        "entity_type": "gpe",
-                                        "label": "Attacker",
-                                        "score": 1.0,
-                                        "start": 6
-                                    },
-                                    {
-                                        "end": 9,
-                                        "label": "Conflict:Attack:Unspecified",
-                                        "properties": {
-                                            "SenseNumber": "01",
-                                            "duration": 10166,
-                                            "predicate": [
-                                                "bombers"
-                                            ],
-                                            "sentence_id": 0
-                                        },
-                                        "score": 1.0,
-                                        "start": 8
-                                    },
-                                    {
-                                        "end": 9,
-                                        "entity_type": "per",
-                                        "label": "Attacker",
-                                        "score": 1.0,
-                                        "start": 8
+                                        "start": 5
                                     }
                                 ],
                                 "generator": "cogcomp_kairos_event_ie_v1.0",
-                                "relations": [
-                                    {
-                                        "relationName": "Attacker",
-                                        "srcConstituent": 1,
-                                        "targetConstituent": 2
-                                    },
-                                    {
-                                        "relationName": "Attacker",
-                                        "srcConstituent": 3,
-                                        "targetConstituent": 4
-                                    },
-                                    {
-                                        "properties": {
-                                            "distance": 4483
-                                        },
-                                        "relationName": "before",
-                                        "srcConstituent": 3,
-                                        "targetConstituent": 0
-                                    },
-                                    {
-                                        "properties": {
-                                            "distance": 4483
-                                        },
-                                        "relationName": "after",
-                                        "srcConstituent": 0,
-                                        "targetConstituent": 3
-                                    },
-                                    {
-                                        "properties": {
-                                            "distance": 4520
-                                        },
-                                        "relationName": "before",
-                                        "srcConstituent": 3,
-                                        "targetConstituent": 1
-                                    },
-                                    {
-                                        "properties": {
-                                            "distance": 4520
-                                        },
-                                        "relationName": "after",
-                                        "srcConstituent": 1,
-                                        "targetConstituent": 3
-                                    },
-                                    {
-                                        "properties": {
-                                            "distance": 5110
-                                        },
-                                        "relationName": "before",
-                                        "srcConstituent": 0,
-                                        "targetConstituent": 1
-                                    },
-                                    {
-                                        "properties": {
-                                            "distance": 5110
-                                        },
-                                        "relationName": "after",
-                                        "srcConstituent": 1,
-                                        "targetConstituent": 0
-                                    }
-                                ],
+                                "relations": [],
                                 "score": 1.0,
                                 "viewName": "event_extraction",
                                 "viewType": "edu.illinois.cs.cogcomp.core.datastructures.textannotation.PredicateArgumentView"
@@ -3214,29 +1488,29 @@
             "coref": {
                 "corpusId": "",
                 "id": "",
-                "text": "In the January attack, two Palestinian suicide bombers blew themselves up in central Tel Aviv, killing 23 other people.",
+                "text": "There were at least 40 tornadoes reported across nine states between Friday night and early Saturday morning in the United States.",
                 "tokens": [
-                    "In",
-                    "the",
-                    "January",
-                    "attack",
-                    ",",
-                    "two",
-                    "Palestinian",
-                    "suicide",
-                    "bombers",
-                    "blew",
-                    "themselves",
-                    "up",
+                    "There",
+                    "were",
+                    "at",
+                    "least",
+                    "40",
+                    "tornadoes",
+                    "reported",
+                    "across",
+                    "nine",
+                    "states",
+                    "between",
+                    "Friday",
+                    "night",
+                    "and",
+                    "early",
+                    "Saturday",
+                    "morning",
                     "in",
-                    "central",
-                    "Tel",
-                    "Aviv",
-                    ",",
-                    "killing",
-                    "23",
-                    "other",
-                    "people",
+                    "the",
+                    "United",
+                    "States",
                     "."
                 ],
                 "sentences": {
@@ -3256,127 +1530,127 @@
                             "score": 1.0,
                             "constituents": [
                                 {
-                                    "label": "In",
+                                    "label": "There",
                                     "score": 1.0,
                                     "start": 0,
                                     "end": 1
                                 },
                                 {
-                                    "label": "the",
+                                    "label": "were",
                                     "score": 1.0,
                                     "start": 1,
                                     "end": 2
                                 },
                                 {
-                                    "label": "January",
+                                    "label": "at",
                                     "score": 1.0,
                                     "start": 2,
                                     "end": 3
                                 },
                                 {
-                                    "label": "attack",
+                                    "label": "least",
                                     "score": 1.0,
                                     "start": 3,
                                     "end": 4
                                 },
                                 {
-                                    "label": ",",
+                                    "label": "40",
                                     "score": 1.0,
                                     "start": 4,
                                     "end": 5
                                 },
                                 {
-                                    "label": "two",
+                                    "label": "tornadoes",
                                     "score": 1.0,
                                     "start": 5,
                                     "end": 6
                                 },
                                 {
-                                    "label": "Palestinian",
+                                    "label": "reported",
                                     "score": 1.0,
                                     "start": 6,
                                     "end": 7
                                 },
                                 {
-                                    "label": "suicide",
+                                    "label": "across",
                                     "score": 1.0,
                                     "start": 7,
                                     "end": 8
                                 },
                                 {
-                                    "label": "bombers",
+                                    "label": "nine",
                                     "score": 1.0,
                                     "start": 8,
                                     "end": 9
                                 },
                                 {
-                                    "label": "blew",
+                                    "label": "states",
                                     "score": 1.0,
                                     "start": 9,
                                     "end": 10
                                 },
                                 {
-                                    "label": "themselves",
+                                    "label": "between",
                                     "score": 1.0,
                                     "start": 10,
                                     "end": 11
                                 },
                                 {
-                                    "label": "up",
+                                    "label": "Friday",
                                     "score": 1.0,
                                     "start": 11,
                                     "end": 12
                                 },
                                 {
-                                    "label": "in",
+                                    "label": "night",
                                     "score": 1.0,
                                     "start": 12,
                                     "end": 13
                                 },
                                 {
-                                    "label": "central",
+                                    "label": "and",
                                     "score": 1.0,
                                     "start": 13,
                                     "end": 14
                                 },
                                 {
-                                    "label": "Tel",
+                                    "label": "early",
                                     "score": 1.0,
                                     "start": 14,
                                     "end": 15
                                 },
                                 {
-                                    "label": "Aviv",
+                                    "label": "Saturday",
                                     "score": 1.0,
                                     "start": 15,
                                     "end": 16
                                 },
                                 {
-                                    "label": ",",
+                                    "label": "morning",
                                     "score": 1.0,
                                     "start": 16,
                                     "end": 17
                                 },
                                 {
-                                    "label": "killing",
+                                    "label": "in",
                                     "score": 1.0,
                                     "start": 17,
                                     "end": 18
                                 },
                                 {
-                                    "label": "23",
+                                    "label": "the",
                                     "score": 1.0,
                                     "start": 18,
                                     "end": 19
                                 },
                                 {
-                                    "label": "other",
+                                    "label": "United",
                                     "score": 1.0,
                                     "start": 19,
                                     "end": 20
                                 },
                                 {
-                                    "label": "people",
+                                    "label": "States",
                                     "score": 1.0,
                                     "start": 20,
                                     "end": 21
@@ -3400,92 +1674,45 @@
                                 "score": 1.0,
                                 "constituents": [
                                     {
-                                        "label": "Conflict:Attack:Unspecified",
+                                        "label": "Disaster:DiseaseOutbreak:Unspecified",
                                         "score": 1.0,
-                                        "start": 3,
-                                        "end": 4,
+                                        "start": 5,
+                                        "end": 6,
                                         "properties": {
                                             "SenseNumber": "01",
                                             "sentence_id": 0,
                                             "predicate": [
-                                                "attack"
+                                                "tornadoes"
                                             ]
                                         }
-                                    },
-                                    {
-                                        "label": "Conflict:Attack:Unspecified",
-                                        "score": 1.0,
-                                        "start": 7,
-                                        "end": 8,
-                                        "properties": {
-                                            "SenseNumber": "01",
-                                            "sentence_id": 0,
-                                            "predicate": [
-                                                "suicide"
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "label": "Attacker",
-                                        "score": 1.0,
-                                        "start": 6,
-                                        "end": 7,
-                                        "entity_type": "gpe"
-                                    },
-                                    {
-                                        "label": "Conflict:Attack:Unspecified",
-                                        "score": 1.0,
-                                        "start": 8,
-                                        "end": 9,
-                                        "properties": {
-                                            "SenseNumber": "01",
-                                            "sentence_id": 0,
-                                            "predicate": [
-                                                "bombers"
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "label": "Attacker",
-                                        "score": 1.0,
-                                        "start": 8,
-                                        "end": 9,
-                                        "entity_type": "per"
                                     }
                                 ],
-                                "relations": [
-                                    {
-                                        "relationName": "coref",
-                                        "srcConstituent": "3",
-                                        "targetConstituent": "1"
-                                    }
-                                ]
+                                "relations": []
                             }
                         ]
                     }
                 ]
             }
         },
-        "83805782e3deaae3b51eb51728c50f73f7590aa9": {
-            "text": "The bombing destroys the whole building.",
+        "9256cd0d1dbcf07e4afec95ae134629ab8889cfc": {
+            "text": "The tornadoes destroyed many houses.",
             "res_json": {
                 "corpusId": "",
                 "id": "",
-                "text": "The bombing destroys the whole building.",
+                "text": "The tornadoes destroyed many houses.",
                 "tokens": [
                     "The",
-                    "bombing",
-                    "destroys",
-                    "the",
-                    "whole",
-                    "building",
+                    "tornadoes",
+                    "destroyed",
+                    "many",
+                    "houses",
                     "."
                 ],
                 "sentences": {
                     "generator": "srl_pipeline",
                     "score": 1.0,
                     "sentenceEndPositions": [
-                        7
+                        6
                     ]
                 },
                 "views": [
@@ -3504,40 +1731,34 @@
                                     "end": 1
                                 },
                                 {
-                                    "label": "bombing",
+                                    "label": "tornadoes",
                                     "score": 1.0,
                                     "start": 1,
                                     "end": 2
                                 },
                                 {
-                                    "label": "destroys",
+                                    "label": "destroyed",
                                     "score": 1.0,
                                     "start": 2,
                                     "end": 3
                                 },
                                 {
-                                    "label": "the",
+                                    "label": "many",
                                     "score": 1.0,
                                     "start": 3,
                                     "end": 4
                                 },
                                 {
-                                    "label": "whole",
+                                    "label": "houses",
                                     "score": 1.0,
                                     "start": 4,
                                     "end": 5
                                 },
                                 {
-                                    "label": "building",
+                                    "label": ".",
                                     "score": 1.0,
                                     "start": 5,
                                     "end": 6
-                                },
-                                {
-                                    "label": ".",
-                                    "score": 1.0,
-                                    "start": 6,
-                                    "end": 7
                                 }
                             ]
                         }
@@ -3552,27 +1773,7 @@
                                 "score": 1.0,
                                 "constituents": [
                                     {
-                                        "label": "ArtifactExistence:DamageDestroyDisableDismantle:Destroy",
-                                        "score": 1.0,
-                                        "start": 2,
-                                        "end": 3,
-                                        "properties": {
-                                            "SenseNumber": "01",
-                                            "sentence_id": 0,
-                                            "predicate": [
-                                                "destroys"
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "label": "Place",
-                                        "score": 1.0,
-                                        "start": 5,
-                                        "end": 6,
-                                        "entity_type": "fac"
-                                    },
-                                    {
-                                        "label": "Disaster:FireExplosion:Unspecified",
+                                        "label": "Disaster:Crash:Unspecified",
                                         "score": 1.0,
                                         "start": 1,
                                         "end": 2,
@@ -3580,28 +1781,23 @@
                                             "SenseNumber": "01",
                                             "sentence_id": 0,
                                             "predicate": [
-                                                "bombing"
+                                                "tornadoes"
                                             ]
                                         }
                                     },
                                     {
-                                        "label": "Place",
+                                        "label": "Vehicle",
                                         "score": 1.0,
-                                        "start": 5,
-                                        "end": 6,
+                                        "start": 4,
+                                        "end": 5,
                                         "entity_type": "fac"
                                     }
                                 ],
                                 "relations": [
                                     {
-                                        "relationName": "Place",
+                                        "relationName": "Vehicle",
                                         "srcConstituent": 0,
                                         "targetConstituent": 1
-                                    },
-                                    {
-                                        "relationName": "Place",
-                                        "srcConstituent": 2,
-                                        "targetConstituent": 3
                                     }
                                 ]
                             }
@@ -3611,15 +1807,14 @@
             },
             "token": [
                 "The",
-                "bombing",
-                "destroys",
-                "the",
-                "whole",
-                "building",
+                "tornadoes",
+                "destroyed",
+                "many",
+                "houses",
                 "."
             ],
             "end_pos": [
-                7
+                6
             ],
             "temporal": {
                 "corpusId": "",
@@ -3628,17 +1823,16 @@
                     "generator": "srl_pipeline",
                     "score": 1.0,
                     "sentenceEndPositions": [
-                        7
+                        6
                     ]
                 },
-                "text": "The bombing destroys the whole building.",
+                "text": "The tornadoes destroyed many houses.",
                 "tokens": [
                     "The",
-                    "bombing",
-                    "destroys",
-                    "the",
-                    "whole",
-                    "building",
+                    "tornadoes",
+                    "destroyed",
+                    "many",
+                    "houses",
                     "."
                 ],
                 "views": [
@@ -3653,39 +1847,33 @@
                                 },
                                 {
                                     "end": 2,
-                                    "label": "bombing",
+                                    "label": "tornadoes",
                                     "score": 1.0,
                                     "start": 1
                                 },
                                 {
                                     "end": 3,
-                                    "label": "destroys",
+                                    "label": "destroyed",
                                     "score": 1.0,
                                     "start": 2
                                 },
                                 {
                                     "end": 4,
-                                    "label": "the",
+                                    "label": "many",
                                     "score": 1.0,
                                     "start": 3
                                 },
                                 {
                                     "end": 5,
-                                    "label": "whole",
+                                    "label": "houses",
                                     "score": 1.0,
                                     "start": 4
                                 },
                                 {
                                     "end": 6,
-                                    "label": "building",
-                                    "score": 1.0,
-                                    "start": 5
-                                },
-                                {
-                                    "end": 7,
                                     "label": ".",
                                     "score": 1.0,
-                                    "start": 6
+                                    "start": 5
                                 }
                             ],
                             "generator": "Cogcomp-SRL",
@@ -3700,34 +1888,12 @@
                             {
                                 "constituents": [
                                     {
-                                        "end": 3,
-                                        "label": "ArtifactExistence:DamageDestroyDisableDismantle:Destroy",
-                                        "properties": {
-                                            "SenseNumber": "01",
-                                            "duration": 237134,
-                                            "predicate": [
-                                                "destroys"
-                                            ],
-                                            "sentence_id": 0
-                                        },
-                                        "score": 1.0,
-                                        "start": 2
-                                    },
-                                    {
-                                        "end": 6,
-                                        "entity_type": "fac",
-                                        "label": "Place",
-                                        "score": 1.0,
-                                        "start": 5
-                                    },
-                                    {
                                         "end": 2,
-                                        "label": "Disaster:FireExplosion:Unspecified",
+                                        "label": "Disaster:Crash:Unspecified",
                                         "properties": {
                                             "SenseNumber": "01",
-                                            "duration": 13,
                                             "predicate": [
-                                                "bombing"
+                                                "tornadoes"
                                             ],
                                             "sentence_id": 0
                                         },
@@ -3735,40 +1901,19 @@
                                         "start": 1
                                     },
                                     {
-                                        "end": 6,
+                                        "end": 5,
                                         "entity_type": "fac",
-                                        "label": "Place",
+                                        "label": "Vehicle",
                                         "score": 1.0,
-                                        "start": 5
+                                        "start": 4
                                     }
                                 ],
                                 "generator": "cogcomp_kairos_event_ie_v1.0",
                                 "relations": [
                                     {
-                                        "relationName": "Place",
+                                        "relationName": "Vehicle",
                                         "srcConstituent": 0,
                                         "targetConstituent": 1
-                                    },
-                                    {
-                                        "relationName": "Place",
-                                        "srcConstituent": 2,
-                                        "targetConstituent": 3
-                                    },
-                                    {
-                                        "properties": {
-                                            "distance": 4093
-                                        },
-                                        "relationName": "before",
-                                        "srcConstituent": 2,
-                                        "targetConstituent": 0
-                                    },
-                                    {
-                                        "properties": {
-                                            "distance": 4093
-                                        },
-                                        "relationName": "after",
-                                        "srcConstituent": 0,
-                                        "targetConstituent": 2
                                     }
                                 ],
                                 "score": 1.0,
@@ -3783,21 +1928,20 @@
             "coref": {
                 "corpusId": "",
                 "id": "",
-                "text": "The bombing destroys the whole building.",
+                "text": "The tornadoes destroyed many houses.",
                 "tokens": [
                     "The",
-                    "bombing",
-                    "destroys",
-                    "the",
-                    "whole",
-                    "building",
+                    "tornadoes",
+                    "destroyed",
+                    "many",
+                    "houses",
                     "."
                 ],
                 "sentences": {
                     "generator": "srl_pipeline",
                     "score": 1.0,
                     "sentenceEndPositions": [
-                        7
+                        6
                     ]
                 },
                 "views": [
@@ -3816,40 +1960,34 @@
                                     "end": 1
                                 },
                                 {
-                                    "label": "bombing",
+                                    "label": "tornadoes",
                                     "score": 1.0,
                                     "start": 1,
                                     "end": 2
                                 },
                                 {
-                                    "label": "destroys",
+                                    "label": "destroyed",
                                     "score": 1.0,
                                     "start": 2,
                                     "end": 3
                                 },
                                 {
-                                    "label": "the",
+                                    "label": "many",
                                     "score": 1.0,
                                     "start": 3,
                                     "end": 4
                                 },
                                 {
-                                    "label": "whole",
+                                    "label": "houses",
                                     "score": 1.0,
                                     "start": 4,
                                     "end": 5
                                 },
                                 {
-                                    "label": "building",
+                                    "label": ".",
                                     "score": 1.0,
                                     "start": 5,
                                     "end": 6
-                                },
-                                {
-                                    "label": ".",
-                                    "score": 1.0,
-                                    "start": 6,
-                                    "end": 7
                                 }
                             ]
                         }
@@ -3864,27 +2002,7 @@
                                 "score": 1.0,
                                 "constituents": [
                                     {
-                                        "label": "ArtifactExistence:DamageDestroyDisableDismantle:Destroy",
-                                        "score": 1.0,
-                                        "start": 2,
-                                        "end": 3,
-                                        "properties": {
-                                            "SenseNumber": "01",
-                                            "sentence_id": 0,
-                                            "predicate": [
-                                                "destroys"
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "label": "Place",
-                                        "score": 1.0,
-                                        "start": 5,
-                                        "end": 6,
-                                        "entity_type": "fac"
-                                    },
-                                    {
-                                        "label": "Disaster:FireExplosion:Unspecified",
+                                        "label": "Disaster:Crash:Unspecified",
                                         "score": 1.0,
                                         "start": 1,
                                         "end": 2,
@@ -3892,15 +2010,15 @@
                                             "SenseNumber": "01",
                                             "sentence_id": 0,
                                             "predicate": [
-                                                "bombing"
+                                                "tornadoes"
                                             ]
                                         }
                                     },
                                     {
-                                        "label": "Place",
+                                        "label": "Vehicle",
                                         "score": 1.0,
-                                        "start": 5,
-                                        "end": 6,
+                                        "start": 4,
+                                        "end": 5,
                                         "entity_type": "fac"
                                     }
                                 ],
@@ -17837,8 +15955,8 @@
                                 "relations": [
                                     {
                                         "relationName": "coref",
-                                        "srcConstituent": "0",
-                                        "targetConstituent": "3"
+                                        "srcConstituent": "3",
+                                        "targetConstituent": "0"
                                     }
                                 ]
                             }
@@ -27924,17 +26042,17 @@
                                 "relations": [
                                     {
                                         "relationName": "coref",
-                                        "srcConstituent": "5",
-                                        "targetConstituent": "1"
-                                    },
-                                    {
-                                        "relationName": "coref",
-                                        "srcConstituent": "5",
-                                        "targetConstituent": "6"
+                                        "srcConstituent": "1",
+                                        "targetConstituent": "5"
                                     },
                                     {
                                         "relationName": "coref",
                                         "srcConstituent": "1",
+                                        "targetConstituent": "6"
+                                    },
+                                    {
+                                        "relationName": "coref",
+                                        "srcConstituent": "5",
                                         "targetConstituent": "6"
                                     }
                                 ]
@@ -30507,8 +28625,8 @@
                                     },
                                     {
                                         "relationName": "coref",
-                                        "srcConstituent": "2",
-                                        "targetConstituent": "1"
+                                        "srcConstituent": "1",
+                                        "targetConstituent": "2"
                                     }
                                 ]
                             }
