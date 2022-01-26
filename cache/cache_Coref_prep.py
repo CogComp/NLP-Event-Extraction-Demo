@@ -17,7 +17,7 @@ BASE_KAIROS_STORYLINE_HTTP = "http://leguin.seas.upenn.edu:4025/annotate"
 
 def getSTORYLINE(events_json):
     input = events_json
-    print("==== STORYLINE =====")
+    print("==== GENERATING STORYLINE =====")
     # print(eventsOutput)
     # res_out = requests.post(BASE_KAIROS_TEMPORAL_HTTP, data = input)
     res_out = requests.post(BASE_KAIROS_STORYLINE_HTTP, json = input)
@@ -43,9 +43,9 @@ def getSTORYLINE(events_json):
 
 def load(name):
     try:
-        with open('cache/cache_' + name + '.json') as file_obj:
+        with open('cache_' + name + '.json') as file_obj:
             cache = json.load(file_obj)
-        print("Successfully load cache from cache_" + name + ".json.")
+        print("Successfully loaded cache from cache_" + name + ".json")
     except:
         ValueError("Cannot find cache_" + name + ".json")
 
@@ -61,13 +61,13 @@ if __name__ == "__main__":
         try:
             res_out_json = getSTORYLINE(annjsonEvents)
             cache_EE['eng'][key]['coref'] = res_out_json            
-            print('The ' + str(count+1) +'th sample has been added into cache_EE!!')
+            print('Sample ' + str(count + 1) + ' has been added to cache_EE!!')
             print(cache_EE['eng'][key]['text'])
             count += 1
         except:
-            print('Fail to add the ' + str(count+1) +'th sample into cache_EE!!')
+            print('Failed to add sample ' + str(count + 1) +'into cache_EE!!')
             count +=1
 
     cache_Coref_json = json.dumps(cache_EE, indent=4)
-    with open('cache/cache_EE.json', 'w') as json_file:
+    with open('cache_EE.json', 'w') as json_file:
         json_file.write(cache_Coref_json) 
