@@ -6,77 +6,6 @@
                 "corpusId": "",
                 "id": "",
                 "text": "At least seven historically Black colleges and universities (HBCUs) across the United States received back-to-back bomb threats this week, forcing students to evacuate or shelter in place while authorities investigated. The threats come amid a dramatic rise in bombings in the US and follow bomb threats at other US colleges last November.",
-                "tokens": [
-                    "At",
-                    "least",
-                    "seven",
-                    "historically",
-                    "Black",
-                    "colleges",
-                    "and",
-                    "universities",
-                    "(",
-                    "HBCUs",
-                    ")",
-                    "across",
-                    "the",
-                    "United",
-                    "States",
-                    "received",
-                    "back",
-                    "-",
-                    "to",
-                    "-",
-                    "back",
-                    "bomb",
-                    "threats",
-                    "this",
-                    "week",
-                    ",",
-                    "forcing",
-                    "students",
-                    "to",
-                    "evacuate",
-                    "or",
-                    "shelter",
-                    "in",
-                    "place",
-                    "while",
-                    "authorities",
-                    "investigated",
-                    ".",
-                    "The",
-                    "threats",
-                    "come",
-                    "amid",
-                    "a",
-                    "dramatic",
-                    "rise",
-                    "in",
-                    "bombings",
-                    "in",
-                    "the",
-                    "US",
-                    "and",
-                    "follow",
-                    "bomb",
-                    "threats",
-                    "at",
-                    "other",
-                    "US",
-                    "colleges",
-                    "last",
-                    "November",
-                    "."
-                ],
-                "sentences": {
-                    "generator": "srl_pipeline",
-                    "score": 1.0,
-                    "sentenceEndPositions": [
-                        38,
-                        61
-                    ]
-                },
                 "views": [
                     {
                         "viewName": "TOKENS",
@@ -567,7 +496,78 @@
                             }
                         ]
                     }
-                ]
+                ],
+                "tokens": [
+                    "At",
+                    "least",
+                    "seven",
+                    "historically",
+                    "Black",
+                    "colleges",
+                    "and",
+                    "universities",
+                    "(",
+                    "HBCUs",
+                    ")",
+                    "across",
+                    "the",
+                    "United",
+                    "States",
+                    "received",
+                    "back",
+                    "-",
+                    "to",
+                    "-",
+                    "back",
+                    "bomb",
+                    "threats",
+                    "this",
+                    "week",
+                    ",",
+                    "forcing",
+                    "students",
+                    "to",
+                    "evacuate",
+                    "or",
+                    "shelter",
+                    "in",
+                    "place",
+                    "while",
+                    "authorities",
+                    "investigated",
+                    ".",
+                    "The",
+                    "threats",
+                    "come",
+                    "amid",
+                    "a",
+                    "dramatic",
+                    "rise",
+                    "in",
+                    "bombings",
+                    "in",
+                    "the",
+                    "US",
+                    "and",
+                    "follow",
+                    "bomb",
+                    "threats",
+                    "at",
+                    "other",
+                    "US",
+                    "colleges",
+                    "last",
+                    "November",
+                    "."
+                ],
+                "sentences": {
+                    "generator": "srl_pipeline",
+                    "score": 1.0,
+                    "sentenceEndPositions": [
+                        38,
+                        61
+                    ]
+                }
             },
             "token": [
                 "At",
@@ -1372,77 +1372,6 @@
                 "corpusId": "",
                 "id": "",
                 "text": "At least seven historically Black colleges and universities (HBCUs) across the United States received back-to-back bomb threats this week, forcing students to evacuate or shelter in place while authorities investigated. The threats come amid a dramatic rise in bombings in the US and follow bomb threats at other US colleges last November.",
-                "tokens": [
-                    "At",
-                    "least",
-                    "seven",
-                    "historically",
-                    "Black",
-                    "colleges",
-                    "and",
-                    "universities",
-                    "(",
-                    "HBCUs",
-                    ")",
-                    "across",
-                    "the",
-                    "United",
-                    "States",
-                    "received",
-                    "back",
-                    "-",
-                    "to",
-                    "-",
-                    "back",
-                    "bomb",
-                    "threats",
-                    "this",
-                    "week",
-                    ",",
-                    "forcing",
-                    "students",
-                    "to",
-                    "evacuate",
-                    "or",
-                    "shelter",
-                    "in",
-                    "place",
-                    "while",
-                    "authorities",
-                    "investigated",
-                    ".",
-                    "The",
-                    "threats",
-                    "come",
-                    "amid",
-                    "a",
-                    "dramatic",
-                    "rise",
-                    "in",
-                    "bombings",
-                    "in",
-                    "the",
-                    "US",
-                    "and",
-                    "follow",
-                    "bomb",
-                    "threats",
-                    "at",
-                    "other",
-                    "US",
-                    "colleges",
-                    "last",
-                    "November",
-                    "."
-                ],
-                "sentences": {
-                    "generator": "srl_pipeline",
-                    "score": 1.0,
-                    "sentenceEndPositions": [
-                        38,
-                        61
-                    ]
-                },
                 "views": [
                     {
                         "viewName": "TOKENS",
@@ -1916,24 +1845,95 @@
                                 "relations": [
                                     {
                                         "relationName": "coref",
-                                        "srcConstituent": "6",
+                                        "srcConstituent": "1",
+                                        "targetConstituent": "6"
+                                    },
+                                    {
+                                        "relationName": "coref",
+                                        "srcConstituent": "1",
                                         "targetConstituent": "0"
                                     },
                                     {
                                         "relationName": "coref",
                                         "srcConstituent": "6",
-                                        "targetConstituent": "1"
-                                    },
-                                    {
-                                        "relationName": "coref",
-                                        "srcConstituent": "0",
-                                        "targetConstituent": "1"
+                                        "targetConstituent": "0"
                                     }
                                 ]
                             }
                         ]
                     }
-                ]
+                ],
+                "tokens": [
+                    "At",
+                    "least",
+                    "seven",
+                    "historically",
+                    "Black",
+                    "colleges",
+                    "and",
+                    "universities",
+                    "(",
+                    "HBCUs",
+                    ")",
+                    "across",
+                    "the",
+                    "United",
+                    "States",
+                    "received",
+                    "back",
+                    "-",
+                    "to",
+                    "-",
+                    "back",
+                    "bomb",
+                    "threats",
+                    "this",
+                    "week",
+                    ",",
+                    "forcing",
+                    "students",
+                    "to",
+                    "evacuate",
+                    "or",
+                    "shelter",
+                    "in",
+                    "place",
+                    "while",
+                    "authorities",
+                    "investigated",
+                    ".",
+                    "The",
+                    "threats",
+                    "come",
+                    "amid",
+                    "a",
+                    "dramatic",
+                    "rise",
+                    "in",
+                    "bombings",
+                    "in",
+                    "the",
+                    "US",
+                    "and",
+                    "follow",
+                    "bomb",
+                    "threats",
+                    "at",
+                    "other",
+                    "US",
+                    "colleges",
+                    "last",
+                    "November",
+                    "."
+                ],
+                "sentences": {
+                    "generator": "srl_pipeline",
+                    "score": 1.0,
+                    "sentenceEndPositions": [
+                        38,
+                        61
+                    ]
+                }
             }
         },
         "77a4f19437f0662b93942dd4896351a4c0c9f6b5": {
@@ -1942,62 +1942,6 @@
                 "corpusId": "",
                 "id": "",
                 "text": "Police arrested seven rioters in The Hague on Saturday night after youths set fires in the streets and threw fireworks at officers. The unrest came a day after police opened fire on protesters in violence that broke out at a protest against coronavirus restrictions.",
-                "tokens": [
-                    "Police",
-                    "arrested",
-                    "seven",
-                    "rioters",
-                    "in",
-                    "The",
-                    "Hague",
-                    "on",
-                    "Saturday",
-                    "night",
-                    "after",
-                    "youths",
-                    "set",
-                    "fires",
-                    "in",
-                    "the",
-                    "streets",
-                    "and",
-                    "threw",
-                    "fireworks",
-                    "at",
-                    "officers",
-                    ".",
-                    "The",
-                    "unrest",
-                    "came",
-                    "a",
-                    "day",
-                    "after",
-                    "police",
-                    "opened",
-                    "fire",
-                    "on",
-                    "protesters",
-                    "in",
-                    "violence",
-                    "that",
-                    "broke",
-                    "out",
-                    "at",
-                    "a",
-                    "protest",
-                    "against",
-                    "coronavirus",
-                    "restrictions",
-                    "."
-                ],
-                "sentences": {
-                    "generator": "srl_pipeline",
-                    "score": 1.0,
-                    "sentenceEndPositions": [
-                        23,
-                        46
-                    ]
-                },
                 "views": [
                     {
                         "viewName": "TOKENS",
@@ -2446,7 +2390,63 @@
                             }
                         ]
                     }
-                ]
+                ],
+                "tokens": [
+                    "Police",
+                    "arrested",
+                    "seven",
+                    "rioters",
+                    "in",
+                    "The",
+                    "Hague",
+                    "on",
+                    "Saturday",
+                    "night",
+                    "after",
+                    "youths",
+                    "set",
+                    "fires",
+                    "in",
+                    "the",
+                    "streets",
+                    "and",
+                    "threw",
+                    "fireworks",
+                    "at",
+                    "officers",
+                    ".",
+                    "The",
+                    "unrest",
+                    "came",
+                    "a",
+                    "day",
+                    "after",
+                    "police",
+                    "opened",
+                    "fire",
+                    "on",
+                    "protesters",
+                    "in",
+                    "violence",
+                    "that",
+                    "broke",
+                    "out",
+                    "at",
+                    "a",
+                    "protest",
+                    "against",
+                    "coronavirus",
+                    "restrictions",
+                    "."
+                ],
+                "sentences": {
+                    "generator": "srl_pipeline",
+                    "score": 1.0,
+                    "sentenceEndPositions": [
+                        23,
+                        46
+                    ]
+                }
             },
             "token": [
                 "Police",
@@ -3179,62 +3179,6 @@
                 "corpusId": "",
                 "id": "",
                 "text": "Police arrested seven rioters in The Hague on Saturday night after youths set fires in the streets and threw fireworks at officers. The unrest came a day after police opened fire on protesters in violence that broke out at a protest against coronavirus restrictions.",
-                "tokens": [
-                    "Police",
-                    "arrested",
-                    "seven",
-                    "rioters",
-                    "in",
-                    "The",
-                    "Hague",
-                    "on",
-                    "Saturday",
-                    "night",
-                    "after",
-                    "youths",
-                    "set",
-                    "fires",
-                    "in",
-                    "the",
-                    "streets",
-                    "and",
-                    "threw",
-                    "fireworks",
-                    "at",
-                    "officers",
-                    ".",
-                    "The",
-                    "unrest",
-                    "came",
-                    "a",
-                    "day",
-                    "after",
-                    "police",
-                    "opened",
-                    "fire",
-                    "on",
-                    "protesters",
-                    "in",
-                    "violence",
-                    "that",
-                    "broke",
-                    "out",
-                    "at",
-                    "a",
-                    "protest",
-                    "against",
-                    "coronavirus",
-                    "restrictions",
-                    "."
-                ],
-                "sentences": {
-                    "generator": "srl_pipeline",
-                    "score": 1.0,
-                    "sentenceEndPositions": [
-                        23,
-                        46
-                    ]
-                },
                 "views": [
                     {
                         "viewName": "TOKENS",
@@ -3647,7 +3591,63 @@
                             }
                         ]
                     }
-                ]
+                ],
+                "tokens": [
+                    "Police",
+                    "arrested",
+                    "seven",
+                    "rioters",
+                    "in",
+                    "The",
+                    "Hague",
+                    "on",
+                    "Saturday",
+                    "night",
+                    "after",
+                    "youths",
+                    "set",
+                    "fires",
+                    "in",
+                    "the",
+                    "streets",
+                    "and",
+                    "threw",
+                    "fireworks",
+                    "at",
+                    "officers",
+                    ".",
+                    "The",
+                    "unrest",
+                    "came",
+                    "a",
+                    "day",
+                    "after",
+                    "police",
+                    "opened",
+                    "fire",
+                    "on",
+                    "protesters",
+                    "in",
+                    "violence",
+                    "that",
+                    "broke",
+                    "out",
+                    "at",
+                    "a",
+                    "protest",
+                    "against",
+                    "coronavirus",
+                    "restrictions",
+                    "."
+                ],
+                "sentences": {
+                    "generator": "srl_pipeline",
+                    "score": 1.0,
+                    "sentenceEndPositions": [
+                        23,
+                        46
+                    ]
+                }
             }
         },
         "21aa912920c0f649b669fcea55778abd9d233793": {
@@ -3656,58 +3656,6 @@
                 "corpusId": "",
                 "id": "",
                 "text": "The World Health Organization on Wednesday declared the novel coronavirus outbreak a pandemic. There are 118,000 cases, more than 4,000 deaths, the agency said, and the virus has found a foothold on every continent except for Antarctica.",
-                "tokens": [
-                    "The",
-                    "World",
-                    "Health",
-                    "Organization",
-                    "on",
-                    "Wednesday",
-                    "declared",
-                    "the",
-                    "novel",
-                    "coronavirus",
-                    "outbreak",
-                    "a",
-                    "pandemic",
-                    ".",
-                    "There",
-                    "are",
-                    "118,000",
-                    "cases",
-                    ",",
-                    "more",
-                    "than",
-                    "4,000",
-                    "deaths",
-                    ",",
-                    "the",
-                    "agency",
-                    "said",
-                    ",",
-                    "and",
-                    "the",
-                    "virus",
-                    "has",
-                    "found",
-                    "a",
-                    "foothold",
-                    "on",
-                    "every",
-                    "continent",
-                    "except",
-                    "for",
-                    "Antarctica",
-                    "."
-                ],
-                "sentences": {
-                    "generator": "srl_pipeline",
-                    "score": 1.0,
-                    "sentenceEndPositions": [
-                        14,
-                        42
-                    ]
-                },
                 "views": [
                     {
                         "viewName": "TOKENS",
@@ -4134,7 +4082,63 @@
                             }
                         ]
                     }
-                ]
+                ],
+                "tokens": [
+                    "The",
+                    "World",
+                    "Health",
+                    "Organization",
+                    "on",
+                    "Wednesday",
+                    "declared",
+                    "the",
+                    "novel",
+                    "coronavirus",
+                    "outbreak",
+                    "a",
+                    "pandemic",
+                    ".",
+                    "There",
+                    "are",
+                    "118",
+                    ",",
+                    "000",
+                    "cases",
+                    ",",
+                    "more",
+                    "than",
+                    "4",
+                    ",",
+                    "000",
+                    "deaths",
+                    ",",
+                    "the",
+                    "agency",
+                    "said",
+                    ",",
+                    "and",
+                    "the",
+                    "virus",
+                    "has",
+                    "found",
+                    "a",
+                    "foothold",
+                    "on",
+                    "every",
+                    "continent",
+                    "except",
+                    "for",
+                    "Antarctica",
+                    "."
+                ],
+                "sentences": {
+                    "generator": "srl_pipeline",
+                    "score": 1.0,
+                    "sentenceEndPositions": [
+                        14,
+                        46
+                    ]
+                }
             },
             "token": [
                 "The",
@@ -4153,12 +4157,16 @@
                 ".",
                 "There",
                 "are",
-                "118,000",
+                "118",
+                ",",
+                "000",
                 "cases",
                 ",",
                 "more",
                 "than",
-                "4,000",
+                "4",
+                ",",
+                "000",
                 "deaths",
                 ",",
                 "the",
@@ -4182,7 +4190,7 @@
             ],
             "end_pos": [
                 14,
-                42
+                46
             ],
             "temporal": {
                 "corpusId": "",
@@ -4192,7 +4200,7 @@
                     "score": 1.0,
                     "sentenceEndPositions": [
                         14,
-                        42
+                        46
                     ]
                 },
                 "text": "The World Health Organization on Wednesday declared the novel coronavirus outbreak a pandemic. There are 118,000 cases, more than 4,000 deaths, the agency said, and the virus has found a foothold on every continent except for Antarctica.",
@@ -4213,12 +4221,16 @@
                     ".",
                     "There",
                     "are",
-                    "118,000",
+                    "118",
+                    ",",
+                    "000",
                     "cases",
                     ",",
                     "more",
                     "than",
-                    "4,000",
+                    "4",
+                    ",",
+                    "000",
                     "deaths",
                     ",",
                     "the",
@@ -4537,7 +4549,7 @@
                                         "label": "Disaster:DiseaseOutbreak:Unspecified",
                                         "properties": {
                                             "SenseNumber": "01",
-                                            "duration": 2614051,
+                                            "duration": 2283069,
                                             "predicate": [
                                                 "coronavirus"
                                             ],
@@ -4558,7 +4570,7 @@
                                         "label": "Disaster:DiseaseOutbreak:Unspecified",
                                         "properties": {
                                             "SenseNumber": "01",
-                                            "duration": 1669568,
+                                            "duration": 1328782,
                                             "predicate": [
                                                 "outbreak"
                                             ],
@@ -4579,7 +4591,7 @@
                                         "label": "Disaster:DiseaseOutbreak:Unspecified",
                                         "properties": {
                                             "SenseNumber": "01",
-                                            "duration": 1131046,
+                                            "duration": 892443,
                                             "predicate": [
                                                 "pandemic"
                                             ],
@@ -4600,7 +4612,7 @@
                                         "label": "Disaster:DiseaseOutbreak:Unspecified",
                                         "properties": {
                                             "SenseNumber": "01",
-                                            "duration": 1326631,
+                                            "duration": 1154599,
                                             "predicate": [
                                                 "the"
                                             ],
@@ -4614,7 +4626,7 @@
                                         "label": "Disaster:DiseaseOutbreak:Unspecified",
                                         "properties": {
                                             "SenseNumber": "01",
-                                            "duration": 1801443,
+                                            "duration": 1318679,
                                             "predicate": [],
                                             "sentence_id": 1
                                         },
@@ -4665,7 +4677,7 @@
                                     },
                                     {
                                         "properties": {
-                                            "distance": 10084
+                                            "distance": 8592
                                         },
                                         "relationName": "before",
                                         "srcConstituent": 7,
@@ -4673,7 +4685,7 @@
                                     },
                                     {
                                         "properties": {
-                                            "distance": 10084
+                                            "distance": 8592
                                         },
                                         "relationName": "after",
                                         "srcConstituent": 0,
@@ -4681,7 +4693,7 @@
                                     },
                                     {
                                         "properties": {
-                                            "distance": 9925
+                                            "distance": 9323
                                         },
                                         "relationName": "before",
                                         "srcConstituent": 7,
@@ -4689,7 +4701,7 @@
                                     },
                                     {
                                         "properties": {
-                                            "distance": 9925
+                                            "distance": 9323
                                         },
                                         "relationName": "after",
                                         "srcConstituent": 2,
@@ -4697,7 +4709,7 @@
                                     },
                                     {
                                         "properties": {
-                                            "distance": 10065
+                                            "distance": 9310
                                         },
                                         "relationName": "before",
                                         "srcConstituent": 7,
@@ -4705,7 +4717,7 @@
                                     },
                                     {
                                         "properties": {
-                                            "distance": 10065
+                                            "distance": 9310
                                         },
                                         "relationName": "after",
                                         "srcConstituent": 6,
@@ -4713,7 +4725,7 @@
                                     },
                                     {
                                         "properties": {
-                                            "distance": 10087
+                                            "distance": 8715
                                         },
                                         "relationName": "before",
                                         "srcConstituent": 7,
@@ -4721,7 +4733,7 @@
                                     },
                                     {
                                         "properties": {
-                                            "distance": 10087
+                                            "distance": 8715
                                         },
                                         "relationName": "after",
                                         "srcConstituent": 4,
@@ -4729,7 +4741,7 @@
                                     },
                                     {
                                         "properties": {
-                                            "distance": 8633
+                                            "distance": 8541
                                         },
                                         "relationName": "before",
                                         "srcConstituent": 0,
@@ -4737,7 +4749,7 @@
                                     },
                                     {
                                         "properties": {
-                                            "distance": 8633
+                                            "distance": 8541
                                         },
                                         "relationName": "after",
                                         "srcConstituent": 2,
@@ -4745,7 +4757,7 @@
                                     },
                                     {
                                         "properties": {
-                                            "distance": 8289
+                                            "distance": 8219
                                         },
                                         "relationName": "before",
                                         "srcConstituent": 0,
@@ -4753,7 +4765,7 @@
                                     },
                                     {
                                         "properties": {
-                                            "distance": 8289
+                                            "distance": 8219
                                         },
                                         "relationName": "after",
                                         "srcConstituent": 6,
@@ -4761,7 +4773,7 @@
                                     },
                                     {
                                         "properties": {
-                                            "distance": 8073
+                                            "distance": 8065
                                         },
                                         "relationName": "before",
                                         "srcConstituent": 0,
@@ -4769,7 +4781,7 @@
                                     },
                                     {
                                         "properties": {
-                                            "distance": 8073
+                                            "distance": 8065
                                         },
                                         "relationName": "after",
                                         "srcConstituent": 4,
@@ -4777,7 +4789,7 @@
                                     },
                                     {
                                         "properties": {
-                                            "distance": 8835
+                                            "distance": 9035
                                         },
                                         "relationName": "before",
                                         "srcConstituent": 2,
@@ -4785,7 +4797,7 @@
                                     },
                                     {
                                         "properties": {
-                                            "distance": 8835
+                                            "distance": 9035
                                         },
                                         "relationName": "after",
                                         "srcConstituent": 6,
@@ -4793,7 +4805,7 @@
                                     },
                                     {
                                         "properties": {
-                                            "distance": 8004
+                                            "distance": 7529
                                         },
                                         "relationName": "before",
                                         "srcConstituent": 2,
@@ -4801,7 +4813,7 @@
                                     },
                                     {
                                         "properties": {
-                                            "distance": 8004
+                                            "distance": 7529
                                         },
                                         "relationName": "after",
                                         "srcConstituent": 4,
@@ -4809,7 +4821,7 @@
                                     },
                                     {
                                         "properties": {
-                                            "distance": 7361
+                                            "distance": 8244
                                         },
                                         "relationName": "before",
                                         "srcConstituent": 6,
@@ -4817,7 +4829,7 @@
                                     },
                                     {
                                         "properties": {
-                                            "distance": 7361
+                                            "distance": 8244
                                         },
                                         "relationName": "after",
                                         "srcConstituent": 4,
@@ -4837,58 +4849,6 @@
                 "corpusId": "",
                 "id": "",
                 "text": "The World Health Organization on Wednesday declared the novel coronavirus outbreak a pandemic. There are 118,000 cases, more than 4,000 deaths, the agency said, and the virus has found a foothold on every continent except for Antarctica.",
-                "tokens": [
-                    "The",
-                    "World",
-                    "Health",
-                    "Organization",
-                    "on",
-                    "Wednesday",
-                    "declared",
-                    "the",
-                    "novel",
-                    "coronavirus",
-                    "outbreak",
-                    "a",
-                    "pandemic",
-                    ".",
-                    "There",
-                    "are",
-                    "118,000",
-                    "cases",
-                    ",",
-                    "more",
-                    "than",
-                    "4,000",
-                    "deaths",
-                    ",",
-                    "the",
-                    "agency",
-                    "said",
-                    ",",
-                    "and",
-                    "the",
-                    "virus",
-                    "has",
-                    "found",
-                    "a",
-                    "foothold",
-                    "on",
-                    "every",
-                    "continent",
-                    "except",
-                    "for",
-                    "Antarctica",
-                    "."
-                ],
-                "sentences": {
-                    "generator": "srl_pipeline",
-                    "score": 1.0,
-                    "sentenceEndPositions": [
-                        14,
-                        42
-                    ]
-                },
                 "views": [
                     {
                         "viewName": "TOKENS",
@@ -5285,11 +5245,73 @@
                                         "entity_type": "loc"
                                     }
                                 ],
-                                "relations": []
+                                "relations": [
+                                    {
+                                        "relationName": "coref",
+                                        "srcConstituent": "7",
+                                        "targetConstituent": "0"
+                                    }
+                                ]
                             }
                         ]
                     }
-                ]
+                ],
+                "tokens": [
+                    "The",
+                    "World",
+                    "Health",
+                    "Organization",
+                    "on",
+                    "Wednesday",
+                    "declared",
+                    "the",
+                    "novel",
+                    "coronavirus",
+                    "outbreak",
+                    "a",
+                    "pandemic",
+                    ".",
+                    "There",
+                    "are",
+                    "118",
+                    ",",
+                    "000",
+                    "cases",
+                    ",",
+                    "more",
+                    "than",
+                    "4",
+                    ",",
+                    "000",
+                    "deaths",
+                    ",",
+                    "the",
+                    "agency",
+                    "said",
+                    ",",
+                    "and",
+                    "the",
+                    "virus",
+                    "has",
+                    "found",
+                    "a",
+                    "foothold",
+                    "on",
+                    "every",
+                    "continent",
+                    "except",
+                    "for",
+                    "Antarctica",
+                    "."
+                ],
+                "sentences": {
+                    "generator": "srl_pipeline",
+                    "score": 1.0,
+                    "sentenceEndPositions": [
+                        14,
+                        46
+                    ]
+                }
             }
         },
         "054a46453f3163f6ecf6a478c48b549734a16420": {
@@ -5298,86 +5320,6 @@
                 "corpusId": "",
                 "id": "",
                 "text": "The number of people already infected by the mystery virus emerging in China is far greater than official figures suggest, scientists have told the BBC. There have been more than 60 confirmed cases of the new coronavirus, but UK experts estimate a figure nearer 1,700. Two people are known to have died from the respiratory illness, which appeared in Wuhan city in December.",
-                "tokens": [
-                    "The",
-                    "number",
-                    "of",
-                    "people",
-                    "already",
-                    "infected",
-                    "by",
-                    "the",
-                    "mystery",
-                    "virus",
-                    "emerging",
-                    "in",
-                    "China",
-                    "is",
-                    "far",
-                    "greater",
-                    "than",
-                    "official",
-                    "figures",
-                    "suggest",
-                    ",",
-                    "scientists",
-                    "have",
-                    "told",
-                    "the",
-                    "BBC",
-                    ".",
-                    "There",
-                    "have",
-                    "been",
-                    "more",
-                    "than",
-                    "60",
-                    "confirmed",
-                    "cases",
-                    "of",
-                    "the",
-                    "new",
-                    "coronavirus",
-                    ",",
-                    "but",
-                    "UK",
-                    "experts",
-                    "estimate",
-                    "a",
-                    "figure",
-                    "nearer",
-                    "1,700",
-                    ".",
-                    "Two",
-                    "people",
-                    "are",
-                    "known",
-                    "to",
-                    "have",
-                    "died",
-                    "from",
-                    "the",
-                    "respiratory",
-                    "illness",
-                    ",",
-                    "which",
-                    "appeared",
-                    "in",
-                    "Wuhan",
-                    "city",
-                    "in",
-                    "December",
-                    "."
-                ],
-                "sentences": {
-                    "generator": "srl_pipeline",
-                    "score": 1.0,
-                    "sentenceEndPositions": [
-                        27,
-                        49,
-                        69
-                    ]
-                },
                 "views": [
                     {
                         "viewName": "TOKENS",
@@ -5889,7 +5831,89 @@
                             }
                         ]
                     }
-                ]
+                ],
+                "tokens": [
+                    "The",
+                    "number",
+                    "of",
+                    "people",
+                    "already",
+                    "infected",
+                    "by",
+                    "the",
+                    "mystery",
+                    "virus",
+                    "emerging",
+                    "in",
+                    "China",
+                    "is",
+                    "far",
+                    "greater",
+                    "than",
+                    "official",
+                    "figures",
+                    "suggest",
+                    ",",
+                    "scientists",
+                    "have",
+                    "told",
+                    "the",
+                    "BBC",
+                    ".",
+                    "There",
+                    "have",
+                    "been",
+                    "more",
+                    "than",
+                    "60",
+                    "confirmed",
+                    "cases",
+                    "of",
+                    "the",
+                    "new",
+                    "coronavirus",
+                    ",",
+                    "but",
+                    "UK",
+                    "experts",
+                    "estimate",
+                    "a",
+                    "figure",
+                    "nearer",
+                    "1",
+                    ",",
+                    "700",
+                    ".",
+                    "Two",
+                    "people",
+                    "are",
+                    "known",
+                    "to",
+                    "have",
+                    "died",
+                    "from",
+                    "the",
+                    "respiratory",
+                    "illness",
+                    ",",
+                    "which",
+                    "appeared",
+                    "in",
+                    "Wuhan",
+                    "city",
+                    "in",
+                    "December",
+                    "."
+                ],
+                "sentences": {
+                    "generator": "srl_pipeline",
+                    "score": 1.0,
+                    "sentenceEndPositions": [
+                        27,
+                        51,
+                        71
+                    ]
+                }
             },
             "token": [
                 "The",
@@ -5939,7 +5963,9 @@
                 "a",
                 "figure",
                 "nearer",
-                "1,700",
+                "1",
+                ",",
+                "700",
                 ".",
                 "Two",
                 "people",
@@ -5964,8 +5990,8 @@
             ],
             "end_pos": [
                 27,
-                49,
-                69
+                51,
+                71
             ],
             "temporal": {
                 "corpusId": "",
@@ -5975,8 +6001,8 @@
                     "score": 1.0,
                     "sentenceEndPositions": [
                         27,
-                        49,
-                        69
+                        51,
+                        71
                     ]
                 },
                 "text": "The number of people already infected by the mystery virus emerging in China is far greater than official figures suggest, scientists have told the BBC. There have been more than 60 confirmed cases of the new coronavirus, but UK experts estimate a figure nearer 1,700. Two people are known to have died from the respiratory illness, which appeared in Wuhan city in December.",
@@ -6028,7 +6054,9 @@
                     "a",
                     "figure",
                     "nearer",
-                    "1,700",
+                    "1",
+                    ",",
+                    "700",
                     ".",
                     "Two",
                     "people",
@@ -6498,7 +6526,7 @@
                                         "label": "Disaster:DiseaseOutbreak:Unspecified",
                                         "properties": {
                                             "SenseNumber": "01",
-                                            "duration": 234123,
+                                            "duration": 247535,
                                             "predicate": [
                                                 "virus"
                                             ],
@@ -6519,7 +6547,7 @@
                                         "label": "Disaster:DiseaseOutbreak:Unspecified",
                                         "properties": {
                                             "SenseNumber": "01",
-                                            "duration": 192252,
+                                            "duration": 198576,
                                             "predicate": [],
                                             "sentence_id": 1
                                         },
@@ -6531,7 +6559,7 @@
                                         "label": "Disaster:DiseaseOutbreak:Unspecified",
                                         "properties": {
                                             "SenseNumber": "01",
-                                            "duration": 238957,
+                                            "duration": 271300,
                                             "predicate": [],
                                             "sentence_id": 1
                                         },
@@ -6543,7 +6571,7 @@
                                         "label": "Life:Illness:Unspecified",
                                         "properties": {
                                             "SenseNumber": "01",
-                                            "duration": 122428,
+                                            "duration": 255107,
                                             "predicate": [],
                                             "sentence_id": 2
                                         },
@@ -6560,7 +6588,7 @@
                                     },
                                     {
                                         "properties": {
-                                            "distance": 9913
+                                            "distance": 9214
                                         },
                                         "relationName": "before",
                                         "srcConstituent": 0,
@@ -6568,7 +6596,7 @@
                                     },
                                     {
                                         "properties": {
-                                            "distance": 9913
+                                            "distance": 9214
                                         },
                                         "relationName": "after",
                                         "srcConstituent": 3,
@@ -6576,23 +6604,7 @@
                                     },
                                     {
                                         "properties": {
-                                            "distance": 11297
-                                        },
-                                        "relationName": "before",
-                                        "srcConstituent": 0,
-                                        "targetConstituent": 4
-                                    },
-                                    {
-                                        "properties": {
-                                            "distance": 11297
-                                        },
-                                        "relationName": "after",
-                                        "srcConstituent": 4,
-                                        "targetConstituent": 0
-                                    },
-                                    {
-                                        "properties": {
-                                            "distance": 10584
+                                            "distance": 10078
                                         },
                                         "relationName": "before",
                                         "srcConstituent": 0,
@@ -6600,7 +6612,7 @@
                                     },
                                     {
                                         "properties": {
-                                            "distance": 10584
+                                            "distance": 10078
                                         },
                                         "relationName": "after",
                                         "srcConstituent": 2,
@@ -6608,23 +6620,23 @@
                                     },
                                     {
                                         "properties": {
-                                            "distance": 9883
+                                            "distance": 8971
                                         },
                                         "relationName": "before",
-                                        "srcConstituent": 3,
+                                        "srcConstituent": 0,
                                         "targetConstituent": 4
                                     },
                                     {
                                         "properties": {
-                                            "distance": 9883
+                                            "distance": 8971
                                         },
                                         "relationName": "after",
                                         "srcConstituent": 4,
-                                        "targetConstituent": 3
+                                        "targetConstituent": 0
                                     },
                                     {
                                         "properties": {
-                                            "distance": 9789
+                                            "distance": 9462
                                         },
                                         "relationName": "before",
                                         "srcConstituent": 3,
@@ -6632,7 +6644,7 @@
                                     },
                                     {
                                         "properties": {
-                                            "distance": 9789
+                                            "distance": 9462
                                         },
                                         "relationName": "after",
                                         "srcConstituent": 2,
@@ -6640,19 +6652,35 @@
                                     },
                                     {
                                         "properties": {
-                                            "distance": 9119
+                                            "distance": 8934
                                         },
                                         "relationName": "before",
-                                        "srcConstituent": 4,
-                                        "targetConstituent": 2
+                                        "srcConstituent": 3,
+                                        "targetConstituent": 4
                                     },
                                     {
                                         "properties": {
-                                            "distance": 9119
+                                            "distance": 8934
                                         },
                                         "relationName": "after",
+                                        "srcConstituent": 4,
+                                        "targetConstituent": 3
+                                    },
+                                    {
+                                        "properties": {
+                                            "distance": 7907
+                                        },
+                                        "relationName": "before",
                                         "srcConstituent": 2,
                                         "targetConstituent": 4
+                                    },
+                                    {
+                                        "properties": {
+                                            "distance": 7907
+                                        },
+                                        "relationName": "after",
+                                        "srcConstituent": 4,
+                                        "targetConstituent": 2
                                     }
                                 ],
                                 "score": 1.0,
@@ -6668,86 +6696,6 @@
                 "corpusId": "",
                 "id": "",
                 "text": "The number of people already infected by the mystery virus emerging in China is far greater than official figures suggest, scientists have told the BBC. There have been more than 60 confirmed cases of the new coronavirus, but UK experts estimate a figure nearer 1,700. Two people are known to have died from the respiratory illness, which appeared in Wuhan city in December.",
-                "tokens": [
-                    "The",
-                    "number",
-                    "of",
-                    "people",
-                    "already",
-                    "infected",
-                    "by",
-                    "the",
-                    "mystery",
-                    "virus",
-                    "emerging",
-                    "in",
-                    "China",
-                    "is",
-                    "far",
-                    "greater",
-                    "than",
-                    "official",
-                    "figures",
-                    "suggest",
-                    ",",
-                    "scientists",
-                    "have",
-                    "told",
-                    "the",
-                    "BBC",
-                    ".",
-                    "There",
-                    "have",
-                    "been",
-                    "more",
-                    "than",
-                    "60",
-                    "confirmed",
-                    "cases",
-                    "of",
-                    "the",
-                    "new",
-                    "coronavirus",
-                    ",",
-                    "but",
-                    "UK",
-                    "experts",
-                    "estimate",
-                    "a",
-                    "figure",
-                    "nearer",
-                    "1,700",
-                    ".",
-                    "Two",
-                    "people",
-                    "are",
-                    "known",
-                    "to",
-                    "have",
-                    "died",
-                    "from",
-                    "the",
-                    "respiratory",
-                    "illness",
-                    ",",
-                    "which",
-                    "appeared",
-                    "in",
-                    "Wuhan",
-                    "city",
-                    "in",
-                    "December",
-                    "."
-                ],
-                "sentences": {
-                    "generator": "srl_pipeline",
-                    "score": 1.0,
-                    "sentenceEndPositions": [
-                        27,
-                        49,
-                        69
-                    ]
-                },
                 "views": [
                     {
                         "viewName": "TOKENS",
@@ -7254,22 +7202,94 @@
                                         "relationName": "coref",
                                         "srcConstituent": "3",
                                         "targetConstituent": "0"
-                                    },
-                                    {
-                                        "relationName": "coref",
-                                        "srcConstituent": "3",
-                                        "targetConstituent": "4"
-                                    },
-                                    {
-                                        "relationName": "coref",
-                                        "srcConstituent": "0",
-                                        "targetConstituent": "4"
                                     }
                                 ]
                             }
                         ]
                     }
-                ]
+                ],
+                "tokens": [
+                    "The",
+                    "number",
+                    "of",
+                    "people",
+                    "already",
+                    "infected",
+                    "by",
+                    "the",
+                    "mystery",
+                    "virus",
+                    "emerging",
+                    "in",
+                    "China",
+                    "is",
+                    "far",
+                    "greater",
+                    "than",
+                    "official",
+                    "figures",
+                    "suggest",
+                    ",",
+                    "scientists",
+                    "have",
+                    "told",
+                    "the",
+                    "BBC",
+                    ".",
+                    "There",
+                    "have",
+                    "been",
+                    "more",
+                    "than",
+                    "60",
+                    "confirmed",
+                    "cases",
+                    "of",
+                    "the",
+                    "new",
+                    "coronavirus",
+                    ",",
+                    "but",
+                    "UK",
+                    "experts",
+                    "estimate",
+                    "a",
+                    "figure",
+                    "nearer",
+                    "1",
+                    ",",
+                    "700",
+                    ".",
+                    "Two",
+                    "people",
+                    "are",
+                    "known",
+                    "to",
+                    "have",
+                    "died",
+                    "from",
+                    "the",
+                    "respiratory",
+                    "illness",
+                    ",",
+                    "which",
+                    "appeared",
+                    "in",
+                    "Wuhan",
+                    "city",
+                    "in",
+                    "December",
+                    "."
+                ],
+                "sentences": {
+                    "generator": "srl_pipeline",
+                    "score": 1.0,
+                    "sentenceEndPositions": [
+                        27,
+                        51,
+                        71
+                    ]
+                }
             }
         },
         "02cc6ff793ea2e83d746f5c55f6cc8b4a94baeac": {
@@ -7278,56 +7298,6 @@
                 "corpusId": "",
                 "id": "",
                 "text": "A short drive away, Ismokoweni, who leads 'Aisyiyah's local environmental chapter and goes by one name, picks her way past painted gravestones towards an area of damaged forest where the group has also planted seedlings.",
-                "tokens": [
-                    "A",
-                    "short",
-                    "drive",
-                    "away",
-                    ",",
-                    "Ismokoweni",
-                    ",",
-                    "who",
-                    "leads",
-                    "'",
-                    "Aisyiyah",
-                    "'s",
-                    "local",
-                    "environmental",
-                    "chapter",
-                    "and",
-                    "goes",
-                    "by",
-                    "one",
-                    "name",
-                    ",",
-                    "picks",
-                    "her",
-                    "way",
-                    "past",
-                    "painted",
-                    "gravestones",
-                    "towards",
-                    "an",
-                    "area",
-                    "of",
-                    "damaged",
-                    "forest",
-                    "where",
-                    "the",
-                    "group",
-                    "has",
-                    "also",
-                    "planted",
-                    "seedlings",
-                    "."
-                ],
-                "sentences": {
-                    "generator": "srl_pipeline",
-                    "score": 1.0,
-                    "sentenceEndPositions": [
-                        41
-                    ]
-                },
                 "views": [
                     {
                         "viewName": "TOKENS",
@@ -7743,7 +7713,58 @@
                             }
                         ]
                     }
-                ]
+                ],
+                "tokens": [
+                    "A",
+                    "short",
+                    "drive",
+                    "away",
+                    ",",
+                    "Ismokoweni",
+                    ",",
+                    "who",
+                    "leads",
+                    "'",
+                    "Aisyiyah",
+                    "'",
+                    "s",
+                    "local",
+                    "environmental",
+                    "chapter",
+                    "and",
+                    "goes",
+                    "by",
+                    "one",
+                    "name",
+                    ",",
+                    "picks",
+                    "her",
+                    "way",
+                    "past",
+                    "painted",
+                    "gravestones",
+                    "towards",
+                    "an",
+                    "area",
+                    "of",
+                    "damaged",
+                    "forest",
+                    "where",
+                    "the",
+                    "group",
+                    "has",
+                    "also",
+                    "planted",
+                    "seedlings",
+                    "."
+                ],
+                "sentences": {
+                    "generator": "srl_pipeline",
+                    "score": 1.0,
+                    "sentenceEndPositions": [
+                        42
+                    ]
+                }
             },
             "token": [
                 "A",
@@ -7757,7 +7778,8 @@
                 "leads",
                 "'",
                 "Aisyiyah",
-                "'s",
+                "'",
+                "s",
                 "local",
                 "environmental",
                 "chapter",
@@ -7789,7 +7811,7 @@
                 "."
             ],
             "end_pos": [
-                41
+                42
             ],
             "temporal": {
                 "corpusId": "",
@@ -7798,7 +7820,7 @@
                     "generator": "srl_pipeline",
                     "score": 1.0,
                     "sentenceEndPositions": [
-                        41
+                        42
                     ]
                 },
                 "text": "A short drive away, Ismokoweni, who leads 'Aisyiyah's local environmental chapter and goes by one name, picks her way past painted gravestones towards an area of damaged forest where the group has also planted seedlings.",
@@ -7814,7 +7836,8 @@
                     "leads",
                     "'",
                     "Aisyiyah",
-                    "'s",
+                    "'",
+                    "s",
                     "local",
                     "environmental",
                     "chapter",
@@ -8118,7 +8141,7 @@
                                         "label": "Movement:Transportation:Unspecified",
                                         "properties": {
                                             "SenseNumber": "01",
-                                            "duration": 127555,
+                                            "duration": 246770,
                                             "predicate": [
                                                 "goes"
                                             ],
@@ -8139,7 +8162,7 @@
                                         "label": "ArtifactExistence:ManufactureAssemble:Unspecified",
                                         "properties": {
                                             "SenseNumber": "01",
-                                            "duration": 4061,
+                                            "duration": 190341,
                                             "predicate": [
                                                 "picks"
                                             ],
@@ -8188,7 +8211,7 @@
                                         "label": "ArtifactExistence:DamageDestroyDisableDismantle:Unspecified",
                                         "properties": {
                                             "SenseNumber": "01",
-                                            "duration": 296095,
+                                            "duration": 406899,
                                             "predicate": [
                                                 "damaged"
                                             ],
@@ -8258,71 +8281,23 @@
                                     },
                                     {
                                         "properties": {
-                                            "distance": 7501
+                                            "distance": 6954
                                         },
                                         "relationName": "before",
+                                        "srcConstituent": 8,
+                                        "targetConstituent": 9
+                                    },
+                                    {
+                                        "properties": {
+                                            "distance": 6954
+                                        },
+                                        "relationName": "after",
                                         "srcConstituent": 9,
                                         "targetConstituent": 8
                                     },
                                     {
                                         "properties": {
-                                            "distance": 7501
-                                        },
-                                        "relationName": "after",
-                                        "srcConstituent": 8,
-                                        "targetConstituent": 9
-                                    },
-                                    {
-                                        "properties": {
-                                            "distance": 7105
-                                        },
-                                        "relationName": "before",
-                                        "srcConstituent": 9,
-                                        "targetConstituent": 2
-                                    },
-                                    {
-                                        "properties": {
-                                            "distance": 7105
-                                        },
-                                        "relationName": "after",
-                                        "srcConstituent": 2,
-                                        "targetConstituent": 9
-                                    },
-                                    {
-                                        "properties": {
-                                            "distance": 6839
-                                        },
-                                        "relationName": "before",
-                                        "srcConstituent": 9,
-                                        "targetConstituent": 0
-                                    },
-                                    {
-                                        "properties": {
-                                            "distance": 6839
-                                        },
-                                        "relationName": "after",
-                                        "srcConstituent": 0,
-                                        "targetConstituent": 9
-                                    },
-                                    {
-                                        "properties": {
-                                            "distance": 6817
-                                        },
-                                        "relationName": "before",
-                                        "srcConstituent": 8,
-                                        "targetConstituent": 2
-                                    },
-                                    {
-                                        "properties": {
-                                            "distance": 6817
-                                        },
-                                        "relationName": "after",
-                                        "srcConstituent": 2,
-                                        "targetConstituent": 8
-                                    },
-                                    {
-                                        "properties": {
-                                            "distance": 7577
+                                            "distance": 6885
                                         },
                                         "relationName": "before",
                                         "srcConstituent": 8,
@@ -8330,7 +8305,7 @@
                                     },
                                     {
                                         "properties": {
-                                            "distance": 7577
+                                            "distance": 6885
                                         },
                                         "relationName": "after",
                                         "srcConstituent": 0,
@@ -8338,19 +8313,67 @@
                                     },
                                     {
                                         "properties": {
-                                            "distance": 5781
+                                            "distance": 5669
                                         },
                                         "relationName": "before",
+                                        "srcConstituent": 8,
+                                        "targetConstituent": 2
+                                    },
+                                    {
+                                        "properties": {
+                                            "distance": 5669
+                                        },
+                                        "relationName": "after",
                                         "srcConstituent": 2,
+                                        "targetConstituent": 8
+                                    },
+                                    {
+                                        "properties": {
+                                            "distance": 8508
+                                        },
+                                        "relationName": "before",
+                                        "srcConstituent": 9,
                                         "targetConstituent": 0
                                     },
                                     {
                                         "properties": {
-                                            "distance": 5781
+                                            "distance": 8508
                                         },
                                         "relationName": "after",
                                         "srcConstituent": 0,
+                                        "targetConstituent": 9
+                                    },
+                                    {
+                                        "properties": {
+                                            "distance": 7783
+                                        },
+                                        "relationName": "before",
+                                        "srcConstituent": 9,
                                         "targetConstituent": 2
+                                    },
+                                    {
+                                        "properties": {
+                                            "distance": 7783
+                                        },
+                                        "relationName": "after",
+                                        "srcConstituent": 2,
+                                        "targetConstituent": 9
+                                    },
+                                    {
+                                        "properties": {
+                                            "distance": 6120
+                                        },
+                                        "relationName": "before",
+                                        "srcConstituent": 0,
+                                        "targetConstituent": 2
+                                    },
+                                    {
+                                        "properties": {
+                                            "distance": 6120
+                                        },
+                                        "relationName": "after",
+                                        "srcConstituent": 2,
+                                        "targetConstituent": 0
                                     }
                                 ],
                                 "score": 1.0,
@@ -8366,56 +8389,6 @@
                 "corpusId": "",
                 "id": "",
                 "text": "A short drive away, Ismokoweni, who leads 'Aisyiyah's local environmental chapter and goes by one name, picks her way past painted gravestones towards an area of damaged forest where the group has also planted seedlings.",
-                "tokens": [
-                    "A",
-                    "short",
-                    "drive",
-                    "away",
-                    ",",
-                    "Ismokoweni",
-                    ",",
-                    "who",
-                    "leads",
-                    "'",
-                    "Aisyiyah",
-                    "'s",
-                    "local",
-                    "environmental",
-                    "chapter",
-                    "and",
-                    "goes",
-                    "by",
-                    "one",
-                    "name",
-                    ",",
-                    "picks",
-                    "her",
-                    "way",
-                    "past",
-                    "painted",
-                    "gravestones",
-                    "towards",
-                    "an",
-                    "area",
-                    "of",
-                    "damaged",
-                    "forest",
-                    "where",
-                    "the",
-                    "group",
-                    "has",
-                    "also",
-                    "planted",
-                    "seedlings",
-                    "."
-                ],
-                "sentences": {
-                    "generator": "srl_pipeline",
-                    "score": 1.0,
-                    "sentenceEndPositions": [
-                        41
-                    ]
-                },
                 "views": [
                     {
                         "viewName": "TOKENS",
@@ -8795,7 +8768,58 @@
                             }
                         ]
                     }
-                ]
+                ],
+                "tokens": [
+                    "A",
+                    "short",
+                    "drive",
+                    "away",
+                    ",",
+                    "Ismokoweni",
+                    ",",
+                    "who",
+                    "leads",
+                    "'",
+                    "Aisyiyah",
+                    "'",
+                    "s",
+                    "local",
+                    "environmental",
+                    "chapter",
+                    "and",
+                    "goes",
+                    "by",
+                    "one",
+                    "name",
+                    ",",
+                    "picks",
+                    "her",
+                    "way",
+                    "past",
+                    "painted",
+                    "gravestones",
+                    "towards",
+                    "an",
+                    "area",
+                    "of",
+                    "damaged",
+                    "forest",
+                    "where",
+                    "the",
+                    "group",
+                    "has",
+                    "also",
+                    "planted",
+                    "seedlings",
+                    "."
+                ],
+                "sentences": {
+                    "generator": "srl_pipeline",
+                    "score": 1.0,
+                    "sentenceEndPositions": [
+                        42
+                    ]
+                }
             }
         },
         "bffcac5c93de5cec6457d5faffd4c20407804c00": {
@@ -8804,59 +8828,6 @@
                 "corpusId": "",
                 "id": "",
                 "text": "Two states - Karnataka, which includes tech hub Bengaluru, and Maharashtra, which includes Mumbai - have announced they will temporarily suspend vaccination for people aged 18-44 years as they prioritize those over 45 who need their second dose.",
-                "tokens": [
-                    "Two",
-                    "states",
-                    "-",
-                    "Karnataka",
-                    ",",
-                    "which",
-                    "includes",
-                    "tech",
-                    "hub",
-                    "Bengaluru",
-                    ",",
-                    "and",
-                    "Maharashtra",
-                    ",",
-                    "which",
-                    "includes",
-                    "Mumbai",
-                    "-",
-                    "have",
-                    "announced",
-                    "they",
-                    "will",
-                    "temporarily",
-                    "suspend",
-                    "vaccination",
-                    "for",
-                    "people",
-                    "aged",
-                    "18",
-                    "-",
-                    "44",
-                    "years",
-                    "as",
-                    "they",
-                    "prioritize",
-                    "those",
-                    "over",
-                    "45",
-                    "who",
-                    "need",
-                    "their",
-                    "second",
-                    "dose",
-                    "."
-                ],
-                "sentences": {
-                    "generator": "srl_pipeline",
-                    "score": 1.0,
-                    "sentenceEndPositions": [
-                        44
-                    ]
-                },
                 "views": [
                     {
                         "viewName": "TOKENS",
@@ -9222,7 +9193,60 @@
                             }
                         ]
                     }
-                ]
+                ],
+                "tokens": [
+                    "Two",
+                    "states",
+                    "-",
+                    "Karnataka",
+                    ",",
+                    "which",
+                    "includes",
+                    "tech",
+                    "hub",
+                    "Bengaluru",
+                    ",",
+                    "and",
+                    "Maharashtra",
+                    ",",
+                    "which",
+                    "includes",
+                    "Mumbai",
+                    "-",
+                    "have",
+                    "announced",
+                    "they",
+                    "will",
+                    "temporarily",
+                    "suspend",
+                    "vaccination",
+                    "for",
+                    "people",
+                    "aged",
+                    "18",
+                    "-",
+                    "44",
+                    "years",
+                    "as",
+                    "they",
+                    "prioritize",
+                    "those",
+                    "over",
+                    "45",
+                    "who",
+                    "need",
+                    "their",
+                    "second",
+                    "dose",
+                    "."
+                ],
+                "sentences": {
+                    "generator": "srl_pipeline",
+                    "score": 1.0,
+                    "sentenceEndPositions": [
+                        44
+                    ]
+                }
             },
             "token": [
                 "Two",
@@ -9719,59 +9743,6 @@
                 "corpusId": "",
                 "id": "",
                 "text": "Two states - Karnataka, which includes tech hub Bengaluru, and Maharashtra, which includes Mumbai - have announced they will temporarily suspend vaccination for people aged 18-44 years as they prioritize those over 45 who need their second dose.",
-                "tokens": [
-                    "Two",
-                    "states",
-                    "-",
-                    "Karnataka",
-                    ",",
-                    "which",
-                    "includes",
-                    "tech",
-                    "hub",
-                    "Bengaluru",
-                    ",",
-                    "and",
-                    "Maharashtra",
-                    ",",
-                    "which",
-                    "includes",
-                    "Mumbai",
-                    "-",
-                    "have",
-                    "announced",
-                    "they",
-                    "will",
-                    "temporarily",
-                    "suspend",
-                    "vaccination",
-                    "for",
-                    "people",
-                    "aged",
-                    "18",
-                    "-",
-                    "44",
-                    "years",
-                    "as",
-                    "they",
-                    "prioritize",
-                    "those",
-                    "over",
-                    "45",
-                    "who",
-                    "need",
-                    "their",
-                    "second",
-                    "dose",
-                    "."
-                ],
-                "sentences": {
-                    "generator": "srl_pipeline",
-                    "score": 1.0,
-                    "sentenceEndPositions": [
-                        44
-                    ]
-                },
                 "views": [
                     {
                         "viewName": "TOKENS",
@@ -10116,7 +10087,60 @@
                             }
                         ]
                     }
-                ]
+                ],
+                "tokens": [
+                    "Two",
+                    "states",
+                    "-",
+                    "Karnataka",
+                    ",",
+                    "which",
+                    "includes",
+                    "tech",
+                    "hub",
+                    "Bengaluru",
+                    ",",
+                    "and",
+                    "Maharashtra",
+                    ",",
+                    "which",
+                    "includes",
+                    "Mumbai",
+                    "-",
+                    "have",
+                    "announced",
+                    "they",
+                    "will",
+                    "temporarily",
+                    "suspend",
+                    "vaccination",
+                    "for",
+                    "people",
+                    "aged",
+                    "18",
+                    "-",
+                    "44",
+                    "years",
+                    "as",
+                    "they",
+                    "prioritize",
+                    "those",
+                    "over",
+                    "45",
+                    "who",
+                    "need",
+                    "their",
+                    "second",
+                    "dose",
+                    "."
+                ],
+                "sentences": {
+                    "generator": "srl_pipeline",
+                    "score": 1.0,
+                    "sentenceEndPositions": [
+                        44
+                    ]
+                }
             }
         },
         "82539a6fd92b508e56afccb3f65ba420ded6adf8": {
@@ -10125,77 +10149,6 @@
                 "corpusId": "",
                 "id": "",
                 "text": "A firefighter and his crew battled to keep the raging Glass Fire from devastating an upmarket Napa Valley vineyard. The firefiighter denies lighting backfires which consume fuel in a wildfire's path but admits his team failed to advise Cal Fire, the state's fire agency that it was in the evacuated area, as required by law.",
-                "tokens": [
-                    "A",
-                    "firefighter",
-                    "and",
-                    "his",
-                    "crew",
-                    "battled",
-                    "to",
-                    "keep",
-                    "the",
-                    "raging",
-                    "Glass",
-                    "Fire",
-                    "from",
-                    "devastating",
-                    "an",
-                    "upmarket",
-                    "Napa",
-                    "Valley",
-                    "vineyard",
-                    ".",
-                    "The",
-                    "firefiighter",
-                    "denies",
-                    "lighting",
-                    "backfires",
-                    "which",
-                    "consume",
-                    "fuel",
-                    "in",
-                    "a",
-                    "wildfire",
-                    "'s",
-                    "path",
-                    "but",
-                    "admits",
-                    "his",
-                    "team",
-                    "failed",
-                    "to",
-                    "advise",
-                    "Cal",
-                    "Fire",
-                    ",",
-                    "the",
-                    "state",
-                    "'s",
-                    "fire",
-                    "agency",
-                    "that",
-                    "it",
-                    "was",
-                    "in",
-                    "the",
-                    "evacuated",
-                    "area",
-                    ",",
-                    "as",
-                    "required",
-                    "by",
-                    "law",
-                    "."
-                ],
-                "sentences": {
-                    "generator": "srl_pipeline",
-                    "score": 1.0,
-                    "sentenceEndPositions": [
-                        20,
-                        61
-                    ]
-                },
                 "views": [
                     {
                         "viewName": "TOKENS",
@@ -10736,7 +10689,80 @@
                             }
                         ]
                     }
-                ]
+                ],
+                "tokens": [
+                    "A",
+                    "firefighter",
+                    "and",
+                    "his",
+                    "crew",
+                    "battled",
+                    "to",
+                    "keep",
+                    "the",
+                    "raging",
+                    "Glass",
+                    "Fire",
+                    "from",
+                    "devastating",
+                    "an",
+                    "upmarket",
+                    "Napa",
+                    "Valley",
+                    "vineyard",
+                    ".",
+                    "The",
+                    "firefiighter",
+                    "denies",
+                    "lighting",
+                    "backfires",
+                    "which",
+                    "consume",
+                    "fuel",
+                    "in",
+                    "a",
+                    "wildfire",
+                    "'",
+                    "s",
+                    "path",
+                    "but",
+                    "admits",
+                    "his",
+                    "team",
+                    "failed",
+                    "to",
+                    "advise",
+                    "Cal",
+                    "Fire",
+                    ",",
+                    "the",
+                    "state",
+                    "'",
+                    "s",
+                    "fire",
+                    "agency",
+                    "that",
+                    "it",
+                    "was",
+                    "in",
+                    "the",
+                    "evacuated",
+                    "area",
+                    ",",
+                    "as",
+                    "required",
+                    "by",
+                    "law",
+                    "."
+                ],
+                "sentences": {
+                    "generator": "srl_pipeline",
+                    "score": 1.0,
+                    "sentenceEndPositions": [
+                        20,
+                        63
+                    ]
+                }
             },
             "token": [
                 "A",
@@ -10770,7 +10796,8 @@
                 "in",
                 "a",
                 "wildfire",
-                "'s",
+                "'",
+                "s",
                 "path",
                 "but",
                 "admits",
@@ -10784,7 +10811,8 @@
                 ",",
                 "the",
                 "state",
-                "'s",
+                "'",
+                "s",
                 "fire",
                 "agency",
                 "that",
@@ -10803,7 +10831,7 @@
             ],
             "end_pos": [
                 20,
-                61
+                63
             ],
             "temporal": {
                 "corpusId": "",
@@ -10813,7 +10841,7 @@
                     "score": 1.0,
                     "sentenceEndPositions": [
                         20,
-                        61
+                        63
                     ]
                 },
                 "text": "A firefighter and his crew battled to keep the raging Glass Fire from devastating an upmarket Napa Valley vineyard. The firefiighter denies lighting backfires which consume fuel in a wildfire's path but admits his team failed to advise Cal Fire, the state's fire agency that it was in the evacuated area, as required by law.",
@@ -10849,7 +10877,8 @@
                     "in",
                     "a",
                     "wildfire",
-                    "'s",
+                    "'",
+                    "s",
                     "path",
                     "but",
                     "admits",
@@ -10863,7 +10892,8 @@
                     ",",
                     "the",
                     "state",
-                    "'s",
+                    "'",
+                    "s",
                     "fire",
                     "agency",
                     "that",
@@ -11279,7 +11309,7 @@
                                         "label": "ArtifactExistence:DamageDestroyDisableDismantle:Unspecified",
                                         "properties": {
                                             "SenseNumber": "01",
-                                            "duration": 603,
+                                            "duration": 610,
                                             "predicate": [
                                                 "devastating"
                                             ],
@@ -11307,7 +11337,7 @@
                                         "label": "Life:Consume:Unspecified",
                                         "properties": {
                                             "SenseNumber": "01",
-                                            "duration": 1295,
+                                            "duration": 1038,
                                             "predicate": [
                                                 "'"
                                             ],
@@ -11321,7 +11351,7 @@
                                         "label": "Movement:Transportation:PreventPassage",
                                         "properties": {
                                             "SenseNumber": "01",
-                                            "duration": 2100,
+                                            "duration": 230,
                                             "predicate": [
                                                 "by"
                                             ],
@@ -11417,7 +11447,7 @@
                                     },
                                     {
                                         "properties": {
-                                            "distance": 7758
+                                            "distance": 7967
                                         },
                                         "relationName": "before",
                                         "srcConstituent": 3,
@@ -11425,7 +11455,7 @@
                                     },
                                     {
                                         "properties": {
-                                            "distance": 7758
+                                            "distance": 7967
                                         },
                                         "relationName": "after",
                                         "srcConstituent": 0,
@@ -11433,7 +11463,7 @@
                                     },
                                     {
                                         "properties": {
-                                            "distance": 8039
+                                            "distance": 8842
                                         },
                                         "relationName": "before",
                                         "srcConstituent": 3,
@@ -11441,7 +11471,7 @@
                                     },
                                     {
                                         "properties": {
-                                            "distance": 8039
+                                            "distance": 8842
                                         },
                                         "relationName": "after",
                                         "srcConstituent": 4,
@@ -11449,7 +11479,7 @@
                                     },
                                     {
                                         "properties": {
-                                            "distance": 6691
+                                            "distance": 7536
                                         },
                                         "relationName": "before",
                                         "srcConstituent": 0,
@@ -11457,7 +11487,7 @@
                                     },
                                     {
                                         "properties": {
-                                            "distance": 6691
+                                            "distance": 7536
                                         },
                                         "relationName": "after",
                                         "srcConstituent": 4,
@@ -11477,77 +11507,6 @@
                 "corpusId": "",
                 "id": "",
                 "text": "A firefighter and his crew battled to keep the raging Glass Fire from devastating an upmarket Napa Valley vineyard. The firefiighter denies lighting backfires which consume fuel in a wildfire's path but admits his team failed to advise Cal Fire, the state's fire agency that it was in the evacuated area, as required by law.",
-                "tokens": [
-                    "A",
-                    "firefighter",
-                    "and",
-                    "his",
-                    "crew",
-                    "battled",
-                    "to",
-                    "keep",
-                    "the",
-                    "raging",
-                    "Glass",
-                    "Fire",
-                    "from",
-                    "devastating",
-                    "an",
-                    "upmarket",
-                    "Napa",
-                    "Valley",
-                    "vineyard",
-                    ".",
-                    "The",
-                    "firefiighter",
-                    "denies",
-                    "lighting",
-                    "backfires",
-                    "which",
-                    "consume",
-                    "fuel",
-                    "in",
-                    "a",
-                    "wildfire",
-                    "'s",
-                    "path",
-                    "but",
-                    "admits",
-                    "his",
-                    "team",
-                    "failed",
-                    "to",
-                    "advise",
-                    "Cal",
-                    "Fire",
-                    ",",
-                    "the",
-                    "state",
-                    "'s",
-                    "fire",
-                    "agency",
-                    "that",
-                    "it",
-                    "was",
-                    "in",
-                    "the",
-                    "evacuated",
-                    "area",
-                    ",",
-                    "as",
-                    "required",
-                    "by",
-                    "law",
-                    "."
-                ],
-                "sentences": {
-                    "generator": "srl_pipeline",
-                    "score": 1.0,
-                    "sentenceEndPositions": [
-                        20,
-                        61
-                    ]
-                },
                 "views": [
                     {
                         "viewName": "TOKENS",
@@ -12047,7 +12006,80 @@
                             }
                         ]
                     }
-                ]
+                ],
+                "tokens": [
+                    "A",
+                    "firefighter",
+                    "and",
+                    "his",
+                    "crew",
+                    "battled",
+                    "to",
+                    "keep",
+                    "the",
+                    "raging",
+                    "Glass",
+                    "Fire",
+                    "from",
+                    "devastating",
+                    "an",
+                    "upmarket",
+                    "Napa",
+                    "Valley",
+                    "vineyard",
+                    ".",
+                    "The",
+                    "firefiighter",
+                    "denies",
+                    "lighting",
+                    "backfires",
+                    "which",
+                    "consume",
+                    "fuel",
+                    "in",
+                    "a",
+                    "wildfire",
+                    "'",
+                    "s",
+                    "path",
+                    "but",
+                    "admits",
+                    "his",
+                    "team",
+                    "failed",
+                    "to",
+                    "advise",
+                    "Cal",
+                    "Fire",
+                    ",",
+                    "the",
+                    "state",
+                    "'",
+                    "s",
+                    "fire",
+                    "agency",
+                    "that",
+                    "it",
+                    "was",
+                    "in",
+                    "the",
+                    "evacuated",
+                    "area",
+                    ",",
+                    "as",
+                    "required",
+                    "by",
+                    "law",
+                    "."
+                ],
+                "sentences": {
+                    "generator": "srl_pipeline",
+                    "score": 1.0,
+                    "sentenceEndPositions": [
+                        20,
+                        63
+                    ]
+                }
             }
         },
         "6229ce29687350d40ad785dec141f9b68cf93959": {
@@ -12056,89 +12088,6 @@
                 "corpusId": "",
                 "id": "",
                 "text": "The incident highlights how a booming business in private firefighting is creating friction with government firefighters as wildfires grow more frequent and dangerous across the western US. It also underscores the inequity of who receives protection. Businesses and wealthy property owners have growing options to protect themselves, for a price. Meanwhile, homeowners across California are being denied homeowner's insurance renewals because of wildfire risk.",
-                "tokens": [
-                    "The",
-                    "incident",
-                    "highlights",
-                    "how",
-                    "a",
-                    "booming",
-                    "business",
-                    "in",
-                    "private",
-                    "firefighting",
-                    "is",
-                    "creating",
-                    "friction",
-                    "with",
-                    "government",
-                    "firefighters",
-                    "as",
-                    "wildfires",
-                    "grow",
-                    "more",
-                    "frequent",
-                    "and",
-                    "dangerous",
-                    "across",
-                    "the",
-                    "western",
-                    "US",
-                    ".",
-                    "It",
-                    "also",
-                    "underscores",
-                    "the",
-                    "inequity",
-                    "of",
-                    "who",
-                    "receives",
-                    "protection",
-                    ".",
-                    "Businesses",
-                    "and",
-                    "wealthy",
-                    "property",
-                    "owners",
-                    "have",
-                    "growing",
-                    "options",
-                    "to",
-                    "protect",
-                    "themselves",
-                    ",",
-                    "for",
-                    "a",
-                    "price",
-                    ".",
-                    "Meanwhile",
-                    ",",
-                    "homeowners",
-                    "across",
-                    "California",
-                    "are",
-                    "being",
-                    "denied",
-                    "homeowner",
-                    "'s",
-                    "insurance",
-                    "renewals",
-                    "because",
-                    "of",
-                    "wildfire",
-                    "risk",
-                    "."
-                ],
-                "sentences": {
-                    "generator": "srl_pipeline",
-                    "score": 1.0,
-                    "sentenceEndPositions": [
-                        28,
-                        38,
-                        54,
-                        71
-                    ]
-                },
                 "views": [
                     {
                         "viewName": "TOKENS",
@@ -12754,7 +12703,91 @@
                             }
                         ]
                     }
-                ]
+                ],
+                "tokens": [
+                    "The",
+                    "incident",
+                    "highlights",
+                    "how",
+                    "a",
+                    "booming",
+                    "business",
+                    "in",
+                    "private",
+                    "firefighting",
+                    "is",
+                    "creating",
+                    "friction",
+                    "with",
+                    "government",
+                    "firefighters",
+                    "as",
+                    "wildfires",
+                    "grow",
+                    "more",
+                    "frequent",
+                    "and",
+                    "dangerous",
+                    "across",
+                    "the",
+                    "western",
+                    "US",
+                    ".",
+                    "It",
+                    "also",
+                    "underscores",
+                    "the",
+                    "inequity",
+                    "of",
+                    "who",
+                    "receives",
+                    "protection",
+                    ".",
+                    "Businesses",
+                    "and",
+                    "wealthy",
+                    "property",
+                    "owners",
+                    "have",
+                    "growing",
+                    "options",
+                    "to",
+                    "protect",
+                    "themselves",
+                    ",",
+                    "for",
+                    "a",
+                    "price",
+                    ".",
+                    "Meanwhile",
+                    ",",
+                    "homeowners",
+                    "across",
+                    "California",
+                    "are",
+                    "being",
+                    "denied",
+                    "homeowner",
+                    "'",
+                    "s",
+                    "insurance",
+                    "renewals",
+                    "because",
+                    "of",
+                    "wildfire",
+                    "risk",
+                    "."
+                ],
+                "sentences": {
+                    "generator": "srl_pipeline",
+                    "score": 1.0,
+                    "sentenceEndPositions": [
+                        28,
+                        38,
+                        54,
+                        72
+                    ]
+                }
             },
             "token": [
                 "The",
@@ -12820,7 +12853,8 @@
                 "being",
                 "denied",
                 "homeowner",
-                "'s",
+                "'",
+                "s",
                 "insurance",
                 "renewals",
                 "because",
@@ -12833,7 +12867,7 @@
                 28,
                 38,
                 54,
-                71
+                72
             ],
             "temporal": {
                 "corpusId": "",
@@ -12845,7 +12879,7 @@
                         28,
                         38,
                         54,
-                        71
+                        72
                     ]
                 },
                 "text": "The incident highlights how a booming business in private firefighting is creating friction with government firefighters as wildfires grow more frequent and dangerous across the western US. It also underscores the inequity of who receives protection. Businesses and wealthy property owners have growing options to protect themselves, for a price. Meanwhile, homeowners across California are being denied homeowner's insurance renewals because of wildfire risk.",
@@ -12913,7 +12947,8 @@
                     "being",
                     "denied",
                     "homeowner",
-                    "'s",
+                    "'",
+                    "s",
                     "insurance",
                     "renewals",
                     "because",
@@ -13375,7 +13410,7 @@
                                         "label": "Cognitive:Inspection:SensoryObserve",
                                         "properties": {
                                             "SenseNumber": "01",
-                                            "duration": 39732,
+                                            "duration": 37168,
                                             "predicate": [
                                                 "highlights"
                                             ],
@@ -13417,7 +13452,7 @@
                                         "label": "Disaster:Crash:Unspecified",
                                         "properties": {
                                             "SenseNumber": "01",
-                                            "duration": 81985,
+                                            "duration": 82005,
                                             "predicate": [
                                                 "incident"
                                             ],
@@ -13459,7 +13494,7 @@
                                         "label": "Transaction:ExchangeBuySell:Unspecified",
                                         "properties": {
                                             "SenseNumber": "01",
-                                            "duration": 45469,
+                                            "duration": 49991,
                                             "predicate": [],
                                             "sentence_id": 2
                                         },
@@ -13471,7 +13506,7 @@
                                         "label": "Transaction:AidBetweenGovernments:Unspecified",
                                         "properties": {
                                             "SenseNumber": "01",
-                                            "duration": 395930,
+                                            "duration": 392544,
                                             "predicate": [],
                                             "sentence_id": 3
                                         },
@@ -13535,7 +13570,7 @@
                                     },
                                     {
                                         "properties": {
-                                            "distance": 11166
+                                            "distance": 11305
                                         },
                                         "relationName": "before",
                                         "srcConstituent": 5,
@@ -13543,7 +13578,7 @@
                                     },
                                     {
                                         "properties": {
-                                            "distance": 11166
+                                            "distance": 11305
                                         },
                                         "relationName": "after",
                                         "srcConstituent": 10,
@@ -13551,7 +13586,7 @@
                                     },
                                     {
                                         "properties": {
-                                            "distance": 9693
+                                            "distance": 10468
                                         },
                                         "relationName": "before",
                                         "srcConstituent": 5,
@@ -13559,7 +13594,7 @@
                                     },
                                     {
                                         "properties": {
-                                            "distance": 9693
+                                            "distance": 10468
                                         },
                                         "relationName": "after",
                                         "srcConstituent": 11,
@@ -13567,7 +13602,7 @@
                                     },
                                     {
                                         "properties": {
-                                            "distance": 10982
+                                            "distance": 10830
                                         },
                                         "relationName": "before",
                                         "srcConstituent": 5,
@@ -13575,7 +13610,7 @@
                                     },
                                     {
                                         "properties": {
-                                            "distance": 10982
+                                            "distance": 10830
                                         },
                                         "relationName": "after",
                                         "srcConstituent": 0,
@@ -13583,7 +13618,7 @@
                                     },
                                     {
                                         "properties": {
-                                            "distance": 10302
+                                            "distance": 11170
                                         },
                                         "relationName": "before",
                                         "srcConstituent": 10,
@@ -13591,7 +13626,7 @@
                                     },
                                     {
                                         "properties": {
-                                            "distance": 10302
+                                            "distance": 11170
                                         },
                                         "relationName": "after",
                                         "srcConstituent": 11,
@@ -13599,7 +13634,7 @@
                                     },
                                     {
                                         "properties": {
-                                            "distance": 10737
+                                            "distance": 10928
                                         },
                                         "relationName": "before",
                                         "srcConstituent": 10,
@@ -13607,7 +13642,7 @@
                                     },
                                     {
                                         "properties": {
-                                            "distance": 10737
+                                            "distance": 10928
                                         },
                                         "relationName": "after",
                                         "srcConstituent": 0,
@@ -13615,7 +13650,7 @@
                                     },
                                     {
                                         "properties": {
-                                            "distance": 9478
+                                            "distance": 9655
                                         },
                                         "relationName": "before",
                                         "srcConstituent": 11,
@@ -13623,7 +13658,7 @@
                                     },
                                     {
                                         "properties": {
-                                            "distance": 9478
+                                            "distance": 9655
                                         },
                                         "relationName": "after",
                                         "srcConstituent": 0,
@@ -13643,89 +13678,6 @@
                 "corpusId": "",
                 "id": "",
                 "text": "The incident highlights how a booming business in private firefighting is creating friction with government firefighters as wildfires grow more frequent and dangerous across the western US. It also underscores the inequity of who receives protection. Businesses and wealthy property owners have growing options to protect themselves, for a price. Meanwhile, homeowners across California are being denied homeowner's insurance renewals because of wildfire risk.",
-                "tokens": [
-                    "The",
-                    "incident",
-                    "highlights",
-                    "how",
-                    "a",
-                    "booming",
-                    "business",
-                    "in",
-                    "private",
-                    "firefighting",
-                    "is",
-                    "creating",
-                    "friction",
-                    "with",
-                    "government",
-                    "firefighters",
-                    "as",
-                    "wildfires",
-                    "grow",
-                    "more",
-                    "frequent",
-                    "and",
-                    "dangerous",
-                    "across",
-                    "the",
-                    "western",
-                    "US",
-                    ".",
-                    "It",
-                    "also",
-                    "underscores",
-                    "the",
-                    "inequity",
-                    "of",
-                    "who",
-                    "receives",
-                    "protection",
-                    ".",
-                    "Businesses",
-                    "and",
-                    "wealthy",
-                    "property",
-                    "owners",
-                    "have",
-                    "growing",
-                    "options",
-                    "to",
-                    "protect",
-                    "themselves",
-                    ",",
-                    "for",
-                    "a",
-                    "price",
-                    ".",
-                    "Meanwhile",
-                    ",",
-                    "homeowners",
-                    "across",
-                    "California",
-                    "are",
-                    "being",
-                    "denied",
-                    "homeowner",
-                    "'s",
-                    "insurance",
-                    "renewals",
-                    "because",
-                    "of",
-                    "wildfire",
-                    "risk",
-                    "."
-                ],
-                "sentences": {
-                    "generator": "srl_pipeline",
-                    "score": 1.0,
-                    "sentenceEndPositions": [
-                        28,
-                        38,
-                        54,
-                        71
-                    ]
-                },
                 "views": [
                     {
                         "viewName": "TOKENS",
@@ -14295,7 +14247,91 @@
                             }
                         ]
                     }
-                ]
+                ],
+                "tokens": [
+                    "The",
+                    "incident",
+                    "highlights",
+                    "how",
+                    "a",
+                    "booming",
+                    "business",
+                    "in",
+                    "private",
+                    "firefighting",
+                    "is",
+                    "creating",
+                    "friction",
+                    "with",
+                    "government",
+                    "firefighters",
+                    "as",
+                    "wildfires",
+                    "grow",
+                    "more",
+                    "frequent",
+                    "and",
+                    "dangerous",
+                    "across",
+                    "the",
+                    "western",
+                    "US",
+                    ".",
+                    "It",
+                    "also",
+                    "underscores",
+                    "the",
+                    "inequity",
+                    "of",
+                    "who",
+                    "receives",
+                    "protection",
+                    ".",
+                    "Businesses",
+                    "and",
+                    "wealthy",
+                    "property",
+                    "owners",
+                    "have",
+                    "growing",
+                    "options",
+                    "to",
+                    "protect",
+                    "themselves",
+                    ",",
+                    "for",
+                    "a",
+                    "price",
+                    ".",
+                    "Meanwhile",
+                    ",",
+                    "homeowners",
+                    "across",
+                    "California",
+                    "are",
+                    "being",
+                    "denied",
+                    "homeowner",
+                    "'",
+                    "s",
+                    "insurance",
+                    "renewals",
+                    "because",
+                    "of",
+                    "wildfire",
+                    "risk",
+                    "."
+                ],
+                "sentences": {
+                    "generator": "srl_pipeline",
+                    "score": 1.0,
+                    "sentenceEndPositions": [
+                        28,
+                        38,
+                        54,
+                        72
+                    ]
+                }
             }
         },
         "c180366a885f167c1baf08d018d0d20c1fd915fa": {
@@ -14304,54 +14340,6 @@
                 "corpusId": "",
                 "id": "",
                 "text": "According to the US justice department, at about noon that day several of the contractors opened fire in and around Nisoor Square, a busy roundabout that was immediately adjacent to the heavily-fortified Green Zone.",
-                "tokens": [
-                    "According",
-                    "to",
-                    "the",
-                    "US",
-                    "justice",
-                    "department",
-                    ",",
-                    "at",
-                    "about",
-                    "noon",
-                    "that",
-                    "day",
-                    "several",
-                    "of",
-                    "the",
-                    "contractors",
-                    "opened",
-                    "fire",
-                    "in",
-                    "and",
-                    "around",
-                    "Nisoor",
-                    "Square",
-                    ",",
-                    "a",
-                    "busy",
-                    "roundabout",
-                    "that",
-                    "was",
-                    "immediately",
-                    "adjacent",
-                    "to",
-                    "the",
-                    "heavily",
-                    "-",
-                    "fortified",
-                    "Green",
-                    "Zone",
-                    "."
-                ],
-                "sentences": {
-                    "generator": "srl_pipeline",
-                    "score": 1.0,
-                    "sentenceEndPositions": [
-                        39
-                    ]
-                },
                 "views": [
                     {
                         "viewName": "TOKENS",
@@ -14675,7 +14663,55 @@
                             }
                         ]
                     }
-                ]
+                ],
+                "tokens": [
+                    "According",
+                    "to",
+                    "the",
+                    "US",
+                    "justice",
+                    "department",
+                    ",",
+                    "at",
+                    "about",
+                    "noon",
+                    "that",
+                    "day",
+                    "several",
+                    "of",
+                    "the",
+                    "contractors",
+                    "opened",
+                    "fire",
+                    "in",
+                    "and",
+                    "around",
+                    "Nisoor",
+                    "Square",
+                    ",",
+                    "a",
+                    "busy",
+                    "roundabout",
+                    "that",
+                    "was",
+                    "immediately",
+                    "adjacent",
+                    "to",
+                    "the",
+                    "heavily",
+                    "-",
+                    "fortified",
+                    "Green",
+                    "Zone",
+                    "."
+                ],
+                "sentences": {
+                    "generator": "srl_pipeline",
+                    "score": 1.0,
+                    "sentenceEndPositions": [
+                        39
+                    ]
+                }
             },
             "token": [
                 "According",
@@ -15120,54 +15156,6 @@
                 "corpusId": "",
                 "id": "",
                 "text": "According to the US justice department, at about noon that day several of the contractors opened fire in and around Nisoor Square, a busy roundabout that was immediately adjacent to the heavily-fortified Green Zone.",
-                "tokens": [
-                    "According",
-                    "to",
-                    "the",
-                    "US",
-                    "justice",
-                    "department",
-                    ",",
-                    "at",
-                    "about",
-                    "noon",
-                    "that",
-                    "day",
-                    "several",
-                    "of",
-                    "the",
-                    "contractors",
-                    "opened",
-                    "fire",
-                    "in",
-                    "and",
-                    "around",
-                    "Nisoor",
-                    "Square",
-                    ",",
-                    "a",
-                    "busy",
-                    "roundabout",
-                    "that",
-                    "was",
-                    "immediately",
-                    "adjacent",
-                    "to",
-                    "the",
-                    "heavily",
-                    "-",
-                    "fortified",
-                    "Green",
-                    "Zone",
-                    "."
-                ],
-                "sentences": {
-                    "generator": "srl_pipeline",
-                    "score": 1.0,
-                    "sentenceEndPositions": [
-                        39
-                    ]
-                },
                 "views": [
                     {
                         "viewName": "TOKENS",
@@ -15475,7 +15463,55 @@
                             }
                         ]
                     }
-                ]
+                ],
+                "tokens": [
+                    "According",
+                    "to",
+                    "the",
+                    "US",
+                    "justice",
+                    "department",
+                    ",",
+                    "at",
+                    "about",
+                    "noon",
+                    "that",
+                    "day",
+                    "several",
+                    "of",
+                    "the",
+                    "contractors",
+                    "opened",
+                    "fire",
+                    "in",
+                    "and",
+                    "around",
+                    "Nisoor",
+                    "Square",
+                    ",",
+                    "a",
+                    "busy",
+                    "roundabout",
+                    "that",
+                    "was",
+                    "immediately",
+                    "adjacent",
+                    "to",
+                    "the",
+                    "heavily",
+                    "-",
+                    "fortified",
+                    "Green",
+                    "Zone",
+                    "."
+                ],
+                "sentences": {
+                    "generator": "srl_pipeline",
+                    "score": 1.0,
+                    "sentenceEndPositions": [
+                        39
+                    ]
+                }
             }
         },
         "a4f74d28e87570fd566733782d7fde6565b681db": {
@@ -15484,87 +15520,6 @@
                 "corpusId": "",
                 "id": "",
                 "text": "US prosecutors said Slatten was the first to fire, without provocation, killing Ahmed Haithem Ahmed Al Rubiay, an aspiring doctor who was driving his mother to an appointment. The contractors said they mistakenly believed that they were under attack. The incident caused international outrage, strained relations between the US and Iraq, and sparked a debate over the role of contractors in warzones.",
-                "tokens": [
-                    "US",
-                    "prosecutors",
-                    "said",
-                    "Slatten",
-                    "was",
-                    "the",
-                    "first",
-                    "to",
-                    "fire",
-                    ",",
-                    "without",
-                    "provocation",
-                    ",",
-                    "killing",
-                    "Ahmed",
-                    "Haithem",
-                    "Ahmed",
-                    "Al",
-                    "Rubiay",
-                    ",",
-                    "an",
-                    "aspiring",
-                    "doctor",
-                    "who",
-                    "was",
-                    "driving",
-                    "his",
-                    "mother",
-                    "to",
-                    "an",
-                    "appointment",
-                    ".",
-                    "The",
-                    "contractors",
-                    "said",
-                    "they",
-                    "mistakenly",
-                    "believed",
-                    "that",
-                    "they",
-                    "were",
-                    "under",
-                    "attack",
-                    ".",
-                    "The",
-                    "incident",
-                    "caused",
-                    "international",
-                    "outrage",
-                    ",",
-                    "strained",
-                    "relations",
-                    "between",
-                    "the",
-                    "US",
-                    "and",
-                    "Iraq",
-                    ",",
-                    "and",
-                    "sparked",
-                    "a",
-                    "debate",
-                    "over",
-                    "the",
-                    "role",
-                    "of",
-                    "contractors",
-                    "in",
-                    "warzones",
-                    "."
-                ],
-                "sentences": {
-                    "generator": "srl_pipeline",
-                    "score": 1.0,
-                    "sentenceEndPositions": [
-                        32,
-                        44,
-                        70
-                    ]
-                },
                 "views": [
                     {
                         "viewName": "TOKENS",
@@ -16082,7 +16037,88 @@
                             }
                         ]
                     }
-                ]
+                ],
+                "tokens": [
+                    "US",
+                    "prosecutors",
+                    "said",
+                    "Slatten",
+                    "was",
+                    "the",
+                    "first",
+                    "to",
+                    "fire",
+                    ",",
+                    "without",
+                    "provocation",
+                    ",",
+                    "killing",
+                    "Ahmed",
+                    "Haithem",
+                    "Ahmed",
+                    "Al",
+                    "Rubiay",
+                    ",",
+                    "an",
+                    "aspiring",
+                    "doctor",
+                    "who",
+                    "was",
+                    "driving",
+                    "his",
+                    "mother",
+                    "to",
+                    "an",
+                    "appointment",
+                    ".",
+                    "The",
+                    "contractors",
+                    "said",
+                    "they",
+                    "mistakenly",
+                    "believed",
+                    "that",
+                    "they",
+                    "were",
+                    "under",
+                    "attack",
+                    ".",
+                    "The",
+                    "incident",
+                    "caused",
+                    "international",
+                    "outrage",
+                    ",",
+                    "strained",
+                    "relations",
+                    "between",
+                    "the",
+                    "US",
+                    "and",
+                    "Iraq",
+                    ",",
+                    "and",
+                    "sparked",
+                    "a",
+                    "debate",
+                    "over",
+                    "the",
+                    "role",
+                    "of",
+                    "contractors",
+                    "in",
+                    "warzones",
+                    "."
+                ],
+                "sentences": {
+                    "generator": "srl_pipeline",
+                    "score": 1.0,
+                    "sentenceEndPositions": [
+                        32,
+                        44,
+                        70
+                    ]
+                }
             },
             "token": [
                 "US",
@@ -16869,87 +16905,6 @@
                 "corpusId": "",
                 "id": "",
                 "text": "US prosecutors said Slatten was the first to fire, without provocation, killing Ahmed Haithem Ahmed Al Rubiay, an aspiring doctor who was driving his mother to an appointment. The contractors said they mistakenly believed that they were under attack. The incident caused international outrage, strained relations between the US and Iraq, and sparked a debate over the role of contractors in warzones.",
-                "tokens": [
-                    "US",
-                    "prosecutors",
-                    "said",
-                    "Slatten",
-                    "was",
-                    "the",
-                    "first",
-                    "to",
-                    "fire",
-                    ",",
-                    "without",
-                    "provocation",
-                    ",",
-                    "killing",
-                    "Ahmed",
-                    "Haithem",
-                    "Ahmed",
-                    "Al",
-                    "Rubiay",
-                    ",",
-                    "an",
-                    "aspiring",
-                    "doctor",
-                    "who",
-                    "was",
-                    "driving",
-                    "his",
-                    "mother",
-                    "to",
-                    "an",
-                    "appointment",
-                    ".",
-                    "The",
-                    "contractors",
-                    "said",
-                    "they",
-                    "mistakenly",
-                    "believed",
-                    "that",
-                    "they",
-                    "were",
-                    "under",
-                    "attack",
-                    ".",
-                    "The",
-                    "incident",
-                    "caused",
-                    "international",
-                    "outrage",
-                    ",",
-                    "strained",
-                    "relations",
-                    "between",
-                    "the",
-                    "US",
-                    "and",
-                    "Iraq",
-                    ",",
-                    "and",
-                    "sparked",
-                    "a",
-                    "debate",
-                    "over",
-                    "the",
-                    "role",
-                    "of",
-                    "contractors",
-                    "in",
-                    "warzones",
-                    "."
-                ],
-                "sentences": {
-                    "generator": "srl_pipeline",
-                    "score": 1.0,
-                    "sentenceEndPositions": [
-                        32,
-                        44,
-                        70
-                    ]
-                },
                 "views": [
                     {
                         "viewName": "TOKENS",
@@ -17456,7 +17411,88 @@
                             }
                         ]
                     }
-                ]
+                ],
+                "tokens": [
+                    "US",
+                    "prosecutors",
+                    "said",
+                    "Slatten",
+                    "was",
+                    "the",
+                    "first",
+                    "to",
+                    "fire",
+                    ",",
+                    "without",
+                    "provocation",
+                    ",",
+                    "killing",
+                    "Ahmed",
+                    "Haithem",
+                    "Ahmed",
+                    "Al",
+                    "Rubiay",
+                    ",",
+                    "an",
+                    "aspiring",
+                    "doctor",
+                    "who",
+                    "was",
+                    "driving",
+                    "his",
+                    "mother",
+                    "to",
+                    "an",
+                    "appointment",
+                    ".",
+                    "The",
+                    "contractors",
+                    "said",
+                    "they",
+                    "mistakenly",
+                    "believed",
+                    "that",
+                    "they",
+                    "were",
+                    "under",
+                    "attack",
+                    ".",
+                    "The",
+                    "incident",
+                    "caused",
+                    "international",
+                    "outrage",
+                    ",",
+                    "strained",
+                    "relations",
+                    "between",
+                    "the",
+                    "US",
+                    "and",
+                    "Iraq",
+                    ",",
+                    "and",
+                    "sparked",
+                    "a",
+                    "debate",
+                    "over",
+                    "the",
+                    "role",
+                    "of",
+                    "contractors",
+                    "in",
+                    "warzones",
+                    "."
+                ],
+                "sentences": {
+                    "generator": "srl_pipeline",
+                    "score": 1.0,
+                    "sentenceEndPositions": [
+                        32,
+                        44,
+                        70
+                    ]
+                }
             }
         },
         "3f81e74c6c24202688ae60af0b0c8c6193364482": {
@@ -17465,66 +17501,6 @@
                 "corpusId": "",
                 "id": "",
                 "text": "In 2014, a US federal court found Slatten guilty of murder, while Slough, Liberty and Heard were convicted of voluntary manslaughter, attempted manslaughter and other charges. Slatten was sentenced to life in prison, and the other three were handed 30-year terms.",
-                "tokens": [
-                    "In",
-                    "2014",
-                    ",",
-                    "a",
-                    "US",
-                    "federal",
-                    "court",
-                    "found",
-                    "Slatten",
-                    "guilty",
-                    "of",
-                    "murder",
-                    ",",
-                    "while",
-                    "Slough",
-                    ",",
-                    "Liberty",
-                    "and",
-                    "Heard",
-                    "were",
-                    "convicted",
-                    "of",
-                    "voluntary",
-                    "manslaughter",
-                    ",",
-                    "attempted",
-                    "manslaughter",
-                    "and",
-                    "other",
-                    "charges",
-                    ".",
-                    "Slatten",
-                    "was",
-                    "sentenced",
-                    "to",
-                    "life",
-                    "in",
-                    "prison",
-                    ",",
-                    "and",
-                    "the",
-                    "other",
-                    "three",
-                    "were",
-                    "handed",
-                    "30",
-                    "-",
-                    "year",
-                    "terms",
-                    "."
-                ],
-                "sentences": {
-                    "generator": "srl_pipeline",
-                    "score": 1.0,
-                    "sentenceEndPositions": [
-                        31,
-                        50
-                    ]
-                },
                 "views": [
                     {
                         "viewName": "TOKENS",
@@ -17912,7 +17888,67 @@
                             }
                         ]
                     }
-                ]
+                ],
+                "tokens": [
+                    "In",
+                    "2014",
+                    ",",
+                    "a",
+                    "US",
+                    "federal",
+                    "court",
+                    "found",
+                    "Slatten",
+                    "guilty",
+                    "of",
+                    "murder",
+                    ",",
+                    "while",
+                    "Slough",
+                    ",",
+                    "Liberty",
+                    "and",
+                    "Heard",
+                    "were",
+                    "convicted",
+                    "of",
+                    "voluntary",
+                    "manslaughter",
+                    ",",
+                    "attempted",
+                    "manslaughter",
+                    "and",
+                    "other",
+                    "charges",
+                    ".",
+                    "Slatten",
+                    "was",
+                    "sentenced",
+                    "to",
+                    "life",
+                    "in",
+                    "prison",
+                    ",",
+                    "and",
+                    "the",
+                    "other",
+                    "three",
+                    "were",
+                    "handed",
+                    "30",
+                    "-",
+                    "year",
+                    "terms",
+                    "."
+                ],
+                "sentences": {
+                    "generator": "srl_pipeline",
+                    "score": 1.0,
+                    "sentenceEndPositions": [
+                        31,
+                        50
+                    ]
+                }
             },
             "token": [
                 "In",
@@ -18445,66 +18481,6 @@
                 "corpusId": "",
                 "id": "",
                 "text": "In 2014, a US federal court found Slatten guilty of murder, while Slough, Liberty and Heard were convicted of voluntary manslaughter, attempted manslaughter and other charges. Slatten was sentenced to life in prison, and the other three were handed 30-year terms.",
-                "tokens": [
-                    "In",
-                    "2014",
-                    ",",
-                    "a",
-                    "US",
-                    "federal",
-                    "court",
-                    "found",
-                    "Slatten",
-                    "guilty",
-                    "of",
-                    "murder",
-                    ",",
-                    "while",
-                    "Slough",
-                    ",",
-                    "Liberty",
-                    "and",
-                    "Heard",
-                    "were",
-                    "convicted",
-                    "of",
-                    "voluntary",
-                    "manslaughter",
-                    ",",
-                    "attempted",
-                    "manslaughter",
-                    "and",
-                    "other",
-                    "charges",
-                    ".",
-                    "Slatten",
-                    "was",
-                    "sentenced",
-                    "to",
-                    "life",
-                    "in",
-                    "prison",
-                    ",",
-                    "and",
-                    "the",
-                    "other",
-                    "three",
-                    "were",
-                    "handed",
-                    "30",
-                    "-",
-                    "year",
-                    "terms",
-                    "."
-                ],
-                "sentences": {
-                    "generator": "srl_pipeline",
-                    "score": 1.0,
-                    "sentenceEndPositions": [
-                        31,
-                        50
-                    ]
-                },
                 "views": [
                     {
                         "viewName": "TOKENS",
@@ -18876,7 +18852,67 @@
                             }
                         ]
                     }
-                ]
+                ],
+                "tokens": [
+                    "In",
+                    "2014",
+                    ",",
+                    "a",
+                    "US",
+                    "federal",
+                    "court",
+                    "found",
+                    "Slatten",
+                    "guilty",
+                    "of",
+                    "murder",
+                    ",",
+                    "while",
+                    "Slough",
+                    ",",
+                    "Liberty",
+                    "and",
+                    "Heard",
+                    "were",
+                    "convicted",
+                    "of",
+                    "voluntary",
+                    "manslaughter",
+                    ",",
+                    "attempted",
+                    "manslaughter",
+                    "and",
+                    "other",
+                    "charges",
+                    ".",
+                    "Slatten",
+                    "was",
+                    "sentenced",
+                    "to",
+                    "life",
+                    "in",
+                    "prison",
+                    ",",
+                    "and",
+                    "the",
+                    "other",
+                    "three",
+                    "were",
+                    "handed",
+                    "30",
+                    "-",
+                    "year",
+                    "terms",
+                    "."
+                ],
+                "sentences": {
+                    "generator": "srl_pipeline",
+                    "score": 1.0,
+                    "sentenceEndPositions": [
+                        31,
+                        50
+                    ]
+                }
             }
         }
     }
