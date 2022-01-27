@@ -1915,8 +1915,8 @@
                                 "relations": [
                                     {
                                         "relationName": "coref",
-                                        "srcConstituent": "4",
-                                        "targetConstituent": "0"
+                                        "srcConstituent": "0",
+                                        "targetConstituent": "4"
                                     }
                                 ]
                             }
@@ -4075,17 +4075,17 @@
                                     {
                                         "relationName": "coref",
                                         "srcConstituent": "1",
-                                        "targetConstituent": "8"
+                                        "targetConstituent": "0"
                                     },
                                     {
                                         "relationName": "coref",
                                         "srcConstituent": "1",
-                                        "targetConstituent": "0"
+                                        "targetConstituent": "8"
                                     },
                                     {
                                         "relationName": "coref",
-                                        "srcConstituent": "8",
-                                        "targetConstituent": "0"
+                                        "srcConstituent": "0",
+                                        "targetConstituent": "8"
                                     }
                                 ]
                             }
@@ -6016,17 +6016,17 @@
                                     {
                                         "relationName": "coref",
                                         "srcConstituent": "1",
-                                        "targetConstituent": "6"
+                                        "targetConstituent": "0"
                                     },
                                     {
                                         "relationName": "coref",
                                         "srcConstituent": "1",
-                                        "targetConstituent": "0"
+                                        "targetConstituent": "6"
                                     },
                                     {
                                         "relationName": "coref",
-                                        "srcConstituent": "6",
-                                        "targetConstituent": "0"
+                                        "srcConstituent": "0",
+                                        "targetConstituent": "6"
                                     }
                                 ]
                             }
@@ -6106,12 +6106,12 @@
                 }
             }
         },
-        "7e8472fc58c89b9ce0fefbe84c1b0d8258daac4f": {
-            "text": "Pfizer and BioNTech have begun a clinical trial for their Omicron-specific Covid19 vaccine candidate, they announced in a news release on Tuesday. The study will evaluate the vaccine for safety, tolerability and the level of immune response, as both a primary series and a booster dose, in up to 1420 healthy adults ages 18 to 55.",
+        "6667b21e259d3b562fb047909c9dafd87a033142": {
+            "text": "Pfizer and BioNTech have begun a clinical trial for their Omicron-specific Covid-19 vaccine candidate, they announced in a news release on Tuesday. The study will evaluate the vaccine for safety, tolerability and the level of immune response, as both a primary series and a booster dose, in up to 1420 healthy adults ages 18 to 55.",
             "res_json": {
                 "corpusId": "",
                 "id": "",
-                "text": "Pfizer and BioNTech have begun a clinical trial for their Omicron-specific Covid19 vaccine candidate, they announced in a news release on Tuesday. The study will evaluate the vaccine for safety, tolerability and the level of immune response, as both a primary series and a booster dose, in up to 1420 healthy adults ages 18 to 55.",
+                "text": "Pfizer and BioNTech have begun a clinical trial for their Omicron-specific Covid-19 vaccine candidate, they announced in a news release on Tuesday. The study will evaluate the vaccine for safety, tolerability and the level of immune response, as both a primary series and a booster dose, in up to 1420 healthy adults ages 18 to 55.",
                 "views": [
                     {
                         "viewName": "TOKENS",
@@ -6200,310 +6200,322 @@
                                     "end": 13
                                 },
                                 {
-                                    "label": "Covid19",
+                                    "label": "Covid",
                                     "score": 1.0,
                                     "start": 13,
                                     "end": 14
                                 },
                                 {
-                                    "label": "vaccine",
+                                    "label": "-",
                                     "score": 1.0,
                                     "start": 14,
                                     "end": 15
                                 },
                                 {
-                                    "label": "candidate",
+                                    "label": "19",
                                     "score": 1.0,
                                     "start": 15,
                                     "end": 16
                                 },
                                 {
-                                    "label": ",",
+                                    "label": "vaccine",
                                     "score": 1.0,
                                     "start": 16,
                                     "end": 17
                                 },
                                 {
-                                    "label": "they",
+                                    "label": "candidate",
                                     "score": 1.0,
                                     "start": 17,
                                     "end": 18
                                 },
                                 {
-                                    "label": "announced",
+                                    "label": ",",
                                     "score": 1.0,
                                     "start": 18,
                                     "end": 19
                                 },
                                 {
-                                    "label": "in",
+                                    "label": "they",
                                     "score": 1.0,
                                     "start": 19,
                                     "end": 20
                                 },
                                 {
-                                    "label": "a",
+                                    "label": "announced",
                                     "score": 1.0,
                                     "start": 20,
                                     "end": 21
                                 },
                                 {
-                                    "label": "news",
+                                    "label": "in",
                                     "score": 1.0,
                                     "start": 21,
                                     "end": 22
                                 },
                                 {
-                                    "label": "release",
+                                    "label": "a",
                                     "score": 1.0,
                                     "start": 22,
                                     "end": 23
                                 },
                                 {
-                                    "label": "on",
+                                    "label": "news",
                                     "score": 1.0,
                                     "start": 23,
                                     "end": 24
                                 },
                                 {
-                                    "label": "Tuesday",
+                                    "label": "release",
                                     "score": 1.0,
                                     "start": 24,
                                     "end": 25
                                 },
                                 {
-                                    "label": ".",
+                                    "label": "on",
                                     "score": 1.0,
                                     "start": 25,
                                     "end": 26
                                 },
                                 {
-                                    "label": "The",
+                                    "label": "Tuesday",
                                     "score": 1.0,
                                     "start": 26,
                                     "end": 27
                                 },
                                 {
-                                    "label": "study",
+                                    "label": ".",
                                     "score": 1.0,
                                     "start": 27,
                                     "end": 28
                                 },
                                 {
-                                    "label": "will",
+                                    "label": "The",
                                     "score": 1.0,
                                     "start": 28,
                                     "end": 29
                                 },
                                 {
-                                    "label": "evaluate",
+                                    "label": "study",
                                     "score": 1.0,
                                     "start": 29,
                                     "end": 30
                                 },
                                 {
-                                    "label": "the",
+                                    "label": "will",
                                     "score": 1.0,
                                     "start": 30,
                                     "end": 31
                                 },
                                 {
-                                    "label": "vaccine",
+                                    "label": "evaluate",
                                     "score": 1.0,
                                     "start": 31,
                                     "end": 32
                                 },
                                 {
-                                    "label": "for",
+                                    "label": "the",
                                     "score": 1.0,
                                     "start": 32,
                                     "end": 33
                                 },
                                 {
-                                    "label": "safety",
+                                    "label": "vaccine",
                                     "score": 1.0,
                                     "start": 33,
                                     "end": 34
                                 },
                                 {
-                                    "label": ",",
+                                    "label": "for",
                                     "score": 1.0,
                                     "start": 34,
                                     "end": 35
                                 },
                                 {
-                                    "label": "tolerability",
+                                    "label": "safety",
                                     "score": 1.0,
                                     "start": 35,
                                     "end": 36
                                 },
                                 {
-                                    "label": "and",
+                                    "label": ",",
                                     "score": 1.0,
                                     "start": 36,
                                     "end": 37
                                 },
                                 {
-                                    "label": "the",
+                                    "label": "tolerability",
                                     "score": 1.0,
                                     "start": 37,
                                     "end": 38
                                 },
                                 {
-                                    "label": "level",
+                                    "label": "and",
                                     "score": 1.0,
                                     "start": 38,
                                     "end": 39
                                 },
                                 {
-                                    "label": "of",
+                                    "label": "the",
                                     "score": 1.0,
                                     "start": 39,
                                     "end": 40
                                 },
                                 {
-                                    "label": "immune",
+                                    "label": "level",
                                     "score": 1.0,
                                     "start": 40,
                                     "end": 41
                                 },
                                 {
-                                    "label": "response",
+                                    "label": "of",
                                     "score": 1.0,
                                     "start": 41,
                                     "end": 42
                                 },
                                 {
-                                    "label": ",",
+                                    "label": "immune",
                                     "score": 1.0,
                                     "start": 42,
                                     "end": 43
                                 },
                                 {
-                                    "label": "as",
+                                    "label": "response",
                                     "score": 1.0,
                                     "start": 43,
                                     "end": 44
                                 },
                                 {
-                                    "label": "both",
+                                    "label": ",",
                                     "score": 1.0,
                                     "start": 44,
                                     "end": 45
                                 },
                                 {
-                                    "label": "a",
+                                    "label": "as",
                                     "score": 1.0,
                                     "start": 45,
                                     "end": 46
                                 },
                                 {
-                                    "label": "primary",
+                                    "label": "both",
                                     "score": 1.0,
                                     "start": 46,
                                     "end": 47
                                 },
                                 {
-                                    "label": "series",
+                                    "label": "a",
                                     "score": 1.0,
                                     "start": 47,
                                     "end": 48
                                 },
                                 {
-                                    "label": "and",
+                                    "label": "primary",
                                     "score": 1.0,
                                     "start": 48,
                                     "end": 49
                                 },
                                 {
-                                    "label": "a",
+                                    "label": "series",
                                     "score": 1.0,
                                     "start": 49,
                                     "end": 50
                                 },
                                 {
-                                    "label": "booster",
+                                    "label": "and",
                                     "score": 1.0,
                                     "start": 50,
                                     "end": 51
                                 },
                                 {
-                                    "label": "dose",
+                                    "label": "a",
                                     "score": 1.0,
                                     "start": 51,
                                     "end": 52
                                 },
                                 {
-                                    "label": ",",
+                                    "label": "booster",
                                     "score": 1.0,
                                     "start": 52,
                                     "end": 53
                                 },
                                 {
-                                    "label": "in",
+                                    "label": "dose",
                                     "score": 1.0,
                                     "start": 53,
                                     "end": 54
                                 },
                                 {
-                                    "label": "up",
+                                    "label": ",",
                                     "score": 1.0,
                                     "start": 54,
                                     "end": 55
                                 },
                                 {
-                                    "label": "to",
+                                    "label": "in",
                                     "score": 1.0,
                                     "start": 55,
                                     "end": 56
                                 },
                                 {
-                                    "label": "1420",
+                                    "label": "up",
                                     "score": 1.0,
                                     "start": 56,
                                     "end": 57
                                 },
                                 {
-                                    "label": "healthy",
+                                    "label": "to",
                                     "score": 1.0,
                                     "start": 57,
                                     "end": 58
                                 },
                                 {
-                                    "label": "adults",
+                                    "label": "1420",
                                     "score": 1.0,
                                     "start": 58,
                                     "end": 59
                                 },
                                 {
-                                    "label": "ages",
+                                    "label": "healthy",
                                     "score": 1.0,
                                     "start": 59,
                                     "end": 60
                                 },
                                 {
-                                    "label": "18",
+                                    "label": "adults",
                                     "score": 1.0,
                                     "start": 60,
                                     "end": 61
                                 },
                                 {
-                                    "label": "to",
+                                    "label": "ages",
                                     "score": 1.0,
                                     "start": 61,
                                     "end": 62
                                 },
                                 {
-                                    "label": "55",
+                                    "label": "18",
                                     "score": 1.0,
                                     "start": 62,
                                     "end": 63
                                 },
                                 {
-                                    "label": ".",
+                                    "label": "to",
                                     "score": 1.0,
                                     "start": 63,
                                     "end": 64
+                                },
+                                {
+                                    "label": "55",
+                                    "score": 1.0,
+                                    "start": 64,
+                                    "end": 65
+                                },
+                                {
+                                    "label": ".",
+                                    "score": 1.0,
+                                    "start": 65,
+                                    "end": 66
                                 }
                             ]
                         }
@@ -6540,8 +6552,8 @@
                                     {
                                         "label": "Medical:Vaccinate:Unspecified",
                                         "score": 1.0,
-                                        "start": 14,
-                                        "end": 15,
+                                        "start": 16,
+                                        "end": 17,
                                         "properties": {
                                             "SenseNumber": "01",
                                             "sentence_id": 0,
@@ -6551,50 +6563,43 @@
                                         }
                                     },
                                     {
-                                        "label": "Patient",
-                                        "score": 1.0,
-                                        "start": 9,
-                                        "end": 10,
-                                        "entity_type": "org"
-                                    },
-                                    {
                                         "label": "Cognitive:Inspection:SensoryObserve",
                                         "score": 1.0,
-                                        "start": 27,
-                                        "end": 28,
+                                        "start": 29,
+                                        "end": 30,
                                         "properties": {
                                             "SenseNumber": "01",
                                             "sentence_id": 1,
                                             "predicate": [
-                                                "in"
+                                                "to"
                                             ]
                                         }
                                     },
                                     {
                                         "label": "Observer",
                                         "score": 1.0,
-                                        "start": 58,
-                                        "end": 59,
+                                        "start": 60,
+                                        "end": 61,
                                         "entity_type": "per"
                                     },
                                     {
                                         "label": "Medical:Vaccinate:Unspecified",
                                         "score": 1.0,
-                                        "start": 31,
-                                        "end": 32,
+                                        "start": 33,
+                                        "end": 34,
                                         "properties": {
                                             "SenseNumber": "01",
                                             "sentence_id": 1,
                                             "predicate": [
-                                                "healthy"
+                                                "ages"
                                             ]
                                         }
                                     },
                                     {
                                         "label": "Contact:ThreatenCoerce:Broadcast",
                                         "score": 1.0,
-                                        "start": 50,
-                                        "end": 51,
+                                        "start": 52,
+                                        "end": 53,
                                         "properties": {
                                             "SenseNumber": "01",
                                             "sentence_id": 1,
@@ -6609,14 +6614,9 @@
                                         "targetConstituent": 1
                                     },
                                     {
-                                        "relationName": "Patient",
-                                        "srcConstituent": 2,
-                                        "targetConstituent": 3
-                                    },
-                                    {
                                         "relationName": "Observer",
-                                        "srcConstituent": 4,
-                                        "targetConstituent": 5
+                                        "srcConstituent": 3,
+                                        "targetConstituent": 4
                                     }
                                 ]
                             }
@@ -6637,7 +6637,9 @@
                     "Omicron",
                     "-",
                     "specific",
-                    "Covid19",
+                    "Covid",
+                    "-",
+                    "19",
                     "vaccine",
                     "candidate",
                     ",",
@@ -6693,8 +6695,8 @@
                     "generator": "srl_pipeline",
                     "score": 1.0,
                     "sentenceEndPositions": [
-                        26,
-                        64
+                        28,
+                        66
                     ]
                 }
             },
@@ -6712,7 +6714,9 @@
                 "Omicron",
                 "-",
                 "specific",
-                "Covid19",
+                "Covid",
+                "-",
+                "19",
                 "vaccine",
                 "candidate",
                 ",",
@@ -6765,8 +6769,8 @@
                 "."
             ],
             "end_pos": [
-                26,
-                64
+                28,
+                66
             ],
             "temporal": {
                 "corpusId": "",
@@ -6775,11 +6779,11 @@
                     "generator": "srl_pipeline",
                     "score": 1.0,
                     "sentenceEndPositions": [
-                        26,
-                        64
+                        28,
+                        66
                     ]
                 },
-                "text": "Pfizer and BioNTech have begun a clinical trial for their Omicron-specific Covid19 vaccine candidate, they announced in a news release on Tuesday. The study will evaluate the vaccine for safety, tolerability and the level of immune response, as both a primary series and a booster dose, in up to 1420 healthy adults ages 18 to 55.",
+                "text": "Pfizer and BioNTech have begun a clinical trial for their Omicron-specific Covid-19 vaccine candidate, they announced in a news release on Tuesday. The study will evaluate the vaccine for safety, tolerability and the level of immune response, as both a primary series and a booster dose, in up to 1420 healthy adults ages 18 to 55.",
                 "tokens": [
                     "Pfizer",
                     "and",
@@ -6794,7 +6798,9 @@
                     "Omicron",
                     "-",
                     "specific",
-                    "Covid19",
+                    "Covid",
+                    "-",
+                    "19",
                     "vaccine",
                     "candidate",
                     ",",
@@ -6930,309 +6936,321 @@
                                 },
                                 {
                                     "end": 14,
-                                    "label": "Covid19",
+                                    "label": "Covid",
                                     "score": 1.0,
                                     "start": 13
                                 },
                                 {
                                     "end": 15,
-                                    "label": "vaccine",
+                                    "label": "-",
                                     "score": 1.0,
                                     "start": 14
                                 },
                                 {
                                     "end": 16,
-                                    "label": "candidate",
+                                    "label": "19",
                                     "score": 1.0,
                                     "start": 15
                                 },
                                 {
                                     "end": 17,
-                                    "label": ",",
+                                    "label": "vaccine",
                                     "score": 1.0,
                                     "start": 16
                                 },
                                 {
                                     "end": 18,
-                                    "label": "they",
+                                    "label": "candidate",
                                     "score": 1.0,
                                     "start": 17
                                 },
                                 {
                                     "end": 19,
-                                    "label": "announced",
+                                    "label": ",",
                                     "score": 1.0,
                                     "start": 18
                                 },
                                 {
                                     "end": 20,
-                                    "label": "in",
+                                    "label": "they",
                                     "score": 1.0,
                                     "start": 19
                                 },
                                 {
                                     "end": 21,
-                                    "label": "a",
+                                    "label": "announced",
                                     "score": 1.0,
                                     "start": 20
                                 },
                                 {
                                     "end": 22,
-                                    "label": "news",
+                                    "label": "in",
                                     "score": 1.0,
                                     "start": 21
                                 },
                                 {
                                     "end": 23,
-                                    "label": "release",
+                                    "label": "a",
                                     "score": 1.0,
                                     "start": 22
                                 },
                                 {
                                     "end": 24,
-                                    "label": "on",
+                                    "label": "news",
                                     "score": 1.0,
                                     "start": 23
                                 },
                                 {
                                     "end": 25,
-                                    "label": "Tuesday",
+                                    "label": "release",
                                     "score": 1.0,
                                     "start": 24
                                 },
                                 {
                                     "end": 26,
-                                    "label": ".",
+                                    "label": "on",
                                     "score": 1.0,
                                     "start": 25
                                 },
                                 {
                                     "end": 27,
-                                    "label": "The",
+                                    "label": "Tuesday",
                                     "score": 1.0,
                                     "start": 26
                                 },
                                 {
                                     "end": 28,
-                                    "label": "study",
+                                    "label": ".",
                                     "score": 1.0,
                                     "start": 27
                                 },
                                 {
                                     "end": 29,
-                                    "label": "will",
+                                    "label": "The",
                                     "score": 1.0,
                                     "start": 28
                                 },
                                 {
                                     "end": 30,
-                                    "label": "evaluate",
+                                    "label": "study",
                                     "score": 1.0,
                                     "start": 29
                                 },
                                 {
                                     "end": 31,
-                                    "label": "the",
+                                    "label": "will",
                                     "score": 1.0,
                                     "start": 30
                                 },
                                 {
                                     "end": 32,
-                                    "label": "vaccine",
+                                    "label": "evaluate",
                                     "score": 1.0,
                                     "start": 31
                                 },
                                 {
                                     "end": 33,
-                                    "label": "for",
+                                    "label": "the",
                                     "score": 1.0,
                                     "start": 32
                                 },
                                 {
                                     "end": 34,
-                                    "label": "safety",
+                                    "label": "vaccine",
                                     "score": 1.0,
                                     "start": 33
                                 },
                                 {
                                     "end": 35,
-                                    "label": ",",
+                                    "label": "for",
                                     "score": 1.0,
                                     "start": 34
                                 },
                                 {
                                     "end": 36,
-                                    "label": "tolerability",
+                                    "label": "safety",
                                     "score": 1.0,
                                     "start": 35
                                 },
                                 {
                                     "end": 37,
-                                    "label": "and",
+                                    "label": ",",
                                     "score": 1.0,
                                     "start": 36
                                 },
                                 {
                                     "end": 38,
-                                    "label": "the",
+                                    "label": "tolerability",
                                     "score": 1.0,
                                     "start": 37
                                 },
                                 {
                                     "end": 39,
-                                    "label": "level",
+                                    "label": "and",
                                     "score": 1.0,
                                     "start": 38
                                 },
                                 {
                                     "end": 40,
-                                    "label": "of",
+                                    "label": "the",
                                     "score": 1.0,
                                     "start": 39
                                 },
                                 {
                                     "end": 41,
-                                    "label": "immune",
+                                    "label": "level",
                                     "score": 1.0,
                                     "start": 40
                                 },
                                 {
                                     "end": 42,
-                                    "label": "response",
+                                    "label": "of",
                                     "score": 1.0,
                                     "start": 41
                                 },
                                 {
                                     "end": 43,
-                                    "label": ",",
+                                    "label": "immune",
                                     "score": 1.0,
                                     "start": 42
                                 },
                                 {
                                     "end": 44,
-                                    "label": "as",
+                                    "label": "response",
                                     "score": 1.0,
                                     "start": 43
                                 },
                                 {
                                     "end": 45,
-                                    "label": "both",
+                                    "label": ",",
                                     "score": 1.0,
                                     "start": 44
                                 },
                                 {
                                     "end": 46,
-                                    "label": "a",
+                                    "label": "as",
                                     "score": 1.0,
                                     "start": 45
                                 },
                                 {
                                     "end": 47,
-                                    "label": "primary",
+                                    "label": "both",
                                     "score": 1.0,
                                     "start": 46
                                 },
                                 {
                                     "end": 48,
-                                    "label": "series",
+                                    "label": "a",
                                     "score": 1.0,
                                     "start": 47
                                 },
                                 {
                                     "end": 49,
-                                    "label": "and",
+                                    "label": "primary",
                                     "score": 1.0,
                                     "start": 48
                                 },
                                 {
                                     "end": 50,
-                                    "label": "a",
+                                    "label": "series",
                                     "score": 1.0,
                                     "start": 49
                                 },
                                 {
                                     "end": 51,
-                                    "label": "booster",
+                                    "label": "and",
                                     "score": 1.0,
                                     "start": 50
                                 },
                                 {
                                     "end": 52,
-                                    "label": "dose",
+                                    "label": "a",
                                     "score": 1.0,
                                     "start": 51
                                 },
                                 {
                                     "end": 53,
-                                    "label": ",",
+                                    "label": "booster",
                                     "score": 1.0,
                                     "start": 52
                                 },
                                 {
                                     "end": 54,
-                                    "label": "in",
+                                    "label": "dose",
                                     "score": 1.0,
                                     "start": 53
                                 },
                                 {
                                     "end": 55,
-                                    "label": "up",
+                                    "label": ",",
                                     "score": 1.0,
                                     "start": 54
                                 },
                                 {
                                     "end": 56,
-                                    "label": "to",
+                                    "label": "in",
                                     "score": 1.0,
                                     "start": 55
                                 },
                                 {
                                     "end": 57,
-                                    "label": "1420",
+                                    "label": "up",
                                     "score": 1.0,
                                     "start": 56
                                 },
                                 {
                                     "end": 58,
-                                    "label": "healthy",
+                                    "label": "to",
                                     "score": 1.0,
                                     "start": 57
                                 },
                                 {
                                     "end": 59,
-                                    "label": "adults",
+                                    "label": "1420",
                                     "score": 1.0,
                                     "start": 58
                                 },
                                 {
                                     "end": 60,
-                                    "label": "ages",
+                                    "label": "healthy",
                                     "score": 1.0,
                                     "start": 59
                                 },
                                 {
                                     "end": 61,
-                                    "label": "18",
+                                    "label": "adults",
                                     "score": 1.0,
                                     "start": 60
                                 },
                                 {
                                     "end": 62,
-                                    "label": "to",
+                                    "label": "ages",
                                     "score": 1.0,
                                     "start": 61
                                 },
                                 {
                                     "end": 63,
-                                    "label": "55",
+                                    "label": "18",
                                     "score": 1.0,
                                     "start": 62
                                 },
                                 {
                                     "end": 64,
-                                    "label": ".",
+                                    "label": "to",
                                     "score": 1.0,
                                     "start": 63
+                                },
+                                {
+                                    "end": 65,
+                                    "label": "55",
+                                    "score": 1.0,
+                                    "start": 64
+                                },
+                                {
+                                    "end": 66,
+                                    "label": ".",
+                                    "score": 1.0,
+                                    "start": 65
                                 }
                             ],
                             "generator": "Cogcomp-SRL",
@@ -7251,7 +7269,7 @@
                                         "label": "Justice:TrialHearing:Unspecified",
                                         "properties": {
                                             "SenseNumber": "01",
-                                            "duration": 624397,
+                                            "duration": 640200,
                                             "predicate": [
                                                 "trial"
                                             ],
@@ -7268,72 +7286,65 @@
                                         "start": 9
                                     },
                                     {
-                                        "end": 15,
+                                        "end": 17,
                                         "label": "Medical:Vaccinate:Unspecified",
                                         "properties": {
                                             "SenseNumber": "01",
-                                            "duration": 674280,
+                                            "duration": 704209,
                                             "predicate": [
                                                 "vaccine"
                                             ],
                                             "sentence_id": 0
                                         },
                                         "score": 1.0,
-                                        "start": 14
+                                        "start": 16
                                     },
                                     {
-                                        "end": 10,
-                                        "entity_type": "org",
-                                        "label": "Patient",
-                                        "score": 1.0,
-                                        "start": 9
-                                    },
-                                    {
-                                        "end": 28,
+                                        "end": 30,
                                         "label": "Cognitive:Inspection:SensoryObserve",
                                         "properties": {
                                             "SenseNumber": "01",
-                                            "duration": 619463,
+                                            "duration": 633180,
                                             "predicate": [
-                                                "in"
+                                                "to"
                                             ],
                                             "sentence_id": 1
                                         },
                                         "score": 1.0,
-                                        "start": 27
+                                        "start": 29
                                     },
                                     {
-                                        "end": 59,
+                                        "end": 61,
                                         "entity_type": "per",
                                         "label": "Observer",
                                         "score": 1.0,
-                                        "start": 58
+                                        "start": 60
                                     },
                                     {
-                                        "end": 32,
+                                        "end": 34,
                                         "label": "Medical:Vaccinate:Unspecified",
                                         "properties": {
                                             "SenseNumber": "01",
-                                            "duration": 674280,
+                                            "duration": 704209,
                                             "predicate": [
-                                                "healthy"
+                                                "ages"
                                             ],
                                             "sentence_id": 1
                                         },
                                         "score": 1.0,
-                                        "start": 31
+                                        "start": 33
                                     },
                                     {
-                                        "end": 51,
+                                        "end": 53,
                                         "label": "Contact:ThreatenCoerce:Broadcast",
                                         "properties": {
                                             "SenseNumber": "01",
-                                            "duration": 640417,
+                                            "duration": 679901,
                                             "predicate": [],
                                             "sentence_id": 1
                                         },
                                         "score": 1.0,
-                                        "start": 50
+                                        "start": 52
                                     }
                                 ],
                                 "generator": "cogcomp_kairos_event_ie_v1.0",
@@ -7344,98 +7355,45 @@
                                         "targetConstituent": 1
                                     },
                                     {
-                                        "relationName": "Patient",
-                                        "srcConstituent": 2,
-                                        "targetConstituent": 3
+                                        "relationName": "Observer",
+                                        "srcConstituent": 3,
+                                        "targetConstituent": 4
                                     },
                                     {
-                                        "relationName": "Observer",
-                                        "srcConstituent": 4,
+                                        "properties": {
+                                            "distance": 8040
+                                        },
+                                        "relationName": "before",
+                                        "srcConstituent": 2,
                                         "targetConstituent": 5
                                     },
                                     {
                                         "properties": {
-                                            "distance": 8206
+                                            "distance": 8040
                                         },
-                                        "relationName": "before",
-                                        "srcConstituent": 6,
+                                        "relationName": "after",
+                                        "srcConstituent": 5,
                                         "targetConstituent": 2
                                     },
                                     {
                                         "properties": {
-                                            "distance": 8206
+                                            "distance": 8702
                                         },
-                                        "relationName": "after",
+                                        "relationName": "before",
                                         "srcConstituent": 2,
                                         "targetConstituent": 6
                                     },
                                     {
                                         "properties": {
-                                            "distance": 8775
+                                            "distance": 8702
                                         },
-                                        "relationName": "before",
+                                        "relationName": "after",
                                         "srcConstituent": 6,
-                                        "targetConstituent": 7
-                                    },
-                                    {
-                                        "properties": {
-                                            "distance": 8775
-                                        },
-                                        "relationName": "after",
-                                        "srcConstituent": 7,
-                                        "targetConstituent": 6
-                                    },
-                                    {
-                                        "properties": {
-                                            "distance": 9929
-                                        },
-                                        "relationName": "before",
-                                        "srcConstituent": 6,
-                                        "targetConstituent": 0
-                                    },
-                                    {
-                                        "properties": {
-                                            "distance": 9929
-                                        },
-                                        "relationName": "after",
-                                        "srcConstituent": 0,
-                                        "targetConstituent": 6
-                                    },
-                                    {
-                                        "properties": {
-                                            "distance": 10112
-                                        },
-                                        "relationName": "before",
-                                        "srcConstituent": 6,
-                                        "targetConstituent": 4
-                                    },
-                                    {
-                                        "properties": {
-                                            "distance": 10112
-                                        },
-                                        "relationName": "after",
-                                        "srcConstituent": 4,
-                                        "targetConstituent": 6
-                                    },
-                                    {
-                                        "properties": {
-                                            "distance": 8775
-                                        },
-                                        "relationName": "before",
-                                        "srcConstituent": 2,
-                                        "targetConstituent": 7
-                                    },
-                                    {
-                                        "properties": {
-                                            "distance": 8775
-                                        },
-                                        "relationName": "after",
-                                        "srcConstituent": 7,
                                         "targetConstituent": 2
                                     },
                                     {
                                         "properties": {
-                                            "distance": 9929
+                                            "distance": 9831
                                         },
                                         "relationName": "before",
                                         "srcConstituent": 2,
@@ -7443,7 +7401,7 @@
                                     },
                                     {
                                         "properties": {
-                                            "distance": 9929
+                                            "distance": 9831
                                         },
                                         "relationName": "after",
                                         "srcConstituent": 0,
@@ -7451,66 +7409,114 @@
                                     },
                                     {
                                         "properties": {
-                                            "distance": 10112
+                                            "distance": 10094
                                         },
                                         "relationName": "before",
                                         "srcConstituent": 2,
-                                        "targetConstituent": 4
+                                        "targetConstituent": 3
                                     },
                                     {
                                         "properties": {
-                                            "distance": 10112
+                                            "distance": 10094
                                         },
                                         "relationName": "after",
-                                        "srcConstituent": 4,
+                                        "srcConstituent": 3,
                                         "targetConstituent": 2
                                     },
                                     {
                                         "properties": {
-                                            "distance": 10773
+                                            "distance": 8702
                                         },
                                         "relationName": "before",
-                                        "srcConstituent": 7,
+                                        "srcConstituent": 5,
+                                        "targetConstituent": 6
+                                    },
+                                    {
+                                        "properties": {
+                                            "distance": 8702
+                                        },
+                                        "relationName": "after",
+                                        "srcConstituent": 6,
+                                        "targetConstituent": 5
+                                    },
+                                    {
+                                        "properties": {
+                                            "distance": 9831
+                                        },
+                                        "relationName": "before",
+                                        "srcConstituent": 5,
                                         "targetConstituent": 0
                                     },
                                     {
                                         "properties": {
-                                            "distance": 10773
+                                            "distance": 9831
                                         },
                                         "relationName": "after",
                                         "srcConstituent": 0,
-                                        "targetConstituent": 7
+                                        "targetConstituent": 5
                                     },
                                     {
                                         "properties": {
-                                            "distance": 10330
+                                            "distance": 10094
                                         },
                                         "relationName": "before",
-                                        "srcConstituent": 7,
-                                        "targetConstituent": 4
+                                        "srcConstituent": 5,
+                                        "targetConstituent": 3
                                     },
                                     {
                                         "properties": {
-                                            "distance": 10330
+                                            "distance": 10094
                                         },
                                         "relationName": "after",
-                                        "srcConstituent": 4,
-                                        "targetConstituent": 7
+                                        "srcConstituent": 3,
+                                        "targetConstituent": 5
                                     },
                                     {
                                         "properties": {
-                                            "distance": 8798
+                                            "distance": 10580
+                                        },
+                                        "relationName": "before",
+                                        "srcConstituent": 6,
+                                        "targetConstituent": 0
+                                    },
+                                    {
+                                        "properties": {
+                                            "distance": 10580
+                                        },
+                                        "relationName": "after",
+                                        "srcConstituent": 0,
+                                        "targetConstituent": 6
+                                    },
+                                    {
+                                        "properties": {
+                                            "distance": 10110
+                                        },
+                                        "relationName": "before",
+                                        "srcConstituent": 6,
+                                        "targetConstituent": 3
+                                    },
+                                    {
+                                        "properties": {
+                                            "distance": 10110
+                                        },
+                                        "relationName": "after",
+                                        "srcConstituent": 3,
+                                        "targetConstituent": 6
+                                    },
+                                    {
+                                        "properties": {
+                                            "distance": 8633
                                         },
                                         "relationName": "before",
                                         "srcConstituent": 0,
-                                        "targetConstituent": 4
+                                        "targetConstituent": 3
                                     },
                                     {
                                         "properties": {
-                                            "distance": 8798
+                                            "distance": 8633
                                         },
                                         "relationName": "after",
-                                        "srcConstituent": 4,
+                                        "srcConstituent": 3,
                                         "targetConstituent": 0
                                     }
                                 ],
@@ -7526,7 +7532,7 @@
             "coref": {
                 "corpusId": "",
                 "id": "",
-                "text": "Pfizer and BioNTech have begun a clinical trial for their Omicron-specific Covid19 vaccine candidate, they announced in a news release on Tuesday. The study will evaluate the vaccine for safety, tolerability and the level of immune response, as both a primary series and a booster dose, in up to 1420 healthy adults ages 18 to 55.",
+                "text": "Pfizer and BioNTech have begun a clinical trial for their Omicron-specific Covid-19 vaccine candidate, they announced in a news release on Tuesday. The study will evaluate the vaccine for safety, tolerability and the level of immune response, as both a primary series and a booster dose, in up to 1420 healthy adults ages 18 to 55.",
                 "views": [
                     {
                         "viewName": "TOKENS",
@@ -7615,310 +7621,322 @@
                                     "end": 13
                                 },
                                 {
-                                    "label": "Covid19",
+                                    "label": "Covid",
                                     "score": 1.0,
                                     "start": 13,
                                     "end": 14
                                 },
                                 {
-                                    "label": "vaccine",
+                                    "label": "-",
                                     "score": 1.0,
                                     "start": 14,
                                     "end": 15
                                 },
                                 {
-                                    "label": "candidate",
+                                    "label": "19",
                                     "score": 1.0,
                                     "start": 15,
                                     "end": 16
                                 },
                                 {
-                                    "label": ",",
+                                    "label": "vaccine",
                                     "score": 1.0,
                                     "start": 16,
                                     "end": 17
                                 },
                                 {
-                                    "label": "they",
+                                    "label": "candidate",
                                     "score": 1.0,
                                     "start": 17,
                                     "end": 18
                                 },
                                 {
-                                    "label": "announced",
+                                    "label": ",",
                                     "score": 1.0,
                                     "start": 18,
                                     "end": 19
                                 },
                                 {
-                                    "label": "in",
+                                    "label": "they",
                                     "score": 1.0,
                                     "start": 19,
                                     "end": 20
                                 },
                                 {
-                                    "label": "a",
+                                    "label": "announced",
                                     "score": 1.0,
                                     "start": 20,
                                     "end": 21
                                 },
                                 {
-                                    "label": "news",
+                                    "label": "in",
                                     "score": 1.0,
                                     "start": 21,
                                     "end": 22
                                 },
                                 {
-                                    "label": "release",
+                                    "label": "a",
                                     "score": 1.0,
                                     "start": 22,
                                     "end": 23
                                 },
                                 {
-                                    "label": "on",
+                                    "label": "news",
                                     "score": 1.0,
                                     "start": 23,
                                     "end": 24
                                 },
                                 {
-                                    "label": "Tuesday",
+                                    "label": "release",
                                     "score": 1.0,
                                     "start": 24,
                                     "end": 25
                                 },
                                 {
-                                    "label": ".",
+                                    "label": "on",
                                     "score": 1.0,
                                     "start": 25,
                                     "end": 26
                                 },
                                 {
-                                    "label": "The",
+                                    "label": "Tuesday",
                                     "score": 1.0,
                                     "start": 26,
                                     "end": 27
                                 },
                                 {
-                                    "label": "study",
+                                    "label": ".",
                                     "score": 1.0,
                                     "start": 27,
                                     "end": 28
                                 },
                                 {
-                                    "label": "will",
+                                    "label": "The",
                                     "score": 1.0,
                                     "start": 28,
                                     "end": 29
                                 },
                                 {
-                                    "label": "evaluate",
+                                    "label": "study",
                                     "score": 1.0,
                                     "start": 29,
                                     "end": 30
                                 },
                                 {
-                                    "label": "the",
+                                    "label": "will",
                                     "score": 1.0,
                                     "start": 30,
                                     "end": 31
                                 },
                                 {
-                                    "label": "vaccine",
+                                    "label": "evaluate",
                                     "score": 1.0,
                                     "start": 31,
                                     "end": 32
                                 },
                                 {
-                                    "label": "for",
+                                    "label": "the",
                                     "score": 1.0,
                                     "start": 32,
                                     "end": 33
                                 },
                                 {
-                                    "label": "safety",
+                                    "label": "vaccine",
                                     "score": 1.0,
                                     "start": 33,
                                     "end": 34
                                 },
                                 {
-                                    "label": ",",
+                                    "label": "for",
                                     "score": 1.0,
                                     "start": 34,
                                     "end": 35
                                 },
                                 {
-                                    "label": "tolerability",
+                                    "label": "safety",
                                     "score": 1.0,
                                     "start": 35,
                                     "end": 36
                                 },
                                 {
-                                    "label": "and",
+                                    "label": ",",
                                     "score": 1.0,
                                     "start": 36,
                                     "end": 37
                                 },
                                 {
-                                    "label": "the",
+                                    "label": "tolerability",
                                     "score": 1.0,
                                     "start": 37,
                                     "end": 38
                                 },
                                 {
-                                    "label": "level",
+                                    "label": "and",
                                     "score": 1.0,
                                     "start": 38,
                                     "end": 39
                                 },
                                 {
-                                    "label": "of",
+                                    "label": "the",
                                     "score": 1.0,
                                     "start": 39,
                                     "end": 40
                                 },
                                 {
-                                    "label": "immune",
+                                    "label": "level",
                                     "score": 1.0,
                                     "start": 40,
                                     "end": 41
                                 },
                                 {
-                                    "label": "response",
+                                    "label": "of",
                                     "score": 1.0,
                                     "start": 41,
                                     "end": 42
                                 },
                                 {
-                                    "label": ",",
+                                    "label": "immune",
                                     "score": 1.0,
                                     "start": 42,
                                     "end": 43
                                 },
                                 {
-                                    "label": "as",
+                                    "label": "response",
                                     "score": 1.0,
                                     "start": 43,
                                     "end": 44
                                 },
                                 {
-                                    "label": "both",
+                                    "label": ",",
                                     "score": 1.0,
                                     "start": 44,
                                     "end": 45
                                 },
                                 {
-                                    "label": "a",
+                                    "label": "as",
                                     "score": 1.0,
                                     "start": 45,
                                     "end": 46
                                 },
                                 {
-                                    "label": "primary",
+                                    "label": "both",
                                     "score": 1.0,
                                     "start": 46,
                                     "end": 47
                                 },
                                 {
-                                    "label": "series",
+                                    "label": "a",
                                     "score": 1.0,
                                     "start": 47,
                                     "end": 48
                                 },
                                 {
-                                    "label": "and",
+                                    "label": "primary",
                                     "score": 1.0,
                                     "start": 48,
                                     "end": 49
                                 },
                                 {
-                                    "label": "a",
+                                    "label": "series",
                                     "score": 1.0,
                                     "start": 49,
                                     "end": 50
                                 },
                                 {
-                                    "label": "booster",
+                                    "label": "and",
                                     "score": 1.0,
                                     "start": 50,
                                     "end": 51
                                 },
                                 {
-                                    "label": "dose",
+                                    "label": "a",
                                     "score": 1.0,
                                     "start": 51,
                                     "end": 52
                                 },
                                 {
-                                    "label": ",",
+                                    "label": "booster",
                                     "score": 1.0,
                                     "start": 52,
                                     "end": 53
                                 },
                                 {
-                                    "label": "in",
+                                    "label": "dose",
                                     "score": 1.0,
                                     "start": 53,
                                     "end": 54
                                 },
                                 {
-                                    "label": "up",
+                                    "label": ",",
                                     "score": 1.0,
                                     "start": 54,
                                     "end": 55
                                 },
                                 {
-                                    "label": "to",
+                                    "label": "in",
                                     "score": 1.0,
                                     "start": 55,
                                     "end": 56
                                 },
                                 {
-                                    "label": "1420",
+                                    "label": "up",
                                     "score": 1.0,
                                     "start": 56,
                                     "end": 57
                                 },
                                 {
-                                    "label": "healthy",
+                                    "label": "to",
                                     "score": 1.0,
                                     "start": 57,
                                     "end": 58
                                 },
                                 {
-                                    "label": "adults",
+                                    "label": "1420",
                                     "score": 1.0,
                                     "start": 58,
                                     "end": 59
                                 },
                                 {
-                                    "label": "ages",
+                                    "label": "healthy",
                                     "score": 1.0,
                                     "start": 59,
                                     "end": 60
                                 },
                                 {
-                                    "label": "18",
+                                    "label": "adults",
                                     "score": 1.0,
                                     "start": 60,
                                     "end": 61
                                 },
                                 {
-                                    "label": "to",
+                                    "label": "ages",
                                     "score": 1.0,
                                     "start": 61,
                                     "end": 62
                                 },
                                 {
-                                    "label": "55",
+                                    "label": "18",
                                     "score": 1.0,
                                     "start": 62,
                                     "end": 63
                                 },
                                 {
-                                    "label": ".",
+                                    "label": "to",
                                     "score": 1.0,
                                     "start": 63,
                                     "end": 64
+                                },
+                                {
+                                    "label": "55",
+                                    "score": 1.0,
+                                    "start": 64,
+                                    "end": 65
+                                },
+                                {
+                                    "label": ".",
+                                    "score": 1.0,
+                                    "start": 65,
+                                    "end": 66
                                 }
                             ]
                         }
@@ -7955,8 +7973,8 @@
                                     {
                                         "label": "Medical:Vaccinate:Unspecified",
                                         "score": 1.0,
-                                        "start": 14,
-                                        "end": 15,
+                                        "start": 16,
+                                        "end": 17,
                                         "properties": {
                                             "SenseNumber": "01",
                                             "sentence_id": 0,
@@ -7966,50 +7984,43 @@
                                         }
                                     },
                                     {
-                                        "label": "Patient",
-                                        "score": 1.0,
-                                        "start": 9,
-                                        "end": 10,
-                                        "entity_type": "org"
-                                    },
-                                    {
                                         "label": "Cognitive:Inspection:SensoryObserve",
                                         "score": 1.0,
-                                        "start": 27,
-                                        "end": 28,
+                                        "start": 29,
+                                        "end": 30,
                                         "properties": {
                                             "SenseNumber": "01",
                                             "sentence_id": 1,
                                             "predicate": [
-                                                "in"
+                                                "to"
                                             ]
                                         }
                                     },
                                     {
                                         "label": "Observer",
                                         "score": 1.0,
-                                        "start": 58,
-                                        "end": 59,
+                                        "start": 60,
+                                        "end": 61,
                                         "entity_type": "per"
                                     },
                                     {
                                         "label": "Medical:Vaccinate:Unspecified",
                                         "score": 1.0,
-                                        "start": 31,
-                                        "end": 32,
+                                        "start": 33,
+                                        "end": 34,
                                         "properties": {
                                             "SenseNumber": "01",
                                             "sentence_id": 1,
                                             "predicate": [
-                                                "healthy"
+                                                "ages"
                                             ]
                                         }
                                     },
                                     {
                                         "label": "Contact:ThreatenCoerce:Broadcast",
                                         "score": 1.0,
-                                        "start": 50,
-                                        "end": 51,
+                                        "start": 52,
+                                        "end": 53,
                                         "properties": {
                                             "SenseNumber": "01",
                                             "sentence_id": 1,
@@ -8020,13 +8031,13 @@
                                 "relations": [
                                     {
                                         "relationName": "coref",
-                                        "srcConstituent": "2",
-                                        "targetConstituent": "6"
+                                        "srcConstituent": "0",
+                                        "targetConstituent": "3"
                                     },
                                     {
                                         "relationName": "coref",
-                                        "srcConstituent": "0",
-                                        "targetConstituent": "4"
+                                        "srcConstituent": "5",
+                                        "targetConstituent": "2"
                                     }
                                 ]
                             }
@@ -8047,7 +8058,9 @@
                     "Omicron",
                     "-",
                     "specific",
-                    "Covid19",
+                    "Covid",
+                    "-",
+                    "19",
                     "vaccine",
                     "candidate",
                     ",",
@@ -8103,8 +8116,8 @@
                     "generator": "srl_pipeline",
                     "score": 1.0,
                     "sentenceEndPositions": [
-                        26,
-                        64
+                        28,
+                        66
                     ]
                 }
             }
@@ -9953,17 +9966,17 @@
                                 "relations": [
                                     {
                                         "relationName": "coref",
-                                        "srcConstituent": "3",
-                                        "targetConstituent": "0"
-                                    },
-                                    {
-                                        "relationName": "coref",
-                                        "srcConstituent": "3",
-                                        "targetConstituent": "4"
+                                        "srcConstituent": "0",
+                                        "targetConstituent": "3"
                                     },
                                     {
                                         "relationName": "coref",
                                         "srcConstituent": "0",
+                                        "targetConstituent": "4"
+                                    },
+                                    {
+                                        "relationName": "coref",
+                                        "srcConstituent": "3",
                                         "targetConstituent": "4"
                                     }
                                 ]
@@ -11567,18 +11580,18 @@
                                 "relations": [
                                     {
                                         "relationName": "coref",
-                                        "srcConstituent": "2",
+                                        "srcConstituent": "0",
                                         "targetConstituent": "7"
                                     },
                                     {
                                         "relationName": "coref",
-                                        "srcConstituent": "2",
-                                        "targetConstituent": "0"
+                                        "srcConstituent": "0",
+                                        "targetConstituent": "2"
                                     },
                                     {
                                         "relationName": "coref",
                                         "srcConstituent": "7",
-                                        "targetConstituent": "0"
+                                        "targetConstituent": "2"
                                     }
                                 ]
                             }
