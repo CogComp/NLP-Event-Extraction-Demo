@@ -61,11 +61,11 @@ if __name__ == "__main__":
         try:
             res_out_json = getSTORYLINE(annjsonEvents)
             cache_EE['eng'][key]['coref'] = res_out_json            
-            print('Sample ' + str(count + 1) + ' has been added to cache_EE!!')
+            print('Sample No. ' + str(count + 1) + ' has been added to cache_EE!!')
             print(cache_EE['eng'][key]['text'])
             count += 1
         except:
-            print('Failed to add sample ' + str(count + 1) +'into cache_EE!!')
+            print('Failed to Add Sample No. ' + str(count + 1) +' into cache_EE!!')
             count +=1
 
     cache_Coref_json = json.dumps(cache_EE, indent=4)

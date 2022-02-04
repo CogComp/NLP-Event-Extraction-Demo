@@ -54,7 +54,7 @@ if __name__ == "__main__":
         annjsonEvents = cache_EE['eng'][key]['res_json']
         res_out_json = getTEMPORAL(annjsonEvents)
         cache_EE['eng'][key]['temporal'] = res_out_json
-        print('Sample ' + str(count + 1))
+        print('Sample No. ' + str(count + 1))
         print(cache_EE['eng'][key]['text'])
         count += 1
 

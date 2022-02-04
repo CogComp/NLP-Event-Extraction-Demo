@@ -57,7 +57,7 @@ def load(name):
     name: "Event"
     '''
     try:
-        with open('cache/cache_' + name + '.json') as file_obj:
+        with open('cache_' + name + '.json') as file_obj:
             cache = json.load(file_obj)
         print("Successfully loaded cache from cache_" + name + ".json")
     except:
@@ -87,7 +87,7 @@ if __name__ == "__main__":
                     cache_Event[lang][hash_value]['token'] = t
                     cache_Event[lang][hash_value]['end_pos'] = s
                     count += 1
-                    print('Sample ' + str(count) + ' has been added to cache_Event')
+                    print('Sample No. ' + str(count) + ' has been added to cache_Event')
 
         cache_Event_json = json.dumps(cache_Event, indent=4)
         with open('cache_EE.json', 'w') as json_file:
@@ -115,7 +115,7 @@ if __name__ == "__main__":
                     t,s,annjsonEvents = getBasicAnnotationsFromEVENTS(text)
                 except:
                     cache_Event_json = json.dumps(cache_Event, indent=4)
-                    with open('cache/cache_Event_new.json', 'w') as json_file:
+                    with open('cache_Event_new.json', 'w') as json_file:
                         json_file.write(cache_Event_json) 
                     ValueError('Error occured in getBasicAnnotationsFromEVENTS()')
 
@@ -124,10 +124,10 @@ if __name__ == "__main__":
                 cache_Event[lang][hash_value]['res_json'] = annjsonEvents
                 cache_Event[lang][hash_value]['token'] = t
                 cache_Event[lang][hash_value]['end_pos'] = s
-                print('The sample no.' + str(i + 1) +' : ')
+                print('Sample No.' + str(i + 1) +' : ')
                 print(text)
         
         cache_Event_json = json.dumps(cache_Event, indent=4)
-        with open('cache/cache_EE.json', 'w') as json_file:
+        with open('cache_EE.json', 'w') as json_file:
             json_file.write(cache_Event_json) 
         
