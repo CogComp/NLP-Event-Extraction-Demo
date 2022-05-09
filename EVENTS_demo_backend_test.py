@@ -28,6 +28,7 @@ BASE_HTML_PATH = "./EVENTS_html"
 BASE_KAIROS_NER_HTTP = "http://dickens.seas.upenn.edu:4022/ner"
 BASE_KAIROS_SRL_HTTP = "http://dickens.seas.upenn.edu:4039/annotate"
 BASE_KAIROS_EVENTS_HTTP = "http://leguin.seas.upenn.edu:4023/annotate"
+BASE_KAIROS_EVENTS_HTTP_MULTI = "http://leguin.seas.upenn.edu:4023/annotatemulti"
 # BASE_KAIROS_EVENTS_HTTP = "http://dickens.seas.upenn.edu:4048/annotate"
 BASE_KAIROS_TEMPORAL_HTTP = "http://leguin.seas.upenn.edu:4024/annotate"
 BASE_KAIROS_STORYLINE_HTTP = "http://leguin.seas.upenn.edu:4025/annotate"
@@ -112,7 +113,7 @@ def get_TIMEX3(text):
     return res_json
 '''
 
-def get_basic_annotations_from_EVENTS(text, lang="eng", ret_verb_srl=True):
+def get_basic_annotations_from_EVENTS(text, lang="eng", ret_verb_srl=True, multi=False):
     global cache_EE
     hash_value = hashlib.sha1(text.encode()).hexdigest()
     
@@ -123,10 +124,7 @@ def get_basic_annotations_from_EVENTS(text, lang="eng", ret_verb_srl=True):
     if hash_value in cache_EE[lang].keys():
         verb_srl = {}
         tokens, endPositions, res_json, cache_EE = cache.read('Event', cache_EE, lang, hash_value)
-        if ret_verb_srl:
-            return tokens, endPositions, res_json, verb_srl
-        else:
-            return tokens, endPositions, res_json
+        return tokens, endPositions, res_json, verb_srl
 
     else:
         input = {"text": text}
@@ -134,9 +132,17 @@ def get_basic_annotations_from_EVENTS(text, lang="eng", ret_verb_srl=True):
         
         start_time = time()
         if ret_verb_srl:
-            res_out = requests.post(BASE_KAIROS_EVENTS_HTTP, json={"text": text, "task": "include_verb_srl", "text_preprocessed":True}, headers=headers)
+            if not multi:
+                res_out = requests.post(BASE_KAIROS_EVENTS_HTTP, json={"text": text, "task": "include_verb_srl", "text_preprocessed":True}, headers=headers)
+            else:
+                res_out = requests.post(BASE_KAIROS_EVENTS_HTTP_MULTI, json={"text": text, "task": "include_verb_srl", "text_preprocessed":True}, headers=headers)
+
         else:
-            res_out = requests.post(BASE_KAIROS_EVENTS_HTTP, json=input)
+            if not multi:
+                res_out = requests.post(BASE_KAIROS_EVENTS_HTTP, json=input)
+            else:
+                res_out = requests.post(BASE_KAIROS_EVENTS_HTTP_MULTI, json=input)
+
         print("\n*****Processing Time for Event Extraction: ", time() - start_time, "\n")
         print("(3)BASE_KAIROS_EVENTS_HTTP was used!!!!!!!!!!!!!!!")
 
@@ -273,7 +279,7 @@ def get_TEMPORAL_OLD(eventsOutput):
     return res_out_json # {} # res_out.json()
 '''
 
-def get_TEMPORAL(eventsOutput, verb_srl, text=None):  #add 'text' argument for checking if the Temporal annotations of the text has already existed.
+def get_TEMPORAL(eventsOutput, verb_srl, text=None, multi=False):  #add 'text' argument for checking if the Temporal annotations of the text has already existed.
     global cache_EE
     lang="eng"
 
@@ -289,9 +295,9 @@ def get_TEMPORAL(eventsOutput, verb_srl, text=None):  #add 'text' argument for c
             
             start_time = time()
             if len(verb_srl)>0:
-                res_out = requests.post(BASE_KAIROS_TEMPORAL_HTTP, json={"eventsOutput": eventsOutput, "verb_srl": verb_srl}, headers=headers)
+                res_out = requests.post(BASE_KAIROS_TEMPORAL_HTTP, json={"eventsOutput":eventsOutput, "verb_srl":verb_srl, "multi":multi}, headers=headers)
             else:
-                res_out = requests.post(BASE_KAIROS_TEMPORAL_HTTP, json = input)
+                res_out = requests.post(BASE_KAIROS_TEMPORAL_HTTP, json=input)
             
             print("\n*****Processing Time for Temporal: ", time() - start_time, "\n")
             print('(4) BASE_KAIROS_TEMPORAL_HTTP!!!!!!!!!!!!!!!!!!!!!!!!')
@@ -309,9 +315,9 @@ def get_TEMPORAL(eventsOutput, verb_srl, text=None):  #add 'text' argument for c
         
         if len(verb_srl)>0:
             res_out = requests.post(BASE_KAIROS_TEMPORAL_HTTP, 
-                json={"eventsOutput": eventsOutput, "verb_srl": verb_srl}, headers=headers)
+                json={"eventsOutput":eventsOutput, "verb_srl":verb_srl, "multi":multi}, headers=headers)
         else:
-            res_out = requests.post(BASE_KAIROS_TEMPORAL_HTTP, json = input)
+            res_out = requests.post(BASE_KAIROS_TEMPORAL_HTTP, json=input)
 
         print("\n*****Processing Time for Temporal: ", time() - start_time, "\n")
         print('(4) BASE_KAIROS_TEMPORAL_HTTP!!!!!!!!!!!!!!!!!!!!!!!!')
@@ -340,13 +346,10 @@ def get_TEMPORAL(eventsOutput, verb_srl, text=None):  #add 'text' argument for c
     return res_out_json # {} # res_out.json()
 
 
-def initView(myTabularView, text, ret_verb_srl=False):
+def initView(myTabularView, text, ret_verb_srl=False, multi=False):
     myTabularView.setText(text)
     
-    if ret_verb_srl:
-        t, s, annjsonEvents, verb_srl = get_basic_annotations_from_EVENTS(text, ret_verb_srl=True)
-    else:
-        t, s, annjsonEvents = get_basic_annotations_from_EVENTS(text, ret_verb_srl=False)
+    t, s, annjsonEvents, verb_srl = get_basic_annotations_from_EVENTS(text, ret_verb_srl=ret_verb_srl, multi=multi)
 
     myTabularView.setTokens(t)
     myTabularView.setSentenceEnds(s)
@@ -358,10 +361,7 @@ def initView(myTabularView, text, ret_verb_srl=False):
         myTabularView.addSpanLabelView(annjson,"NER_CONLL","NER-CONLL")
     '''
 
-    if ret_verb_srl:
-        return annjsonEvents, verb_srl
-    else:
-        return annjsonEvents
+    return annjsonEvents, verb_srl
 
 '''
 #def process_NER(myTabularView, text):
@@ -450,8 +450,8 @@ def process_TEMPORAL_OLD(myTabularView, eventsOutput):
         myTabularView.addRelationView(annjson, "Event_extraction", "Temporal")
 '''
 
-def process_TEMPORAL(myTabularView, eventsOutput, verb_srl, text=None):
-    annjson = get_TEMPORAL(eventsOutput, verb_srl, text)
+def process_TEMPORAL(myTabularView, eventsOutput, verb_srl, text=None, multi=False):
+    annjson = get_TEMPORAL(eventsOutput, verb_srl, text, multi)
 
     if "tokens" in annjson:
         tokens = annjson["tokens"]
@@ -509,15 +509,11 @@ def process_COREF(myTabularView, eventsOutput, text=None):
     return annjson, coref_view
 
 
-def do_Process(myTabularView, text=None, anns=None, ret_verb_srl=False):
+def do_Process(myTabularView, text=None, anns=None, ret_verb_srl=False, multi=False):
     eventsOutput = None
     myTabularView.reset()
-    verb_srl = {}
 
-    if ret_verb_srl:
-        annjsonEvents, verb_srl = initView(myTabularView, text, ret_verb_srl=True)
-    else:  
-        annjsonEvents = initView(myTabularView, text, ret_verb_srl=False)
+    annjsonEvents, verb_srl = initView(myTabularView, text, ret_verb_srl=ret_verb_srl, multi=multi)
     
     hasEvents = False
     for ann in anns:
@@ -564,7 +560,7 @@ def do_Process(myTabularView, text=None, anns=None, ret_verb_srl=False):
                 #print("--")
                 #print("Running TEMPORAL...")
                 #process_TEMPORAL(myTabularView, eventsOutput)
-                temporalOutput, temporalView = process_TEMPORAL(myTabularView, annjsonEvents, verb_srl, text)
+                temporalOutput, temporalView = process_TEMPORAL(myTabularView, annjsonEvents, verb_srl, text, multi)
                 print("-- temporalView --")
                 print(json.dumps(temporalView))
                 myTabularView.addTemporalView(mainEvents, temporalView, "Temporal")
@@ -624,7 +620,7 @@ class MyWebService(object):
         input_text = preprocess_input_text(data["text"], multi=True, special_char="convert", text_mod=True, char_list=[])
             
         # html = do_Process(self._myTabularView, data["text"], data["anns"], ret_verb_srl=True)
-        html = do_Process(self._myTabularView, input_text, data["anns"], ret_verb_srl=True)
+        html = do_Process(self._myTabularView, input_text, data["anns"], ret_verb_srl=True, multi=False)
         result = {"input": input, "html": html}
         print("\n*****Total Processing Time: ", time() - start_time, "\n")
         return result
