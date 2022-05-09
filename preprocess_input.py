@@ -1,4 +1,3 @@
-
 import re
 from time import time
 import regex
@@ -61,68 +60,68 @@ def preprocess_input_text(input_text="", multi=False, special_char="remove", tex
         # if "." in input_text:
         #     input_text = re.sub(".", " . ", input_text)
     
-    if char_list:
-        if "'" in input_text and "'" in char_list:
+    if special_char_list:
+        if "'" in input_text and "'" in special_char_list:
             input_text = re.sub("'", " ' ", input_text)
             # input_text = re.sub("'", " ", input_text)
-        if "," in input_text and "," in char_list:
+        if "," in input_text and "," in special_char_list:
             input_text = re.sub(",", " , ", input_text)
             # input_text = re.sub(",", " ", input_text)
-        if ";" in input_text and ";" in char_list:
+        if ";" in input_text and ";" in special_char_list:
             input_text = re.sub(";", " ; ", input_text)
             # input_text = re.sub(";", " ", input_text)
-        if ":" in input_text and ":" in char_list:
+        if ":" in input_text and ":" in special_char_list:
             input_text = re.sub(":", " : ", input_text)
             # input_text = re.sub(":", " ", input_text)
-        if "-" in input_text and "-" in char_list:
+        if "-" in input_text and "-" in special_char_list:
             input_text = re.sub("-+", " - ", input_text)
-        if "?" in input_text and "?" in char_list:
+        if "?" in input_text and "?" in special_char_list:
             input_text = re.sub("\?+", " ? ", input_text)
-        if "!" in input_text and "!" in char_list:
+        if "!" in input_text and "!" in special_char_list:
             input_text = re.sub("!+", " ! ", input_text)
 
-        if "$" in input_text and "$" in char_list:
+        if "$" in input_text and "$" in special_char_list:
             input_text = re.sub("\$", " $ ", input_text)
-        if "%" in input_text and "%" in char_list:
+        if "%" in input_text and "%" in special_char_list:
             input_text = re.sub("%", " % ", input_text)
-        if "#" in input_text and "#" in char_list:
+        if "#" in input_text and "#" in special_char_list:
             input_text = re.sub("#", " # ", input_text)
 
-        if "_" in input_text and "_" in char_list:
+        if "_" in input_text and "_" in special_char_list:
             input_text = re.sub("_", " _ ", input_text)
-        if "&" in input_text and "&" in char_list:
+        if "&" in input_text and "&" in special_char_list:
             input_text = re.sub("&", " & ", input_text)
-        if "~" in input_text and "~"  in char_list:
+        if "~" in input_text and "~"  in special_char_list:
             input_text = re.sub("~", " ~ ", input_text)
-        if "|" in input_text and "|" in char_list:
+        if "|" in input_text and "|" in special_char_list:
             input_text = re.sub("|", " | ", input_text)
-        if "^" in input_text and "^" in char_list:
+        if "^" in input_text and "^" in special_char_list:
             input_text = re.sub("\^", " ^ ", input_text)
 
-        if "+" in input_text and "+" in char_list:
+        if "+" in input_text and "+" in special_char_list:
             input_text = re.sub("\+", " + ", input_text)
-        if "*" in input_text and "*" in char_list:
+        if "*" in input_text and "*" in special_char_list:
             input_text = re.sub("\*", " * ", input_text)
-        if "/" in input_text and "/" in char_list:
+        if "/" in input_text and "/" in special_char_list:
             input_text = re.sub("/", " / ", input_text)
-        if "<" in input_text and "<" in char_list:
+        if "<" in input_text and "<" in special_char_list:
             input_text = re.sub("<", " < ", input_text)
-        if "=" in input_text and "=" in char_list:
+        if "=" in input_text and "=" in special_char_list:
             input_text = re.sub("=", " = ", input_text)
-        if ">" in input_text and ">" in char_list:
+        if ">" in input_text and ">" in special_char_list:
             input_text = re.sub(">", " > ", input_text)
 
-        if "(" in input_text and "(" in char_list:
+        if "(" in input_text and "(" in special_char_list:
             input_text = re.sub("\(", " ( ", input_text)
-        if ")" in input_text and ")" in char_list:
+        if ")" in input_text and ")" in special_char_list:
             input_text = re.sub("\)", " ) ", input_text)
-        if "{" in input_text and "{" in char_list:
+        if "{" in input_text and "{" in special_char_list:
             input_text = re.sub("{", " { ", input_text)
-        if "}" in input_text and "}" in char_list:
+        if "}" in input_text and "}" in special_char_list:
             input_text = re.sub("}", " } ", input_text)
-        if "[" in input_text and "[" in char_list:
+        if "[" in input_text and "[" in special_char_list:
             input_text = re.sub("\[", " [ ", input_text)
-        if "]" in input_text and "]" in char_list:
+        if "]" in input_text and "]" in special_char_list:
             input_text = re.sub("\]", " ] ", input_text)
     
     if text_mod:
